@@ -16,6 +16,7 @@ for p in \
   reports/history.csv \
   reports/learning.json \
   reports/learning_log.csv \
+  reports/signals_latest.json \
   reports/locked \
   reports/peaks \
   docs

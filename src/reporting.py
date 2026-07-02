@@ -77,6 +77,12 @@ def save_report(results: list, cfg: dict) -> str:
     with open(os.path.join(out_dir, f"signals_{stamp}.txt"), "w",
               encoding="utf-8") as fh:
         fh.write(format_console(results))
+    # Stable copy: persisted to the repo by the cloud runs, so the published
+    # dashboard always has the latest picks even on a fresh runner.
+    # (Sorts after signals_2*.json lexically, so _latest_signal_file finds it.)
+    with open(os.path.join(out_dir, "signals_latest.json"), "w",
+              encoding="utf-8") as fh:
+        json.dump(payload, fh, indent=2)
     return json_path
 
 
