@@ -8,16 +8,20 @@ label="${1:-run}"
 git config user.name  "trading-bot"
 git config user.email "trading-bot@users.noreply.github.com"
 
-# Force-add the state files (ignore "does not exist" on the very first run).
-git add -f \
+# Force-add the state files ONE AT A TIME. (A single `git add a b c` aborts
+# entirely if any one path is missing, so a missing learning.json used to
+# silently prevent EVERYTHING - locks, paper book, dashboard - from saving.)
+for p in \
   reports/paper_trades.csv \
   reports/history.csv \
   reports/learning.json \
   reports/learning_log.csv \
   reports/locked \
   reports/peaks \
-  docs \
-  2>/dev/null || true
+  docs
+do
+  git add -f "$p" 2>/dev/null || true
+done
 
 if git diff --cached --quiet; then
   echo "No state changes to save."
