@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Best Trading Bot — Mission Control</title>
+<style>
+  :root{--bg:#0a0e1c;--panel:#131a2e;--panel2:#1a2340;--line:#263356;
+        --txt:#e9eefb;--mut:#93a1c8;--up:#2ee6a0;--down:#ff5d7c;--accent:#5b9bff;
+        --gold:#ffd166;--glow:0 0 18px}
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1200px 500px at 70% -10%,#16204020,transparent),var(--bg);
+       color:var(--txt);font-family:'Segoe UI',system-ui,Arial,sans-serif}
+  header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;
+         padding:14px 24px;border-bottom:1px solid var(--line);position:sticky;top:0;
+         background:#0a0e1cee;backdrop-filter:blur(6px);z-index:5}
+  h1{font-size:18px;margin:0;letter-spacing:.5px} h1 span{color:var(--accent)}
+  .sub{font-size:12px;color:var(--mut);margin-top:3px}
+  .right{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .pill{font-size:12px;padding:3px 10px;border-radius:20px;background:#243358;color:var(--mut)}
+  .pill.live{background:#0f3526;color:var(--up);box-shadow:inset 0 0 0 1px #2ee6a044}
+  .pill.closed{background:#33231f;color:#ffb27a}
+  button{background:var(--accent);color:#fff;border:0;padding:9px 16px;border-radius:9px;
+         font-size:14px;font-weight:600;cursor:pointer;transition:transform .1s, box-shadow .2s}
+  button:hover{transform:translateY(-1px);box-shadow:0 4px 14px #5b9bff44}
+  button.alt{background:#243358}
+  button:disabled{opacity:.6;cursor:wait;transform:none;box-shadow:none}
+  .wrap{max-width:1180px;margin:0 auto;padding:20px 24px 60px}
+  .banner{display:none;margin-bottom:16px;padding:11px 14px;border-radius:10px;font-size:13px}
+
+  /* ---------- HERO: today's mission ---------- */
+  .hero{background:linear-gradient(135deg,#141d38,#101730 60%);border:1px solid var(--line);
+        border-radius:16px;padding:18px 22px;margin-bottom:18px;position:relative;overflow:hidden}
+  .hero .label{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:1px}
+  .hero .big{font-size:38px;font-weight:800;margin:2px 0 2px;font-variant-numeric:tabular-nums}
+  .hero .big.pos{color:var(--up);text-shadow:var(--glow) #2ee6a033}
+  .hero .big.neg{color:var(--down);text-shadow:var(--glow) #ff5d7c33}
+  .hero .meta{font-size:12.5px;color:var(--mut)}
+  .heroGrid{display:grid;grid-template-columns:1.4fr 1fr;gap:18px;align-items:center}
+  @media(max-width:800px){.heroGrid{grid-template-columns:1fr}}
+  .goalWrap{margin-top:12px}
+  .goalBar{height:14px;border-radius:8px;background:#0d1428;border:1px solid var(--line);overflow:hidden;position:relative}
+  .goalFill{height:100%;border-radius:8px;background:linear-gradient(90deg,#2ee6a0,#5b9bff);
+            width:0%;transition:width .8s cubic-bezier(.2,.8,.2,1)}
+  .goalFill.neg{background:linear-gradient(90deg,#ff5d7c,#ff9d5d)}
+  .goalTxt{font-size:11.5px;color:var(--mut);margin-top:5px;display:flex;justify-content:space-between}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  .chip{font-size:12px;padding:4px 11px;border-radius:8px;background:#1c2748;border:1px solid var(--line)}
+  .chip b{color:var(--txt)}
+  .streak{background:#2a1f10;border-color:#5d4a1a;color:var(--gold)}
+
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:20px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:13px 15px;
+        transition:border-color .2s}
+  .stat:hover{border-color:var(--accent)}
+  .stat .k{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.5px}
+  .stat .v{font-size:22px;font-weight:700;margin-top:5px;font-variant-numeric:tabular-nums}
+
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:18px}
+  .panel h2{font-size:15px;margin:0 0 12px}
+  .muted{color:var(--mut);font-size:13px}
+  .card{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:14px 16px;
+        margin-bottom:12px;border-left:4px solid var(--line);transition:transform .12s}
+  .card:hover{transform:translateX(2px)}
+  .card.LONG{border-left-color:var(--up)} .card.SHORT{border-left-color:var(--down)}
+  .ctop{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px}
+  .sym{font-size:16px;font-weight:700}
+  .tag{font-size:11px;font-weight:700;padding:2px 9px;border-radius:6px;margin-left:8px;color:#06121c}
+  .tag.LONG{background:var(--up)} .tag.SHORT{background:var(--down)}
+  .scorebar{display:inline-block;width:64px;height:7px;border-radius:4px;background:#0d1428;
+            vertical-align:1px;margin-left:6px;overflow:hidden}
+  .scorebar i{display:block;height:100%;background:linear-gradient(90deg,#5b9bff,#2ee6a0)}
+  .meta{font-size:12px;color:var(--mut);margin:6px 0 8px}
+  .sec b{font-size:11px;text-transform:uppercase;letter-spacing:.4px}
+  .why b{color:var(--accent)} .up b{color:var(--up)} .rk b{color:var(--down)}
+  ul{margin:4px 0 8px;padding-left:18px} li{margin:3px 0;font-size:12.5px;color:#cdd6ec}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line)}
+  th{color:var(--mut);font-weight:600;text-transform:uppercase;font-size:11px}
+  tr{transition:background .12s} tbody tr:hover, table tr:hover{background:#1a234066}
+  .pos{color:var(--up)} .neg{color:var(--down)}
+  .grid{display:grid;grid-template-columns:1.3fr .9fr;gap:18px}
+  @media(max-width:900px){.grid{grid-template-columns:1fr}}
+  .spin{display:inline-block;width:13px;height:13px;border:2px solid #ffffff66;border-top-color:#fff;
+        border-radius:50%;animation:sp .8s linear infinite;vertical-align:-2px;margin-right:6px}
+  @keyframes sp{to{transform:rotate(360deg)}}
+  .dot{height:8px;width:8px;border-radius:50%;display:inline-block;margin-right:6px}
+  .medal{font-size:14px}
+  /* confetti canvas sits above everything but ignores clicks */
+  #confetti{position:fixed;inset:0;pointer-events:none;z-index:50}
+  @keyframes pulseUp{0%{transform:scale(1)}40%{transform:scale(1.06)}100%{transform:scale(1)}}
+  .pulse{animation:pulseUp .5s ease}
+</style>
+</head>
+<body>
+<canvas id="confetti"></canvas>
+<header>
+  <div>
+    <h1>BEST <span>TRADING</span> BOT</h1>
+    <div class="sub" id="sub">Momentum dashboard</div>
+  </div>
+  <div class="right">
+    <span class="pill" id="market">—</span>
+    <span class="muted" id="status">starting…</span>
+    <button class="alt" id="demoBtn" onclick="loadDemo()">&#9654; Load demo</button>
+    <button id="scanBtn" onclick="scanNow()">&#8635; Scan now</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="banner" id="banner"></div>
+
+  <!-- HERO: today's mission vs the 1% goal -->
+  <div class="hero" id="hero" style="display:none">
+    <div class="heroGrid">
+      <div>
+        <div class="label" id="heroLabel">Today's P&amp;L — ₹10,000 in each pick</div>
+        <div class="big" id="heroPnl">+₹0</div>
+        <div class="meta" id="heroMeta"></div>
+        <div class="goalWrap">
+          <div class="goalBar"><div class="goalFill" id="goalFill"></div></div>
+          <div class="goalTxt"><span id="goalLeft">0% of goal</span><span id="goalRight">goal: +1%</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="chips" id="heroChips"></div>
+        <svg id="daySpark" viewBox="0 0 300 64" preserveAspectRatio="none"
+             style="width:100%;height:64px;margin-top:12px;display:none"></svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="panel" id="mtmPanel" style="display:none">
+    <h2>Today's scorecard <span class="pill" id="mtmGoal"></span></h2>
+    <div id="lockNote" class="muted" style="display:none;font-size:12.5px;margin:-4px 0 10px;padding:7px 10px;background:#15233a;border:1px solid var(--line);border-radius:8px"></div>
+    <div id="mtmTable"></div>
+  </div>
+
+  <div class="panel" id="newPanel" style="display:none">
+    <h2>New today <span class="pill" id="newCount"></span></h2>
+    <div class="muted" style="font-size:12.5px;margin:-4px 0 10px">Extra ideas the bot added <i>after</i> the morning lock. Kept out of the scorecard above, but recorded in trade history.</div>
+    <div id="newTable"></div>
+  </div>
+
+  <div class="panel" id="pfPanel" style="display:none">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:8px">
+      <h2 style="margin:0">Paper portfolio — <span id="pfCap">&#8377;10,000</span> per pick</h2>
+      <button class="alt" id="bookBtn" onclick="updateBook()" style="font-size:13px;padding:7px 12px">&#8635; Update book</button>
+    </div>
+    <div id="pfTotals" class="muted" style="margin-bottom:8px"></div>
+    <svg id="equity" viewBox="0 0 600 120" preserveAspectRatio="none" style="width:100%;height:90px;display:none"></svg>
+    <div id="pfOpen"></div>
+    <div id="pfClosed" style="margin-top:10px"></div>
+  </div>
+
+  <div class="grid">
+    <div class="panel">
+      <h2>Momentum picks <span class="pill" id="genAt">&mdash;</span></h2>
+      <div id="picks"><div class="muted">Loading&hellip;</div></div>
+    </div>
+    <div class="panel">
+      <h2>Recent paper trades</h2>
+      <div id="trades"><div class="muted">&mdash;</div></div>
+    </div>
+  </div>
+
+  <div class="panel" id="histPanel" style="display:none">
+    <h2>Daily history <span class="pill">final P&amp;L stored at 4pm</span></h2>
+    <div class="muted" style="font-size:12.5px;margin:-4px 0 10px">Each trading day's final scorecard, locked in after the close — watch the track record build day by day.</div>
+    <div id="histTable"></div>
+  </div>
+
+  <div class="muted" id="disc" style="font-size:11px;margin-top:10px"></div>
+</div>
+
+<script>
+function fmt(n){ if(n===''||n==null||isNaN(n)) return '—'; return Number(n).toLocaleString('en-IN'); }
+function cls(v){ return Number(v)>0?'pos':(Number(v)<0?'neg':''); }
+function rupee(v){ return (Number(v)>=0?'+':'')+'₹'+fmt(Math.round(Number(v))); }
+function esc(s){ return String(s==null?'':s).replace(/[<>&]/g,function(c){return {'<':'&lt;','>':'&gt;','&':'&amp;'}[c];}); }
+
+/* ------- animated count-up on the hero number ------- */
+var _lastPnl = null;
+function countUp(el, from, to, pct){
+  var t0 = null, dur = 700;
+  function step(ts){
+    if(!t0) t0 = ts;
+    var k = Math.min(1,(ts-t0)/dur), e = 1-Math.pow(1-k,3);
+    var v = from + (to-from)*e;
+    el.textContent = (v>=0?'+':'−')+'₹'+fmt(Math.abs(Math.round(v)))+' ('+(pct>=0?'+':'')+pct+'%)';
+    if(k<1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+/* ------- confetti: fires once per session when the goal is hit ------- */
+var _celebrated = false;
+function confetti(){
+  if(_celebrated) return; _celebrated = true;
+  var cv = document.getElementById('confetti'), ctx = cv.getContext('2d');
+  cv.width = innerWidth; cv.height = innerHeight;
+  var P = [], colors = ['#2ee6a0','#5b9bff','#ffd166','#ff5d7c','#e9eefb'];
+  for(var i=0;i<140;i++) P.push({x:Math.random()*cv.width,y:-20-Math.random()*cv.height*0.5,
+    r:3+Math.random()*4,c:colors[i%colors.length],vy:2+Math.random()*3,vx:-1+Math.random()*2,a:Math.random()*6});
+  var frames = 0;
+  (function tick(){
+    ctx.clearRect(0,0,cv.width,cv.height);
+    P.forEach(function(p){ p.y+=p.vy; p.x+=p.vx; p.a+=.1;
+      ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.a);
+      ctx.fillStyle=p.c; ctx.fillRect(-p.r,-p.r/2,p.r*2,p.r); ctx.restore(); });
+    if(++frames<220) requestAnimationFrame(tick); else ctx.clearRect(0,0,cv.width,cv.height);
+  })();
+}
+
+/* ------- streak from history (consecutive green days, most recent first) ------- */
+function calcStreak(hist){
+  var s = 0;
+  for(var i=0;i<hist.length;i++){
+    if(Number(hist[i].total_pnl) > 0) s++; else break;
+  }
+  return s;
+}
+
+function mood(pct, goal){
+  if(pct >= goal) return '🚀';
+  if(pct > 0) return '📈';
+  if(pct === 0) return '😴';
+  if(pct > -goal) return '🌧️';
+  return '🥶';
+}
+
+var STATIC = !!window.__STATIC__;
+async function load(){
+  try{
+    const r = await fetch(STATIC ? 'state.json?t='+Date.now() : '/api/state', {cache:'no-store'});
+    const d = await r.json();
+    render(d);
+  }catch(e){
+    document.getElementById('status').textContent = 'connection lost';
+    document.getElementById('picks').innerHTML = STATIC
+      ? '<div class="muted">Could not load state.json — the first cloud run hasn\'t published yet.</div>'
+      : '<div class="muted">Could not reach the server. Is the terminal still running <b>python run.py web</b>?</div>';
+    console.error(e);
+  }
+}
+if(STATIC){
+  document.getElementById('scanBtn').style.display='none';
+  document.getElementById('demoBtn').style.display='none';
+  var bb=document.getElementById('bookBtn'); if(bb) bb.style.display='none';
+}
+
+function render(d){
+  try{
+  const sc = d.scanning;
+  const st = document.getElementById('status');
+  if(STATIC){
+    st.innerHTML = '<span class="dot" style="background:var(--up)"></span>cloud · updated ' +
+      new Date(d.published_at || d.generated_at).toLocaleString('en-IN', {timeZone:'Asia/Kolkata'}) + ' IST';
+  } else {
+    st.innerHTML = sc ? '<span class="spin"></span>scanning the market…'
+      : (d.generated_at ? '<span class="dot" style="background:var(--up)"></span>updated ' + new Date(d.generated_at).toLocaleTimeString('en-IN') : 'idle');
+    const b=document.getElementById('scanBtn');
+    b.disabled = sc; b.innerHTML = sc ? '<span class="spin"></span>Scanning…' : '↻ Scan now';
+  }
+  var lkn = (d.locked_today && d.locked_today.length) || 0;
+  document.getElementById('sub').textContent = '₹10,000 per pick · ' + (lkn ? (lkn + ' picks locked today') : 'not locked yet — 9:40 AM locks the day');
+
+  const mk = document.getElementById('market');
+  mk.textContent = d.market_open ? '● market open' : '○ market closed';
+  mk.className = 'pill ' + (d.market_open ? 'live' : 'closed');
+
+  const ban = document.getElementById('banner');
+  if(d.status_msg){ ban.style.display='block'; ban.textContent=d.status_msg;
+    ban.style.background='#1a2138'; ban.style.border='1px solid var(--line)'; ban.style.color='var(--mut)'; }
+  else ban.style.display='none';
+
+  const pf = d.portfolio || {}, mtm = d.today_mtm || {}, pa = d.paper || {summary:{}};
+  const hist = d.history || [];
+  const goal = Number(mtm.goal_pct || 1);
+
+  /* ---------- HERO ---------- */
+  var hero = document.getElementById('hero');
+  if(mtm.n){
+    hero.style.display='block';
+    var pnl = Number(mtm.total_pnl)||0, pct = Number(mtm.pct)||0;
+    var hp = document.getElementById('heroPnl');
+    hp.className = 'big ' + (pnl>0?'pos':(pnl<0?'neg':''));
+    if(_lastPnl===null || Math.abs(_lastPnl-pnl)>0.5){
+      countUp(hp, _lastPnl===null?0:_lastPnl, pnl, pct);
+      hp.classList.remove('pulse'); void hp.offsetWidth; hp.classList.add('pulse');
+      _lastPnl = pnl;
+    }
+    document.getElementById('heroLabel').textContent =
+      "Today's P&L — ₹" + fmt(mtm.capital_per_trade||10000) + ' in each pick ' + mood(pct, goal);
+    document.getElementById('heroMeta').textContent =
+      'on ₹' + fmt(mtm.invested) + ' across ' + mtm.n + ' pick' + (mtm.n>1?'s':'') +
+      (d.today_peak!=null ? ' · peak today ' + (d.today_peak>=0?'+':'') + d.today_peak + '%' : '');
+    var fill = document.getElementById('goalFill');
+    var prog = Math.max(0, Math.min(100, pct/goal*100));
+    fill.style.width = (pct<0? Math.min(100,Math.abs(pct/goal*100)) : prog) + '%';
+    fill.className = 'goalFill' + (pct<0?' neg':'');
+    document.getElementById('goalLeft').textContent =
+      pct>=goal ? '🎯 GOAL HIT — ' + pct + '%' : (pct>=0? Math.round(prog)+'% of the way' : pct+'% — climb back');
+    document.getElementById('goalRight').textContent = 'goal: +' + goal + '%';
+    if(pct >= goal && d.market_open) confetti();
+    /* chips: streak, win rate, best pick, locked */
+    var streak = calcStreak(hist);
+    var rows = mtm.rows||[];
+    var best = rows.length? rows[0] : null;   /* rows are pnl-sorted desc */
+    var chips = [];
+    if(streak>1) chips.push('<span class="chip streak">🔥 <b>'+streak+'-day</b> green streak</span>');
+    else if(streak===1) chips.push('<span class="chip streak">🔥 green yesterday</span>');
+    if(best && best.pnl>0) chips.push('<span class="chip">🥇 <b>'+esc(best.symbol)+'</b> '+rupee(best.pnl)+'</span>');
+    if(pf.win_rate_pct!=null) chips.push('<span class="chip">🎯 all-time win <b>'+pf.win_rate_pct+'%</b></span>');
+    chips.push('<span class="chip">'+(lkn?'🔒 <b>'+lkn+'</b> locked':'⏳ lock at 9:40')+'</span>');
+    document.getElementById('heroChips').innerHTML = chips.join('');
+  } else hero.style.display='none';
+
+  document.getElementById('stats').innerHTML = [
+    ['Peak today', d.today_peak!=null?((d.today_peak>=0?'+':'')+d.today_peak+'%'):'—'],
+    ['Open positions', pf.n_open!=null?pf.n_open:0],
+    ['Played out', pf.lived_up_pct!=null?(pf.lived_up+'/'+pf.n_closed+' ('+pf.lived_up_pct+'%)'):'—'],
+    ['Win rate', pf.win_rate_pct!=null?pf.win_rate_pct+'%':'—'],
+    ['Net P&L (₹10k each)', pf.total_pnl!=null?rupee(pf.total_pnl):'—'],
+  ].map(function(s){return '<div class="stat"><div class="k">'+s[0]+'</div><div class="v">'+s[1]+'</div></div>';}).join('');
+
+  const locked = d.locked_today || null;
+  const mp=document.getElementById('mtmPanel');
+  if(mtm.n){
+    mp.style.display='block';
+    document.getElementById('mtmGoal').textContent='goal +'+goal+'%';
+    var ln=document.getElementById('lockNote');
+    if(locked && locked.length){
+      ln.style.display='block';
+      ln.innerHTML='🔒 <b>Locked for today</b> — these '+locked.length+' picks were chosen pre-market and stay fixed all day. Watch how <i>these exact names</i> play out to judge the model.';
+    } else {
+      ln.style.display='block';
+      ln.innerHTML='⚠️ <b>Not locked yet</b> — today\'s set isn\'t frozen. The 9:40 AM pre-market email locks the day\'s picks (after the open settles).';
+    }
+    var rowsHtml=(mtm.rows||[]).map(function(x,i){
+      var medal = (i===0 && x.pnl>0)?' <span class="medal">🥇</span>':(i===1 && x.pnl>0?' <span class="medal">🥈</span>':'');
+      return '<tr><td>'+esc(x.symbol)+medal+'</td><td><span class="tag '+x.direction+'">'+x.direction+'</span></td><td>'+fmt(x.entry)+'</td><td>'+fmt(x.current)+'</td><td class="'+cls(x.move_pct)+'">'+(x.move_pct>=0?'+':'')+x.move_pct+'%</td><td class="'+cls(x.pnl)+'">'+rupee(x.pnl)+'</td></tr>';}).join('');
+    document.getElementById('mtmTable').innerHTML='<table><tr><th>Symbol</th><th>Dir</th><th>Entry</th><th>Now</th><th>Move</th><th>P&L</th></tr>'+rowsHtml+'</table>';
+  } else mp.style.display='none';
+
+  const pfp=document.getElementById('pfPanel');
+  if((pf.n_open||0)+(pf.n_closed||0)>0){
+    pfp.style.display='block';
+    document.getElementById('pfCap').textContent='₹'+fmt(pf.capital_per_trade||10000);
+    document.getElementById('pfTotals').innerHTML='<b style="font-size:17px" class="'+cls(pf.total_pnl)+'">'+rupee(pf.total_pnl)+' ('+pf.total_pct+'%)</b> total · realized <span class="'+cls(pf.realized_pnl)+'">₹'+fmt(pf.realized_pnl)+'</span> · unrealized <span class="'+cls(pf.unrealized_pnl)+'">₹'+fmt(pf.unrealized_pnl)+'</span> · '+pf.n_open+' open / '+pf.n_closed+' closed';
+    drawLine('equity', pf.equity||[]);
+    var op=(pf.open||[]).map(function(x){return '<tr><td>'+esc(x.symbol)+'</td><td><span class="tag '+x.direction+'">'+x.direction+'</span></td><td>'+fmt(x.entry)+'</td><td>'+fmt(x.current)+'</td><td class="'+cls(x.ret_pct)+'">'+(x.ret_pct>=0?'+':'')+x.ret_pct+'%</td><td class="'+cls(x.pnl)+'">'+rupee(x.pnl)+'</td></tr>';}).join('');
+    document.getElementById('pfOpen').innerHTML= op? '<div class="muted" style="font-size:11px;text-transform:uppercase;margin:6px 0 4px">Open (held)</div><table><tr><th>Symbol</th><th>Dir</th><th>Entry</th><th>Now</th><th>Move</th><th>P&L</th></tr>'+op+'</table>' : '<div class="muted">No open positions.</div>';
+    var mark=function(x){
+      if(x.outcome==='target2') return '<span class="pos">🚀 both targets</span>';
+      if(x.lived_up) return '<span class="pos">✔ played out</span>';
+      if(x.outcome==='stop') return '<span class="neg">✘ stopped</span>';
+      return '<span class="muted">– no follow-through</span>';};
+    var clz=(pf.closed||[]).map(function(x){return '<tr><td>'+esc(x.symbol)+'</td><td><span class="tag '+x.direction+'">'+x.direction+'</span></td><td>'+fmt(x.entry)+'</td><td>'+fmt(x.exit)+'</td><td>'+mark(x)+'</td><td class="'+cls(x.pnl)+'">'+rupee(x.pnl)+'</td></tr>';}).join('');
+    document.getElementById('pfClosed').innerHTML= clz? '<div class="muted" style="font-size:11px;text-transform:uppercase;margin:6px 0 4px">Closed (did it play out?)</div><table><tr><th>Symbol</th><th>Dir</th><th>Entry</th><th>Exit</th><th>Result</th><th>P&L</th></tr>'+clz+'</table>':'';
+  } else pfp.style.display='none';
+
+  var nt=d.new_today||{n:0,rows:[]}, np=document.getElementById('newPanel');
+  if(nt.n){
+    np.style.display='block';
+    document.getElementById('newCount').textContent=nt.n+' added · '+(nt.total_pnl>=0?'+':'')+'₹'+fmt(nt.total_pnl)+' ('+nt.pct+'%)';
+    document.getElementById('newTable').innerHTML='<table><tr><th>Symbol</th><th>Dir</th><th>Added</th><th>Entry</th><th>Now</th><th>Move</th><th>P&L</th></tr>'+
+      (nt.rows||[]).map(function(x){return '<tr><td>'+esc(x.symbol)+' <span class="tag" style="background:#f2c14e">NEW</span></td><td>'+x.direction+'</td><td class="muted">'+(x.added||'')+'</td><td>'+fmt(x.entry)+'</td><td>'+fmt(x.current)+'</td><td class="'+cls(x.move_pct)+'">'+(x.move_pct>=0?'+':'')+x.move_pct+'%</td><td class="'+cls(x.pnl)+'">'+rupee(x.pnl)+'</td></tr>';}).join('')+'</table>';
+  } else np.style.display='none';
+
+  /* ---------- Daily history (with live today row) ---------- */
+  var hist2=(hist||[]).slice(), hp=document.getElementById('histPanel');
+  hp.style.display='block';
+  var mtm2=d.today_mtm||{};
+  if(mtm2.n){
+    var rws=mtm2.rows||[];
+    var wins=rws.filter(function(x){return x.pnl>=0;}).length;
+    var best2=rws.length?rws.reduce(function(a,b){return b.pnl>a.pnl?b:a;}):null;
+    var worst=rws.length?rws.reduce(function(a,b){return b.pnl<a.pnl?b:a;}):null;
+    var nIST=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
+    var todayStr=nIST.getFullYear()+'-'+String(nIST.getMonth()+1).padStart(2,'0')+'-'+String(nIST.getDate()).padStart(2,'0');
+    hist2=hist2.filter(function(h){return h.date!==todayStr;});
+    hist2.unshift({date:'today · live', picks:mtm2.n, total_pnl:mtm2.total_pnl, pct:mtm2.pct,
+      peak_pct:(d.today_peak!=null?d.today_peak:mtm2.pct), win_rate_pct:Math.round(100*wins/mtm2.n),
+      best_sym:best2?best2.symbol:'—', worst_sym:worst?worst.symbol:'—', _live:true});
+  }
+  if(hist2.length){
+    document.getElementById('histTable').innerHTML='<table><tr><th>Date</th><th>Picks</th><th>P&L</th><th>%</th><th>Peak</th><th>Win%</th><th>Best</th><th>Worst</th></tr>'+
+      hist2.map(function(h){var g=Number(h.pct)>=goal?' 🎯':'';return '<tr style="'+(h._live?'background:#15233a':'')+'"><td>'+(h._live?'<b style="color:var(--accent)">'+esc(h.date)+'</b>':esc(h.date))+g+'</td><td>'+fmt(h.picks)+'</td><td class="'+cls(h.total_pnl)+'">'+rupee(h.total_pnl)+'</td><td class="'+cls(h.pct)+'">'+(h.pct>=0?'+':'')+h.pct+'%</td><td class="pos">'+(h.peak_pct>=0?'+':'')+h.peak_pct+'%</td><td>'+h.win_rate_pct+'%</td><td class="muted">'+esc(h.best_sym)+'</td><td class="muted">'+esc(h.worst_sym)+'</td></tr>';}).join('')+'</table>'+(hist2.length===1?'<div class="muted" style="font-size:11.5px;margin-top:6px">Past days fill in automatically at each 4 PM close.</div>':'');
+  } else {
+    document.getElementById('histTable').innerHTML='<div class="muted" style="padding:6px 0">No picks locked yet today. Once the 9:40 lock runs, today shows here live, and past days are stored automatically at the <b>4:00 PM close</b>.</div>';
+  }
+
+  document.getElementById('genAt').textContent = d.generated_at ? new Date(d.generated_at).toLocaleString('en-IN') : 'no scan yet';
+  var pk=d.picks||[];
+  var lset = locked || [];
+  var nset = d.new_picks || [];
+  document.getElementById('picks').innerHTML = pk.length ? pk.map(function(p){
+    var star=lset.indexOf(p.symbol)>=0?'<span class="tag" style="background:#f2c14e">★ TODAY</span>':'';
+    var nb=nset.indexOf(p.symbol)>=0?'<span class="tag" style="background:#4f8cff;color:#fff">NEW</span>':'';
+    var sb='<span class="scorebar"><i style="width:'+Math.min(100,p.score)+'%"></i></span>';
+    return '<div class="card '+p.direction+'"><div class="ctop"><div class="sym">'+esc(p.symbol)+'<span class="tag '+p.direction+'">'+p.direction+'</span>'+star+nb+'</div><div class="muted">score <b>'+p.score+'</b>'+sb+' · sent '+(p.sentiment>=0?'+':'')+p.sentiment+'</div></div><div class="meta">Entry near ₹'+fmt(p.entry)+'</div><div class="sec why"><b>Why look at it</b><ul>'+(p.why||[]).map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div><div class="sec up"><b>Potential upside</b><ul>'+(p.upside||[]).map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div><div class="sec rk"><b>Risks &amp; exit</b><ul>'+(p.risks||[]).map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div></div>';}).join('')
+    : '<div class="muted">'+(esc(d.status_msg)||'No picks yet. Click <b>Scan now</b>, or wait for the next email scan — the market may simply be quiet.')+'</div>';
+
+  var tr=(pa.trades||[]);
+  document.getElementById('trades').innerHTML = tr.length? '<table><tr><th>Symbol</th><th>Dir</th><th>Status</th><th>P&L</th></tr>'+tr.map(function(t){return '<tr><td>'+esc(t.symbol)+'</td><td>'+t.direction+'</td><td><span class="pill">'+t.status+'</span></td><td class="'+cls(t.pnl)+'">'+(t.pnl===''||t.pnl==null?'—':rupee(t.pnl))+'</td></tr>';}).join('')+'</table>' : '<div class="muted">No paper trades yet — they appear after the first scan.</div>';
+
+  document.getElementById('disc').textContent = d.disclaimer || '';
+  }catch(err){
+    console.error('render error', err);
+    document.getElementById('status').textContent='render error (see console)';
+  }
+}
+
+function drawLine(id, eq){
+  var svg=document.getElementById(id);
+  if(!eq || eq.length<2){ svg.style.display='none'; return; }
+  svg.style.display='block';
+  var vb=svg.getAttribute('viewBox').split(' ');
+  var w=Number(vb[2]),h=Number(vb[3]),pad=6, mn=Math.min.apply(null,eq), mx=Math.max.apply(null,eq), rng=(mx-mn)||1;
+  var pts=eq.map(function(v,i){var x=pad+i*(w-2*pad)/(eq.length-1);var y=h-pad-((v-mn)/rng)*(h-2*pad);return x.toFixed(1)+','+y.toFixed(1);});
+  var last=eq[eq.length-1], col = last>=0?'#2ee6a0':'#ff5d7c';
+  var area = 'M'+pts.join(' L')+' L'+(w-pad)+','+(h-pad)+' L'+pad+','+(h-pad)+' Z';
+  svg.innerHTML='<path d="'+area+'" fill="'+col+'18"/><polyline points="'+pts.join(' ')+'" fill="none" stroke="'+col+'" stroke-width="2"/>';
+}
+
+async function scanNow(){
+  var b=document.getElementById('scanBtn');
+  b.disabled=true; b.innerHTML='<span class="spin"></span>Scanning…';
+  document.getElementById('status').innerHTML='<span class="spin"></span>scanning the market…';
+  try{ await fetch('/api/scan',{method:'POST'}); }catch(e){}
+  setTimeout(load, 800);
+}
+async function loadDemo(){ try{ await fetch('/api/demo',{method:'POST'}); }catch(e){} setTimeout(load,200); }
+async function updateBook(){ try{ await fetch('/api/paper_update',{method:'POST'}); }catch(e){} setTimeout(load,500); }
+
+load();
+setInterval(load, 4000);
+</script>
+</body>
+</html>

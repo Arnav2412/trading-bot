@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.fundamentals_cache.json
+reports/*.json
+reports/*.txt
+reports/email_preview_*.html
+.env
+.venv/
+venv/
+gmail_login.txt

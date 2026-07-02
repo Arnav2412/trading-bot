@@ -1,0 +1,18 @@
+# Core data / numerics
+pandas>=2.0.0
+numpy>=1.24.0
+pyyaml>=6.0
+
+# Market data (free sources)
+yfinance>=0.2.40        # Yahoo Finance OHLCV (NSE tickers via .NS)
+jugaad-data>=0.26       # Unofficial NSE India data (quotes, history) - free
+requests>=2.31.0
+lxml>=4.9.0             # HTML parsing for Screener.in
+beautifulsoup4>=4.12.0
+
+# Optional: nicer console output
+rich>=13.0.0
+tabulate>=0.9.0
+
+# Web dashboard
+flask>=3.0.0

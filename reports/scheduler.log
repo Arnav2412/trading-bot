@@ -1,0 +1,648 @@
+08:45:04 [INFO] Market regime: BULLISH (longs favoured)
+08:45:04 [INFO] Scanning 195 symbols (swing mode)...
+08:45:28 [INFO] Paper-tracker: logged 4 new trade(s).
+09:30:03 [INFO] Market regime: BULLISH (longs favoured)
+09:30:03 [INFO] Scanning 195 symbols (swing mode)...
+09:30:23 [INFO] Report saved -> C:\Users\tarit\Claude\Projects\BEST TRADING BOT\reports\signals_20260629_093023.json
+09:30:28 [INFO] Paper-tracker: logged 1 new trade(s).
+==============================================================================
+  BEST TRADING BOT  |  Intraday Signals  |  2026-06-29 09:30:23 IST
+==============================================================================
+
+  #1  CHOLAFIN     LONG   score  69.5/100   sentiment +0.06
+      Entry   1809.60 | Stop   1719.12 | T1   1954.37 | T2   2099.14
+      Qty    11 | Risk Rs.     995 | Notional Rs.     19906 | R:R 1.6/3.2
+      Fundamentals: market_cap=153397.0, pe=29.4, roe=19.3
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+17.7%); RSI 75 (momentum zone); ADX 31 (strong trend); Aligned with market regime; Top relative strength (universe)
+
+  #2  SHRIRAMFIN   LONG   score  67.0/100   sentiment +0.28
+      Entry   1054.45 | Stop   1001.73 | T1   1138.81 | T2   1223.16
+      Qty    18 | Risk Rs.     949 | Notional Rs.     18980 | R:R 1.6/3.2
+      Fundamentals: market_cap=242774.0, pe=24.3, roe=16.4
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+11.3%); 20-day breakout (new high); RSI 70 (momentum zone); Aligned with market regime
+
+  #3  FEDERALBNK   LONG   score  63.4/100   sentiment +0.11
+      Entry    324.60 | Stop    308.37 | T1    350.57 | T2    376.54
+      Qty    61 | Risk Rs.     990 | Notional Rs.     19801 | R:R 1.6/3.2
+      Fundamentals: market_cap=79969.0, pe=19.4, roe=11.4
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+12.3%); RSI 69 (momentum zone); ADX 36 (strong trend); Aligned with market regime; Top relative strength (universe)
+
+  #4  KAJARIACER   LONG   score  57.3/100   sentiment +0.17
+      Entry   1201.80 | Stop   1141.71 | T1   1297.94 | T2   1394.09
+      Qty    16 | Risk Rs.     961 | Notional Rs.     19229 | R:R 1.6/3.2
+      Fundamentals: market_cap=19059.0, pe=40.3, roe=17.2
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+12.0%); RSI 70 (momentum zone); ADX 30 (strong trend); Aligned with market regime
+
+  #5  SOUTHBANK    LONG   score  56.1/100   sentiment +0.11
+      Entry     46.08 | Stop     43.78 | T1     49.77 | T2     53.45
+      Qty   434 | Risk Rs.    1000 | Notional Rs.     19999 | R:R 1.6/3.2
+      Fundamentals: market_cap=11889.0, pe=8.17, roe=13.5
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+11.3%); RSI 58 (momentum zone); ADX 34 (strong trend); Aligned with market regime
+
+  #6  DRREDDY      LONG   score  52.8/100   sentiment +0.17
+      Entry   1400.00 | Stop   1330.00 | T1   1512.00 | T2   1624.00
+      Qty    14 | Risk Rs.     980 | Notional Rs.     19600 | R:R 1.6/3.2
+      Fundamentals: market_cap=112723.0, pe=35.0, roe=10.7
+      Why: Stacked uptrend (20>50>100 EMA); 20-day breakout (new high); RSI 77 (momentum zone); Aligned with market regime
+
+  #7  OFSS         LONG   score  47.3/100   sentiment +0.50
+      Entry  11024.00 | Stop  10472.80 | T1  11905.92 | T2  12787.84
+      Qty     1 | Risk Rs.     551 | Notional Rs.     11024 | R:R 1.6/3.2
+      Fundamentals: market_cap=95557.0, pe=34.4, roe=38.1
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+10.6%); RSI 75 (momentum zone); Aligned with market regime
+
+  #8  TRENT        LONG   score  46.1/100   sentiment +0.00
+      Entry   3288.30 | Stop   3123.89 | T1   3551.36 | T2   3814.43
+      Qty     6 | Risk Rs.     986 | Notional Rs.     19730 | R:R 1.6/3.2
+      Fundamentals: market_cap=174887.0, pe=97.4, roe=26.4
+      Why: Strong 20d momentum (+16.8%); RSI 73 (momentum zone); ADX 29 (strong trend); Aligned with market regime; Top relative strength (universe)
+
+  #9  LAURUSLABS   LONG   score  44.8/100   sentiment +0.56
+      Entry   1453.00 | Stop   1380.35 | T1   1569.24 | T2   1685.48
+      Qty    13 | Risk Rs.     944 | Notional Rs.     18889 | R:R 1.6/3.2
+      Fundamentals: market_cap=78336.0, pe=105.0, roe=15.2
+      Why: Stacked uptrend (20>50>100 EMA); RSI 65 (momentum zone); ADX 34 (strong trend); Aligned with market regime
+
+  #10  ABCAPITAL    LONG   score  43.7/100   sentiment +0.33
+      Entry    392.65 | Stop    373.02 | T1    424.06 | T2    455.47
+      Qty    50 | Risk Rs.     982 | Notional Rs.     19632 | R:R 1.6/3.2
+      Fundamentals: market_cap=106853.0, pe=34.3, roe=11.6
+      Why: Stacked uptrend (20>50>100 EMA); RSI 64 (momentum zone); ADX 25 (strong trend); Aligned with market regime
+
+  #11  ZYDUSLIFE    LONG   score  43.4/100   sentiment +0.28
+      Entry   1104.80 | Stop   1049.56 | T1   1193.18 | T2   1281.57
+      Qty    18 | Risk Rs.     994 | Notional Rs.     19886 | R:R 1.6/3.2
+      Fundamentals: market_cap=110827.0, pe=30.0, roe=16.5
+      Why: Stacked uptrend (20>50>100 EMA); RSI 62 (momentum zone); ADX 42 (strong trend); Aligned with market regime
+
+  #12  PIDILITIND   LONG   score  43.1/100   sentiment +0.22
+      Entry   1601.30 | Stop   1521.24 | T1   1729.40 | T2   1857.51
+      Qty    12 | Risk Rs.     961 | Notional Rs.     19216 | R:R 1.6/3.2
+      Fundamentals: market_cap=162539.0, pe=68.0, roe=23.5
+      Why: Stacked uptrend (20>50>100 EMA); RSI 75 (momentum zone); ADX 36 (strong trend); Aligned with market regime
+
+------------------------------------------------------------------------------
+  EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.
+==============================================================================
+12:44:42 [INFO] Market regime: BULLISH (longs favoured)
+12:44:42 [INFO] Scanning 195 symbols (swing mode)...
+12:44:52 [INFO] Report saved -> C:\Users\tarit\Claude\Projects\BEST TRADING BOT\reports\signals_20260629_124452.json
+==============================================================================
+  BEST TRADING BOT  |  Intraday Signals  |  2026-06-29 12:44:52 IST
+==============================================================================
+
+  #1  AUROPHARMA   LONG   score  77.6/100   sentiment -0.11
+      Entry   1571.90 | Stop   1493.31 | T1   1697.65 | T2   1823.40
+      Qty    12 | Risk Rs.     943 | Notional Rs.     18863 | R:R 1.6/3.2
+      Fundamentals: market_cap=90326.0, pe=37.2, roe=11.2
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+10.2%); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 69 (momentum zone); Aligned with market regime
+
+  #2  DRREDDY      LONG   score  66.8/100   sentiment +0.17
+      Entry   1383.70 | Stop   1314.51 | T1   1494.40 | T2   1605.09
+      Qty    14 | Risk Rs.     969 | Notional Rs.     19372 | R:R 1.6/3.2
+      Fundamentals: market_cap=112723.0, pe=35.0, roe=10.7
+      Why: Stacked uptrend (20>50>100 EMA); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 75 (momentum zone); Aligned with market regime
+
+  #3  CHOLAFIN     LONG   score  66.1/100   sentiment +0.06
+      Entry   1765.70 | Stop   1677.41 | T1   1906.96 | T2   2048.21
+      Qty    11 | Risk Rs.     971 | Notional Rs.     19423 | R:R 1.6/3.2
+      Fundamentals: market_cap=153397.0, pe=29.4, roe=19.3
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+14.8%); RSI 68 (momentum zone); ADX 30 (strong trend); Aligned with market regime; Top relative strength (universe)
+
+  #4  KAJARIACER   LONG   score  64.4/100   sentiment +0.17
+      Entry   1212.20 | Stop   1151.59 | T1   1309.18 | T2   1406.15
+      Qty    16 | Risk Rs.     970 | Notional Rs.     19395 | R:R 1.6/3.2
+      Fundamentals: market_cap=19059.0, pe=40.3, roe=17.2
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+13.0%); RSI 72 (momentum zone); ADX 30 (strong trend); Aligned with market regime; Top relative strength (universe)
+
+  #5  FEDERALBNK   LONG   score  62.5/100   sentiment +0.11
+      Entry    322.40 | Stop    306.28 | T1    348.19 | T2    373.98
+      Qty    62 | Risk Rs.     999 | Notional Rs.     19989 | R:R 1.6/3.2
+      Fundamentals: market_cap=79969.0, pe=19.4, roe=11.4
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+11.6%); RSI 66 (momentum zone); ADX 36 (strong trend); Aligned with market regime; Top relative strength (universe)
+
+  #6  CIPLA        LONG   score  53.1/100   sentiment +0.22
+      Entry   1476.90 | Stop   1403.06 | T1   1595.05 | T2   1713.20
+      Qty    13 | Risk Rs.     960 | Notional Rs.     19200 | R:R 1.6/3.2
+      Fundamentals: market_cap=117590.0, pe=34.2, roe=10.4
+      Why: Stacked uptrend (20>50>100 EMA); 20-day breakout (new high); RSI 72 (momentum zone); Aligned with market regime
+
+  #7  JBCHEPHARM   LONG   score  53.1/100   sentiment +0.22
+      Entry   2300.90 | Stop   2185.85 | T1   2484.97 | T2   2669.04
+      Qty     8 | Risk Rs.     920 | Notional Rs.     18407 | R:R 1.6/3.2
+      Fundamentals: market_cap=36912.0, pe=54.0, roe=18.4
+      Why: Stacked uptrend (20>50>100 EMA); 20-day breakout (new high); RSI 69 (momentum zone); Aligned with market regime
+
+  #8  MARICO       LONG   score  47.1/100   sentiment +0.22
+      Entry    837.10 | Stop    795.24 | T1    904.07 | T2    971.04
+      Qty    23 | Risk Rs.     963 | Notional Rs.     19253 | R:R 1.6/3.2
+      Fundamentals: market_cap=109505.0, pe=56.4, roe=36.7
+      Why: Stacked uptrend (20>50>100 EMA); Volume surge (>1.5x avg); RSI 62 (momentum zone); Aligned with market regime
+
+  #9  LAURUSLABS   LONG   score  44.8/100   sentiment +0.56
+      Entry   1478.60 | Stop   1404.67 | T1   1596.89 | T2   1715.18
+      Qty    13 | Risk Rs.     961 | Notional Rs.     19222 | R:R 1.6/3.2
+      Fundamentals: market_cap=78336.0, pe=105.0, roe=15.2
+      Why: Stacked uptrend (20>50>100 EMA); RSI 68 (momentum zone); ADX 34 (strong trend); Aligned with market regime
+
+  #10  ZYDUSLIFE    LONG   score  43.4/100   sentiment +0.28
+      Entry   1116.30 | Stop   1060.49 | T1   1205.60 | T2   1294.91
+      Qty    17 | Risk Rs.     949 | Notional Rs.     18977 | R:R 1.6/3.2
+      Fundamentals: market_cap=110827.0, pe=30.0, roe=16.5
+      Why: Stacked uptrend (20>50>100 EMA); RSI 65 (momentum zone); ADX 42 (strong trend); Aligned with market regime
+
+  #11  DMART        LONG   score  43.1/100   sentiment +0.22
+      Entry   4329.90 | Stop   4113.40 | T1   4676.29 | T2   5022.68
+      Qty     4 | Risk Rs.     866 | Notional Rs.     17320 | R:R 1.6/3.2
+      Fundamentals: market_cap=280114.0, pe=86.9, roe=13.5
+      Why: Stacked uptrend (20>50>100 EMA); RSI 58 (momentum zone); ADX 25 (strong trend); Aligned with market regime
+
+  #12  PIDILITIND   LONG   score  43.1/100   sentiment +0.22
+      Entry   1607.40 | Stop   1527.03 | T1   1735.99 | T2   1864.58
+      Qty    12 | Risk Rs.     964 | Notional Rs.     19289 | R:R 1.6/3.2
+      Fundamentals: market_cap=162539.0, pe=68.0, roe=23.5
+      Why: Stacked uptrend (20>50>100 EMA); RSI 76 (momentum zone); ADX 36 (strong trend); Aligned with market regime
+
+------------------------------------------------------------------------------
+  EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.
+==============================================================================
+20:56:55 [INFO] Market regime: BULLISH (longs favoured)
+20:56:55 [INFO] Scanning 195 symbols (swing mode)...
+^C21:50:59 [INFO] Market regime: BULLISH (longs favoured)
+21:50:59 [INFO] Scanning 195 symbols (swing mode)...
+21:51:42 [INFO] Report saved -> C:\Users\tarit\Claude\Projects\BEST TRADING BOT\reports\signals_20260629_215142.json
+==============================================================================
+  BEST TRADING BOT  |  Intraday Signals  |  2026-06-29 21:51:42 IST
+==============================================================================
+
+  #1  LAURUSLABS   LONG   score  91.0/100   sentiment +0.56
+      Entry   1500.30 | Stop   1425.29 | T1   1620.32 | T2   1740.35
+      Qty    13 | Risk Rs.     975 | Notional Rs.     19504 | R:R 1.6/3.2
+      Fundamentals: market_cap=81020.0, pe=109.0, roe=15.2
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+10.2%); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 71 (momentum zone); ADX 35 (strong trend)
+
+  #2  PERSISTENT   SHORT  score  82.4/100   sentiment +0.06
+      Entry   4298.50 | Stop   4513.43 | T1   3954.62 | T2   3610.74
+      Qty     4 | Risk Rs.     860 | Notional Rs.     17194 | R:R 1.6/3.2
+      Fundamentals: market_cap=67824.0, pe=39.9, roe=26.8
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-17.2%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 29 (weak); Counter-trend vs market (needs extra conviction; -10 score)
+
+  #3  GUJGASLTD    SHORT  score  80.9/100   sentiment +0.17
+      Entry    335.30 | Stop    352.06 | T1    308.48 | T2    281.65
+      Qty    59 | Risk Rs.     989 | Notional Rs.     19783 | R:R 1.6/3.2
+      Fundamentals: market_cap=31463.0, pe=13.4, roe=17.4
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-16.4%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 29 (weak); Counter-trend vs market (needs extra conviction; -10 score)
+
+  #4  CHOLAFIN     LONG   score  80.7/100   sentiment +0.06
+      Entry   1774.00 | Stop   1685.30 | T1   1915.92 | T2   2057.84
+      Qty    11 | Risk Rs.     976 | Notional Rs.     19514 | R:R 1.6/3.2
+      Fundamentals: market_cap=151182.0, pe=29.0, roe=19.3
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+15.4%); Volume surge (>1.5x avg); RSI 69 (momentum zone); ADX 30 (strong trend); Aligned with market regime
+
+  #5  BHARATFORG   LONG   score  80.2/100   sentiment +0.22
+      Entry   2170.90 | Stop   2062.35 | T1   2344.57 | T2   2518.24
+      Qty     9 | Risk Rs.     977 | Notional Rs.     19538 | R:R 1.6/3.2
+      Fundamentals: market_cap=103800.0, pe=89.2, roe=10.6
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+10.9%); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 73 (momentum zone); Aligned with market regime
+
+  #6  KAJARIACER   LONG   score  77.2/100   sentiment +0.07
+      Entry   1205.90 | Stop   1145.61 | T1   1302.37 | T2   1398.84
+      Qty    16 | Risk Rs.     965 | Notional Rs.     19294 | R:R 1.6/3.2
+      Fundamentals: market_cap=19206.0, pe=40.6, roe=17.2
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+12.4%); Volume surge (>1.5x avg); RSI 71 (momentum zone); ADX 30 (strong trend); Aligned with market regime
+
+  #7  FEDERALBNK   LONG   score  77.2/100   sentiment +0.11
+      Entry    324.05 | Stop    307.85 | T1    349.97 | T2    375.90
+      Qty    61 | Risk Rs.     988 | Notional Rs.     19767 | R:R 1.6/3.2
+      Fundamentals: market_cap=79944.0, pe=19.4, roe=11.4
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+12.1%); Volume surge (>1.5x avg); RSI 69 (momentum zone); ADX 36 (strong trend); Aligned with market regime
+
+  #8  ASTRAL       SHORT  score  76.9/100   sentiment +0.22
+      Entry   1368.00 | Stop   1436.40 | T1   1258.56 | T2   1149.12
+      Qty    14 | Risk Rs.     958 | Notional Rs.     19152 | R:R 1.6/3.2
+      Fundamentals: market_cap=36766.0, pe=58.8, roe=16.2
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-13.3%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 29 (weak); Counter-trend vs market (needs extra conviction; -10 score)
+
+  #9  VEDL         SHORT  score  75.5/100   sentiment -0.06
+      Entry    284.55 | Stop    298.78 | T1    261.79 | T2    239.02
+      Qty    70 | Risk Rs.     996 | Notional Rs.     19918 | R:R 1.6/3.2
+      Fundamentals: market_cap=111290.0, pe=8.38, roe=17.3
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-19.3%); Volume surge (>1.5x avg); RSI 33 (weak); ADX 36 (strong trend); Counter-trend vs market (needs extra conviction; -10 score)
+
+  #10  SUPREMEIND   SHORT  score  67.7/100   sentiment +0.06
+      Entry   3194.00 | Stop   3353.70 | T1   2938.48 | T2   2682.96
+      Qty     6 | Risk Rs.     958 | Notional Rs.     19164 | R:R 1.6/3.2
+      Fundamentals: market_cap=40549.0, pe=45.5, roe=17.1
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-10.0%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 28 (weak); Counter-trend vs market (needs extra conviction; -10 score)
+
+------------------------------------------------------------------------------
+  EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.
+==============================================================================
+10:42:21 [INFO] Market regime: BULLISH (longs favoured)
+10:42:21 [INFO] Scanning 195 symbols (swing mode)...
+10:42:56 [INFO] Paper-tracker: logged 3 new core trade(s).
+10:42:56 [INFO] Locked 12 picks for today: WIPRO, FEDERALBNK, MAXHEALTH, INFY, KPITTECH, CHOLAFIN, TCS, FINCABLES, ZENSARTECH, TATAELXSI, GUJGASLTD, HCLTECH
+22:08:05 [INFO] Market regime: BULLISH (longs favoured)
+22:08:05 [INFO] Scanning 195 symbols (swing mode)...
+22:08:24 [INFO] Report saved -> C:\Users\tarit\Claude\Projects\BEST TRADING BOT\reports\signals_20260630_220824.json
+22:08:31 [INFO] Paper-tracker: logged 1 new intraday trade(s).
+==============================================================================
+  BEST TRADING BOT  |  Intraday Signals  |  2026-06-30 22:08:24 IST
+==============================================================================
+
+  #1  FEDERALBNK   LONG   score  88.0/100   sentiment +0.11
+      Entry    330.05 | Stop    313.55 | T1    356.45 | T2    382.86
+      Qty    60 | Risk Rs.     990 | Notional Rs.     19803 | R:R 1.6/3.2
+      Fundamentals: market_cap=81312.0, pe=19.8, roe=11.4
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+14.5%); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 73 (momentum zone); ADX 37 (strong trend)
+
+  #2  INFY         SHORT  score  86.8/100   sentiment -0.17
+      Entry   1000.40 | Stop   1050.42 | T1    920.37 | T2    840.34
+      Qty    19 | Risk Rs.     950 | Notional Rs.     19008 | R:R 1.6/3.2
+      Fundamentals: market_cap=406103.0, pe=13.4, roe=35.7
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-21.3%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 30 (weak); Counter-trend vs market (needs extra conviction; -10 score)
+
+  #3  KPITTECH     SHORT  score  76.8/100   sentiment +0.11
+      Entry    671.55 | Stop    705.13 | T1    617.83 | T2    564.10
+      Qty    29 | Risk Rs.     974 | Notional Rs.     19475 | R:R 1.6/3.2
+      Fundamentals: market_cap=18402.0, pe=31.2, roe=27.9
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-17.0%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 28 (weak); Outside lower Bollinger band - oversold
+
+  #4  WIPRO        SHORT  score  75.4/100   sentiment -0.17
+      Entry    170.39 | Stop    178.91 | T1    156.76 | T2    143.13
+      Qty   117 | Risk Rs.     997 | Notional Rs.     19936 | R:R 1.6/3.2
+      Fundamentals: market_cap=178950.0, pe=14.8, roe=19.0
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-18.8%); 20-day breakdown (new low); RSI 27 (weak); ADX 28 (strong trend); Counter-trend vs market (needs extra conviction; -10 score)
+
+  #5  GUJGASLTD    SHORT  score  72.8/100   sentiment +0.06
+      Entry    327.05 | Stop    343.40 | T1    300.89 | T2    274.72
+      Qty    61 | Risk Rs.     998 | Notional Rs.     19950 | R:R 1.6/3.2
+      Fundamentals: market_cap=30731.0, pe=13.1, roe=17.4
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-17.6%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 27 (weak); Price 3.2 ATR below its mean - extended
+
+  #6  TATAELXSI    SHORT  score  71.9/100   sentiment +0.33
+      Entry   3829.70 | Stop   4021.18 | T1   3523.32 | T2   3216.95
+      Qty     5 | Risk Rs.     957 | Notional Rs.     19148 | R:R 1.6/3.2
+      Fundamentals: market_cap=23843.0, pe=34.3, roe=23.6
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-15.5%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 29 (weak); Outside lower Bollinger band - oversold
+
+  #7  TCS          SHORT  score  68.6/100   sentiment -0.06
+      Entry   2031.50 | Stop   2133.08 | T1   1868.98 | T2   1706.46
+      Qty     9 | Risk Rs.     914 | Notional Rs.     18284 | R:R 1.6/3.2
+      Fundamentals: market_cap=735347.0, pe=14.1, roe=65.2
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-17.0%); 20-day breakdown (new low); RSI 32 (weak); Outside lower Bollinger band - oversold; Counter-trend vs market (needs extra conviction; -10 score)
+
+  #8  ZENSARTECH   SHORT  score  68.4/100   sentiment +0.11
+      Entry    425.30 | Stop    446.56 | T1    391.28 | T2    357.25
+      Qty    47 | Risk Rs.     999 | Notional Rs.     19989 | R:R 1.6/3.2
+      Fundamentals: market_cap=9669.0, pe=13.7, roe=21.3
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-14.2%); 20-day breakdown (new low); RSI 31 (weak); ADX 25 (strong trend); Counter-trend vs market (needs extra conviction; -10 score)
+
+  #9  CHOLAFIN     LONG   score  65.9/100   sentiment +0.00
+      Entry   1789.80 | Stop   1700.31 | T1   1932.98 | T2   2076.17
+      Qty    11 | Risk Rs.     984 | Notional Rs.     19688 | R:R 1.6/3.2
+      Fundamentals: market_cap=152630.0, pe=29.2, roe=19.3
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+19.9%); RSI 71 (momentum zone); ADX 31 (strong trend); Aligned with market regime; Top relative strength (universe)
+
+  #10  FINCABLES    LONG   score  60.6/100   sentiment +0.17
+      Entry   1169.40 | Stop   1110.93 | T1   1262.95 | T2   1356.50
+      Qty    17 | Risk Rs.     994 | Notional Rs.     19880 | R:R 1.6/3.2
+      Fundamentals: market_cap=17889.0, pe=28.7, roe=12.8
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+18.2%); RSI 60 (momentum zone); Aligned with market regime; Top relative strength (universe)
+
+  #11  TANLA        LONG   score  57.9/100   sentiment +0.39
+      Entry    530.10 | Stop    503.59 | T1    572.51 | T2    614.92
+      Qty    37 | Risk Rs.     981 | Notional Rs.     19614 | R:R 1.6/3.2
+      Fundamentals: market_cap=7029.0, pe=50.6, roe=22.4
+      Why: Stacked uptrend (20>50>100 EMA); Volume surge (>1.5x avg); RSI 55 (momentum zone); ADX 26 (strong trend); Aligned with market regime
+
+  #12  PERSISTENT   SHORT  score  56.6/100   sentiment +0.11
+      Entry   4326.50 | Stop   4542.82 | T1   3980.38 | T2   3634.26
+      Qty     4 | Risk Rs.     865 | Notional Rs.     17306 | R:R 1.6/3.2
+      Fundamentals: market_cap=68255.0, pe=40.2, roe=26.8
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-20.9%); Volume surge (>1.5x avg); RSI 30 (weak); Outside lower Bollinger band - oversold; Counter-trend vs market (needs extra conviction; -10 score)
+
+  #13  SUPREMEIND   SHORT  score  56.1/100   sentiment +0.06
+      Entry   3157.80 | Stop   3315.69 | T1   2905.18 | T2   2652.55
+      Qty     6 | Risk Rs.     947 | Notional Rs.     18947 | R:R 1.6/3.2
+      Fundamentals: market_cap=40109.0, pe=45.0, roe=17.1
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-11.1%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 26 (weak); Price 3.2 ATR below its mean - extended
+
+  #14  ASTRAL       SHORT  score  55.4/100   sentiment +0.17
+      Entry   1335.60 | Stop   1402.38 | T1   1228.75 | T2   1121.90
+      Qty    14 | Risk Rs.     935 | Notional Rs.     18698 | R:R 1.6/3.2
+      Fundamentals: market_cap=35910.0, pe=57.5, roe=16.2
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-12.5%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 26 (weak); Price 3.5 ATR below its mean - extended
+
+  #15  HCLTECH      SHORT  score  52.7/100   sentiment -0.06
+      Entry   1071.80 | Stop   1125.39 | T1    986.06 | T2    900.31
+      Qty    18 | Risk Rs.     965 | Notional Rs.     19292 | R:R 1.6/3.2
+      Fundamentals: market_cap=290653.0, pe=23.3, roe=41.0
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-13.8%); 20-day breakdown (new low); RSI 31 (weak); Outside lower Bollinger band - oversold; Counter-trend vs market (needs extra conviction; -10 score)
+
+------------------------------------------------------------------------------
+  EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.
+==============================================================================
+04:27:23 [INFO] Market regime: BULLISH (longs favoured)
+04:27:23 [INFO] Scanning 195 symbols (swing mode)...
+04:28:09 [INFO] Report saved -> C:\Users\tarit\Claude\Projects\BEST TRADING BOT\reports\signals_20260701_042809.json
+04:28:21 [INFO] Paper-tracker: logged 15 new core trade(s).
+==============================================================================
+  BEST TRADING BOT  |  Intraday Signals  |  2026-07-01 04:28:09 IST
+==============================================================================
+
+  #1  BHARATFORG   LONG   score  92.6/100   sentiment +0.22
+      Entry   2170.90 | Stop   2062.35 | T1   2344.57 | T2   2518.24
+      Qty     9 | Risk Rs.     977 | Notional Rs.     19538 | R:R 1.6/3.2
+      Fundamentals: market_cap=102443.0, pe=88.0, roe=10.6
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+12.9%); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 74 (momentum zone); ADX 25 (strong trend)
+
+  #2  CHOLAFIN     LONG   score  74.7/100   sentiment +0.06
+      Entry   1774.00 | Stop   1685.30 | T1   1915.92 | T2   2057.84
+      Qty    11 | Risk Rs.     976 | Notional Rs.     19514 | R:R 1.6/3.2
+      Fundamentals: market_cap=152630.0, pe=29.2, roe=19.3
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+15.4%); Volume surge (>1.5x avg); RSI 69 (momentum zone); ADX 30 (strong trend); Aligned with market regime
+
+  #3  GUJGASLTD    SHORT  score  73.6/100   sentiment +0.06
+      Entry    335.30 | Stop    352.06 | T1    308.48 | T2    281.65
+      Qty    59 | Risk Rs.     989 | Notional Rs.     19783 | R:R 1.6/3.2
+      Fundamentals: market_cap=30731.0, pe=13.1, roe=17.4
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-15.5%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 29 (weak); Outside lower Bollinger band - oversold
+
+  #4  LAURUSLABS   LONG   score  71.8/100   sentiment +0.56
+      Entry   1500.30 | Stop   1425.29 | T1   1620.32 | T2   1740.35
+      Qty    13 | Risk Rs.     975 | Notional Rs.     19504 | R:R 1.6/3.2
+      Fundamentals: market_cap=81977.0, pe=110.0, roe=15.2
+      Why: Stacked uptrend (20>50>100 EMA); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 71 (momentum zone); ADX 35 (strong trend); Outside upper Bollinger band - overbought
+
+  #5  KAJARIACER   LONG   score  71.5/100   sentiment +0.11
+      Entry   1205.90 | Stop   1145.61 | T1   1302.37 | T2   1398.84
+      Qty    16 | Risk Rs.     965 | Notional Rs.     19294 | R:R 1.6/3.2
+      Fundamentals: market_cap=19262.0, pe=37.0, roe=17.9
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+12.4%); Volume surge (>1.5x avg); RSI 71 (momentum zone); ADX 30 (strong trend); Aligned with market regime
+
+  #6  FEDERALBNK   LONG   score  71.2/100   sentiment +0.11
+      Entry    324.05 | Stop    307.85 | T1    349.97 | T2    375.90
+      Qty    61 | Risk Rs.     988 | Notional Rs.     19767 | R:R 1.6/3.2
+      Fundamentals: market_cap=81312.0, pe=19.8, roe=11.4
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+12.1%); Volume surge (>1.5x avg); RSI 69 (momentum zone); ADX 36 (strong trend); Aligned with market regime
+
+  #7  PERSISTENT   SHORT  score  71.1/100   sentiment +0.11
+      Entry   4298.50 | Stop   4513.43 | T1   3954.62 | T2   3610.74
+      Qty     4 | Risk Rs.     860 | Notional Rs.     17194 | R:R 1.6/3.2
+      Fundamentals: market_cap=68255.0, pe=40.2, roe=26.8
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-20.4%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 28 (weak); Price 3.1 ATR below its mean - extended
+
+  #8  LUPIN        LONG   score  60.6/100   sentiment +0.33
+      Entry   2409.30 | Stop   2288.84 | T1   2602.04 | T2   2794.79
+      Qty     8 | Risk Rs.     964 | Notional Rs.     19274 | R:R 1.6/3.2
+      Fundamentals: market_cap=110701.0, pe=18.3, roe=22.2
+      Why: Stacked uptrend (20>50>100 EMA); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 68 (momentum zone); Outside upper Bollinger band - overbought; Aligned with market regime
+
+  #9  JBCHEPHARM   LONG   score  59.7/100   sentiment +0.17
+      Entry   2303.20 | Stop   2188.04 | T1   2487.46 | T2   2671.71
+      Qty     8 | Risk Rs.     921 | Notional Rs.     18426 | R:R 1.6/3.2
+      Fundamentals: market_cap=36826.0, pe=53.9, roe=18.4
+      Why: Stacked uptrend (20>50>100 EMA); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 69 (momentum zone); Outside upper Bollinger band - overbought; Aligned with market regime
+
+  #10  VEDL         SHORT  score  59.3/100   sentiment -0.11
+      Entry    284.55 | Stop    298.78 | T1    261.79 | T2    239.02
+      Qty    70 | Risk Rs.     996 | Notional Rs.     19918 | R:R 1.6/3.2
+      Fundamentals: market_cap=109862.0, pe=8.3, roe=17.3
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-15.6%); Volume surge (>1.5x avg); RSI 34 (weak); ADX 36 (strong trend); Bullish divergence - new low, stronger momentum
+
+  #11  DRREDDY      LONG   score  57.8/100   sentiment +0.11
+      Entry   1375.70 | Stop   1306.91 | T1   1485.76 | T2   1595.81
+      Qty    14 | Risk Rs.     963 | Notional Rs.     19260 | R:R 1.6/3.2
+      Fundamentals: market_cap=113274.0, pe=35.2, roe=10.7
+      Why: Stacked uptrend (20>50>100 EMA); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 75 (momentum zone); Outside upper Bollinger band - overbought; Aligned with market regime
+
+  #12  MARICO       LONG   score  56.5/100   sentiment +0.22
+      Entry    839.95 | Stop    797.95 | T1    907.15 | T2    974.34
+      Qty    23 | Risk Rs.     966 | Notional Rs.     19319 | R:R 1.6/3.2
+      Fundamentals: market_cap=108571.0, pe=55.9, roe=36.7
+      Why: Stacked uptrend (20>50>100 EMA); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 63 (momentum zone); Outside upper Bollinger band - overbought; Aligned with market regime
+
+  #13  ZENSARTECH   SHORT  score  56.2/100   sentiment +0.11
+      Entry    433.40 | Stop    455.07 | T1    398.73 | T2    364.06
+      Qty    46 | Risk Rs.     997 | Notional Rs.     19936 | R:R 1.6/3.2
+      Fundamentals: market_cap=9669.0, pe=13.7, roe=21.3
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-12.3%); 20-day breakdown (new low); RSI 33 (weak); Counter-trend vs market (needs extra conviction; -10 score); Top relative strength (universe)
+
+  #14  ASTRAL       SHORT  score  52.9/100   sentiment +0.28
+      Entry   1368.00 | Stop   1436.40 | T1   1258.56 | T2   1149.12
+      Qty    14 | Risk Rs.     958 | Notional Rs.     19152 | R:R 1.6/3.2
+      Fundamentals: market_cap=35881.0, pe=57.4, roe=16.2
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-10.8%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 28 (weak); Price 3.2 ATR below its mean - extended
+
+  #15  ABCAPITAL    LONG   score  51.4/100   sentiment +0.28
+      Entry    385.30 | Stop    366.03 | T1    416.12 | T2    446.95
+      Qty    51 | Risk Rs.     983 | Notional Rs.     19650 | R:R 1.6/3.2
+      Fundamentals: market_cap=107126.0, pe=34.4, roe=11.6
+      Why: Stacked uptrend (20>50>100 EMA); Volume surge (>1.5x avg); RSI 60 (momentum zone); ADX 26 (strong trend); Aligned with market regime; Picked recently (-6 to favour fresh names)
+
+------------------------------------------------------------------------------
+  EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.
+==============================================================================
+07:45:20 [INFO] Market regime: BULLISH (longs favoured)
+07:45:20 [INFO] Scanning 195 symbols (swing mode)...
+07:46:12 [INFO] Report saved -> C:\Users\tarit\Claude\Projects\BEST TRADING BOT\reports\signals_20260702_074612.json
+07:46:24 [INFO] Paper-tracker: logged 15 new core trade(s).
+==============================================================================
+  BEST TRADING BOT  |  Intraday Signals  |  2026-07-02 07:46:12 IST
+==============================================================================
+
+  #1  BAJFINANCE   LONG   score  81.7/100   sentiment +0.17
+      Entry   1014.90 | Stop    964.16 | T1   1096.09 | T2   1177.28
+      Qty    19 | Risk Rs.     964 | Notional Rs.     19283 | R:R 1.6/3.2
+      Fundamentals: market_cap=631872.0, pe=37.3, roe=17.7
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+15.8%); 20-day breakout (new high); RSI 71 (momentum zone); ADX 30 (strong trend); Aligned with market regime
+
+  #2  MAXHEALTH    LONG   score  66.8/100   sentiment +0.17
+      Entry   1139.90 | Stop   1082.91 | T1   1231.09 | T2   1322.28
+      Qty    17 | Risk Rs.     969 | Notional Rs.     19378 | R:R 1.6/3.2
+      Fundamentals: market_cap=110940.0, pe=74.8, roe=14.8
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+20.2%); RSI 70 (momentum zone); ADX 31 (strong trend); Aligned with market regime; Top relative strength (universe)
+
+  #3  RITES        LONG   score  66.8/100   sentiment +0.33
+      Entry    233.19 | Stop    221.53 | T1    251.85 | T2    270.50
+      Qty    85 | Risk Rs.     991 | Notional Rs.     19821 | R:R 1.6/3.2
+      Fundamentals: market_cap=11207.0, pe=28.0, roe=15.7
+      Why: Strong 20d momentum (+16.7%); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 72 (momentum zone); Outside upper Bollinger band - overbought; Aligned with market regime
+
+  #4  CHOLAFIN     LONG   score  66.0/100   sentiment +0.00
+      Entry   1803.30 | Stop   1713.14 | T1   1947.56 | T2   2091.83
+      Qty    11 | Risk Rs.     992 | Notional Rs.     19836 | R:R 1.6/3.2
+      Fundamentals: market_cap=153747.0, pe=29.5, roe=19.3
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+22.6%); RSI 71 (momentum zone); ADX 33 (strong trend); Aligned with market regime; Top relative strength (universe)
+
+  #5  INFY         SHORT  score  63.9/100   sentiment -0.33
+      Entry    985.30 | Stop   1034.56 | T1    906.48 | T2    827.65
+      Qty    20 | Risk Rs.     985 | Notional Rs.     19706 | R:R 1.6/3.2
+      Fundamentals: market_cap=399793.0, pe=13.3, roe=35.7
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-19.4%); 20-day breakdown (new low); RSI 29 (weak); Price 3.0 ATR below its mean - extended; Counter-trend vs market (needs extra conviction; -10 score)
+
+  #6  TATAELXSI    SHORT  score  59.8/100   sentiment +0.39
+      Entry   3587.80 | Stop   3767.19 | T1   3300.78 | T2   3013.75
+      Qty     5 | Risk Rs.     897 | Notional Rs.     17939 | R:R 1.6/3.2
+      Fundamentals: market_cap=22348.0, pe=32.1, roe=23.6
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-17.5%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 22 (weak); Oversold RSI 22 - down-move stretched
+
+  #7  KPITTECH     SHORT  score  58.8/100   sentiment +0.17
+      Entry    557.55 | Stop    585.43 | T1    512.95 | T2    468.34
+      Qty    35 | Risk Rs.     976 | Notional Rs.     19514 | R:R 1.6/3.2
+      Fundamentals: market_cap=15285.0, pe=22.6, roe=21.0
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-28.0%); 20-day breakdown (new low); Volume surge (>1.5x avg); ADX 25 (strong trend); Oversold RSI 17 - down-move stretched
+
+  #8  DMART        LONG   score  56.3/100   sentiment +0.06
+      Entry   4328.60 | Stop   4112.17 | T1   4674.89 | T2   5021.18
+      Qty     4 | Risk Rs.     866 | Notional Rs.     17314 | R:R 1.6/3.2
+      Fundamentals: market_cap=282331.0, pe=87.6, roe=13.5
+      Why: Stacked uptrend (20>50>100 EMA); Volume surge (>1.5x avg); RSI 57 (momentum zone); ADX 26 (strong trend); Aligned with market regime
+
+  #9  MARUTI       LONG   score  54.4/100   sentiment +0.06
+      Entry  14395.00 | Stop  13675.25 | T1  15546.60 | T2  16698.20
+      Qty     1 | Risk Rs.     720 | Notional Rs.     14395 | R:R 1.6/3.2
+      Fundamentals: market_cap=452583.0, pe=31.3, roe=14.5
+      Why: Strong 20d momentum (+10.4%); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 68 (momentum zone); Outside upper Bollinger band - overbought; Aligned with market regime
+
+  #10  MARICO       LONG   score  53.6/100   sentiment +0.22
+      Entry    851.00 | Stop    808.45 | T1    919.08 | T2    987.16
+      Qty    23 | Risk Rs.     979 | Notional Rs.     19573 | R:R 1.6/3.2
+      Fundamentals: market_cap=110493.0, pe=56.9, roe=36.7
+      Why: Stacked uptrend (20>50>100 EMA); 20-day breakout (new high); RSI 67 (momentum zone); ADX 25 (strong trend); Outside upper Bollinger band - overbought; Aligned with market regime
+
+  #11  CGPOWER      LONG   score  53.4/100   sentiment +0.28
+      Entry    976.50 | Stop    927.67 | T1   1054.62 | T2   1132.74
+      Qty    20 | Risk Rs.     977 | Notional Rs.     19530 | R:R 1.6/3.2
+      Fundamentals: market_cap=153797.0, pe=115.0, roe=21.9
+      Why: Stacked uptrend (20>50>100 EMA); 20-day breakout (new high); RSI 64 (momentum zone); Aligned with market regime
+
+  #12  ABCAPITAL    LONG   score  52.7/100   sentiment +0.28
+      Entry    393.15 | Stop    373.49 | T1    424.60 | T2    456.05
+      Qty    50 | Risk Rs.     983 | Notional Rs.     19657 | R:R 1.6/3.2
+      Fundamentals: market_cap=107495.0, pe=28.3, roe=11.7
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+12.7%); RSI 63 (momentum zone); ADX 27 (strong trend); Aligned with market regime; Picked recently (-6 to favour fresh names)
+
+  #13  WIPRO        SHORT  score  52.6/100   sentiment -0.11
+      Entry    170.13 | Stop    178.64 | T1    156.52 | T2    142.91
+      Qty   117 | Risk Rs.     995 | Notional Rs.     19905 | R:R 1.6/3.2
+      Fundamentals: market_cap=168489.0, pe=13.9, roe=19.0
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-16.6%); RSI 27 (weak); ADX 29 (strong trend); Counter-trend vs market (needs extra conviction; -10 score); Top relative strength (universe)
+
+  #14  ZENSARTECH   SHORT  score  51.1/100   sentiment +0.11
+      Entry    426.05 | Stop    447.35 | T1    391.97 | T2    357.88
+      Qty    46 | Risk Rs.     980 | Notional Rs.     19598 | R:R 1.6/3.2
+      Fundamentals: market_cap=9695.0, pe=13.8, roe=21.3
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-16.4%); RSI 31 (weak); ADX 26 (strong trend); Counter-trend vs market (needs extra conviction; -10 score); Top relative strength (universe)
+
+  #15  FEDERALBNK   LONG   score  48.9/100   sentiment +0.17
+      Entry    331.40 | Stop    314.83 | T1    357.91 | T2    384.42
+      Qty    60 | Risk Rs.     994 | Notional Rs.     19884 | R:R 1.6/3.2
+      Fundamentals: market_cap=81783.0, pe=19.9, roe=11.4
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+10.1%); RSI 74 (momentum zone); ADX 40 (strong trend); Aligned with market regime; Picked recently (-6 to favour fresh names)
+
+------------------------------------------------------------------------------
+  EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.
+==============================================================================
+08:00:03 [INFO] Market regime: BULLISH (longs favoured)
+08:00:03 [INFO] Scanning 195 symbols (swing mode)...
+08:00:52 [INFO] Report saved -> C:\Users\tarit\Claude\Projects\BEST TRADING BOT\reports\signals_20260702_080052.json
+08:01:08 [INFO] Paper-tracker: logged 1 new core trade(s).
+==============================================================================
+  BEST TRADING BOT  |  Intraday Signals  |  2026-07-02 08:00:52 IST
+==============================================================================
+
+  #1  BAJFINANCE   LONG   score  81.7/100   sentiment +0.17
+      Entry   1014.90 | Stop    964.16 | T1   1096.09 | T2   1177.28
+      Qty    19 | Risk Rs.     964 | Notional Rs.     19283 | R:R 1.6/3.2
+      Fundamentals: market_cap=631872.0, pe=37.3, roe=17.7
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+15.8%); 20-day breakout (new high); RSI 71 (momentum zone); ADX 30 (strong trend); Aligned with market regime
+
+  #2  RITES        LONG   score  66.8/100   sentiment +0.33
+      Entry    233.19 | Stop    221.53 | T1    251.85 | T2    270.50
+      Qty    85 | Risk Rs.     991 | Notional Rs.     19821 | R:R 1.6/3.2
+      Fundamentals: market_cap=11207.0, pe=28.0, roe=15.7
+      Why: Strong 20d momentum (+16.7%); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 72 (momentum zone); Outside upper Bollinger band - overbought; Aligned with market regime
+
+  #3  CHOLAFIN     LONG   score  66.3/100   sentiment +0.06
+      Entry   1803.30 | Stop   1713.14 | T1   1947.56 | T2   2091.83
+      Qty    11 | Risk Rs.     992 | Notional Rs.     19836 | R:R 1.6/3.2
+      Fundamentals: market_cap=153747.0, pe=29.5, roe=19.3
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+22.6%); RSI 71 (momentum zone); ADX 33 (strong trend); Aligned with market regime; Top relative strength (universe)
+
+  #4  INFY         SHORT  score  63.9/100   sentiment -0.33
+      Entry    985.30 | Stop   1034.56 | T1    906.48 | T2    827.65
+      Qty    20 | Risk Rs.     985 | Notional Rs.     19706 | R:R 1.6/3.2
+      Fundamentals: market_cap=399793.0, pe=13.3, roe=35.7
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-19.4%); 20-day breakdown (new low); RSI 29 (weak); Price 3.0 ATR below its mean - extended; Counter-trend vs market (needs extra conviction; -10 score)
+
+  #5  TATAELXSI    SHORT  score  59.8/100   sentiment +0.39
+      Entry   3587.80 | Stop   3767.19 | T1   3300.78 | T2   3013.75
+      Qty     5 | Risk Rs.     897 | Notional Rs.     17939 | R:R 1.6/3.2
+      Fundamentals: market_cap=22351.0, pe=32.1, roe=23.6
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-17.5%); 20-day breakdown (new low); Volume surge (>1.5x avg); RSI 22 (weak); Oversold RSI 22 - down-move stretched
+
+  #6  KPITTECH     SHORT  score  58.8/100   sentiment +0.17
+      Entry    557.55 | Stop    585.43 | T1    512.95 | T2    468.34
+      Qty    35 | Risk Rs.     976 | Notional Rs.     19514 | R:R 1.6/3.2
+      Fundamentals: market_cap=15285.0, pe=22.6, roe=21.0
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-28.0%); 20-day breakdown (new low); Volume surge (>1.5x avg); ADX 25 (strong trend); Oversold RSI 17 - down-move stretched
+
+  #7  DMART        LONG   score  56.3/100   sentiment +0.06
+      Entry   4328.60 | Stop   4112.17 | T1   4674.89 | T2   5021.18
+      Qty     4 | Risk Rs.     866 | Notional Rs.     17314 | R:R 1.6/3.2
+      Fundamentals: market_cap=282331.0, pe=87.6, roe=13.5
+      Why: Stacked uptrend (20>50>100 EMA); Volume surge (>1.5x avg); RSI 57 (momentum zone); ADX 26 (strong trend); Aligned with market regime
+
+  #8  MARUTI       LONG   score  54.4/100   sentiment +0.06
+      Entry  14395.00 | Stop  13675.25 | T1  15546.60 | T2  16698.20
+      Qty     1 | Risk Rs.     720 | Notional Rs.     14395 | R:R 1.6/3.2
+      Fundamentals: market_cap=452583.0, pe=31.3, roe=14.5
+      Why: Strong 20d momentum (+10.4%); 20-day breakout (new high); Volume surge (>1.5x avg); RSI 68 (momentum zone); Outside upper Bollinger band - overbought; Aligned with market regime
+
+  #9  MARICO       LONG   score  53.6/100   sentiment +0.22
+      Entry    851.00 | Stop    808.45 | T1    919.08 | T2    987.16
+      Qty    23 | Risk Rs.     979 | Notional Rs.     19573 | R:R 1.6/3.2
+      Fundamentals: market_cap=110493.0, pe=56.9, roe=36.7
+      Why: Stacked uptrend (20>50>100 EMA); 20-day breakout (new high); RSI 67 (momentum zone); ADX 25 (strong trend); Outside upper Bollinger band - overbought; Aligned with market regime
+
+  #10  CGPOWER      LONG   score  53.4/100   sentiment +0.28
+      Entry    976.50 | Stop    927.67 | T1   1054.62 | T2   1132.74
+      Qty    20 | Risk Rs.     977 | Notional Rs.     19530 | R:R 1.6/3.2
+      Fundamentals: market_cap=153797.0, pe=115.0, roe=21.9
+      Why: Stacked uptrend (20>50>100 EMA); 20-day breakout (new high); RSI 64 (momentum zone); Aligned with market regime
+
+  #11  ABCAPITAL    LONG   score  52.7/100   sentiment +0.28
+      Entry    393.15 | Stop    373.49 | T1    424.60 | T2    456.05
+      Qty    50 | Risk Rs.     983 | Notional Rs.     19657 | R:R 1.6/3.2
+      Fundamentals: market_cap=107495.0, pe=34.5, roe=11.6
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+12.7%); RSI 63 (momentum zone); ADX 27 (strong trend); Aligned with market regime; Picked recently (-6 to favour fresh names)
+
+  #12  WIPRO        SHORT  score  52.6/100   sentiment -0.11
+      Entry    170.13 | Stop    178.64 | T1    156.52 | T2    142.91
+      Qty   117 | Risk Rs.     995 | Notional Rs.     19905 | R:R 1.6/3.2
+      Fundamentals: market_cap=168489.0, pe=13.9, roe=19.0
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-16.6%); RSI 27 (weak); ADX 29 (strong trend); Counter-trend vs market (needs extra conviction; -10 score); Top relative strength (universe)
+
+  #13  VEDL         SHORT  score  51.3/100   sentiment +0.00
+      Entry    275.55 | Stop    289.33 | T1    253.51 | T2    231.46
+      Qty    72 | Risk Rs.     992 | Notional Rs.     19840 | R:R 1.6/3.2
+      Fundamentals: market_cap=107751.0, pe=8.11, roe=17.3
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-16.0%); RSI 31 (weak); ADX 35 (strong trend); Counter-trend vs market (needs extra conviction; -10 score); Top relative strength (universe)
+
+  #14  ZENSARTECH   SHORT  score  51.1/100   sentiment +0.11
+      Entry    426.05 | Stop    447.35 | T1    391.97 | T2    357.88
+      Qty    46 | Risk Rs.     980 | Notional Rs.     19598 | R:R 1.6/3.2
+      Fundamentals: market_cap=9694.0, pe=13.8, roe=21.3
+      Why: Stacked downtrend (20<50<100 EMA); Strong 20d down-momentum (-16.4%); RSI 31 (weak); ADX 26 (strong trend); Counter-trend vs market (needs extra conviction; -10 score); Top relative strength (universe)
+
+  #15  FEDERALBNK   LONG   score  48.9/100   sentiment +0.17
+      Entry    331.40 | Stop    314.83 | T1    357.91 | T2    384.42
+      Qty    60 | Risk Rs.     994 | Notional Rs.     19884 | R:R 1.6/3.2
+      Fundamentals: market_cap=81783.0, pe=19.9, roe=11.4
+      Why: Stacked uptrend (20>50>100 EMA); Strong 20d momentum (+10.1%); RSI 74 (momentum zone); ADX 40 (strong trend); Aligned with market regime; Picked recently (-6 to favour fresh names)
+
+------------------------------------------------------------------------------
+  EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.
+==============================================================================

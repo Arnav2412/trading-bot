@@ -1,0 +1,33 @@
+name: eod-review
+# 16:00 IST end-of-day P&L + auto-tune review + history snapshot. Laptop-independent.
+on:
+  schedule:
+    - cron: "30 10 * * 1-5"        # 10:30 UTC == 16:00 IST, Mon–Fri
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tradingbot-state
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: EOD P&L + review
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python run.py eod
+      - name: Publish dashboard (GitHub Pages)
+        run: python run.py publish
+      - name: Save state back to repo
+        run: bash .github/persist_state.sh "eod"

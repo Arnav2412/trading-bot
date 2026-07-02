@@ -1,0 +1,33 @@
+name: premarket-lock
+# 09:40 IST pre-market LOCK + email. Runs in GitHub's cloud — your laptop can be off.
+on:
+  schedule:
+    - cron: "10 4 * * 1-5"        # 04:10 UTC == 09:40 IST, Mon–Fri
+  workflow_dispatch: {}            # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write                  # so it can save the paper book back to the repo
+
+concurrency:
+  group: tradingbot-state          # shared with the other jobs so state never clashes
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Pre-market lock + email
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python run.py premarket
+      - name: Publish dashboard (GitHub Pages)
+        run: python run.py publish
+      - name: Save state back to repo
+        run: bash .github/persist_state.sh "premarket"

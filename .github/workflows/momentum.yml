@@ -1,0 +1,33 @@
+name: momentum-updates
+# Mid-day momentum watchlist emails (10:00 / 12:00 / 14:00 IST). Laptop-independent.
+on:
+  schedule:
+    - cron: "30 4,6,8 * * 1-5"     # 04:30/06:30/08:30 UTC == 10:00/12:00/14:00 IST
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tradingbot-state
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Momentum scan + email
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python run.py email
+      - name: Publish dashboard (GitHub Pages)
+        run: python run.py publish
+      - name: Save state back to repo
+        run: bash .github/persist_state.sh "momentum"
