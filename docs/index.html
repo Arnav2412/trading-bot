@@ -3,105 +3,139 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Best Trading Bot — Mission Control</title>
+<title>Best Trading Bot — The Daily Ledger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600&family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-  :root{--bg:#0a0e1c;--panel:#131a2e;--panel2:#1a2340;--line:#263356;
-        --txt:#e9eefb;--mut:#93a1c8;--up:#2ee6a0;--down:#ff5d7c;--accent:#5b9bff;
-        --gold:#ffd166;--glow:0 0 18px}
+  :root{
+    --paper:#f7f1e3;--paper2:#fffdf6;--ink:#1e1b16;--faint:#6f6656;
+    --rule:#d8cdb4;--up:#0e7c4a;--down:#c33b2e;--amber:#b57a10;--blue:#2c55b0;
+    --shadow:4px 4px 0 #1e1b16;
+  }
   *{box-sizing:border-box}
-  body{margin:0;background:radial-gradient(1200px 500px at 70% -10%,#16204020,transparent),var(--bg);
-       color:var(--txt);font-family:'Segoe UI',system-ui,Arial,sans-serif}
-  header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;
-         padding:14px 24px;border-bottom:1px solid var(--line);position:sticky;top:0;
-         background:#0a0e1cee;backdrop-filter:blur(6px);z-index:5}
-  h1{font-size:18px;margin:0;letter-spacing:.5px} h1 span{color:var(--accent)}
-  .sub{font-size:12px;color:var(--mut);margin-top:3px}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font-family:'Inter',system-ui,sans-serif;
+       background-image:radial-gradient(#00000009 1px, transparent 1.2px);
+       background-size:22px 22px}
+  ::selection{background:#ffe9a8}
+
+  header{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:12px;
+         padding:22px 28px 14px;border-bottom:3px solid var(--ink);background:var(--paper);
+         position:sticky;top:0;z-index:5}
+  h1{font-family:'Fraunces',serif;font-weight:900;font-size:26px;margin:0;letter-spacing:.2px}
+  h1 em{font-style:italic;color:var(--down);font-weight:600}
+  .sub{font-size:12.5px;color:var(--faint);margin-top:4px;font-family:'IBM Plex Mono',monospace}
   .right{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-  .pill{font-size:12px;padding:3px 10px;border-radius:20px;background:#243358;color:var(--mut)}
-  .pill.live{background:#0f3526;color:var(--up);box-shadow:inset 0 0 0 1px #2ee6a044}
-  .pill.closed{background:#33231f;color:#ffb27a}
-  button{background:var(--accent);color:#fff;border:0;padding:9px 16px;border-radius:9px;
-         font-size:14px;font-weight:600;cursor:pointer;transition:transform .1s, box-shadow .2s}
-  button:hover{transform:translateY(-1px);box-shadow:0 4px 14px #5b9bff44}
-  button.alt{background:#243358}
-  button:disabled{opacity:.6;cursor:wait;transform:none;box-shadow:none}
-  .wrap{max-width:1180px;margin:0 auto;padding:20px 24px 60px}
-  .banner{display:none;margin-bottom:16px;padding:11px 14px;border-radius:10px;font-size:13px}
+  .pill{font-size:12px;padding:4px 12px;border:2px solid var(--ink);border-radius:999px;
+        background:var(--paper2);font-weight:600;font-family:'IBM Plex Mono',monospace}
+  .pill.live{background:#dff2e4;color:var(--up)}
+  .pill.closed{background:#f8e3d9;color:#8a4a1f}
+  #status{font-size:12px;color:var(--faint);font-family:'IBM Plex Mono',monospace}
+  button{background:var(--ink);color:var(--paper);border:2px solid var(--ink);padding:9px 16px;
+         border-radius:8px;font-size:13.5px;font-weight:700;cursor:pointer;font-family:'Inter',sans-serif;
+         box-shadow:var(--shadow);transition:transform .08s, box-shadow .08s}
+  button:hover{transform:translate(-1px,-1px);box-shadow:5px 5px 0 #1e1b16}
+  button:active{transform:translate(2px,2px);box-shadow:1px 1px 0 #1e1b16}
+  button.alt{background:var(--paper2);color:var(--ink)}
+  button:disabled{opacity:.55;cursor:wait;transform:none;box-shadow:var(--shadow)}
 
-  /* ---------- HERO: today's mission ---------- */
-  .hero{background:linear-gradient(135deg,#141d38,#101730 60%);border:1px solid var(--line);
-        border-radius:16px;padding:18px 22px;margin-bottom:18px;position:relative;overflow:hidden}
-  .hero .label{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:1px}
-  .hero .big{font-size:38px;font-weight:800;margin:2px 0 2px;font-variant-numeric:tabular-nums}
-  .hero .big.pos{color:var(--up);text-shadow:var(--glow) #2ee6a033}
-  .hero .big.neg{color:var(--down);text-shadow:var(--glow) #ff5d7c33}
-  .hero .meta{font-size:12.5px;color:var(--mut)}
-  .heroGrid{display:grid;grid-template-columns:1.4fr 1fr;gap:18px;align-items:center}
-  @media(max-width:800px){.heroGrid{grid-template-columns:1fr}}
-  .goalWrap{margin-top:12px}
-  .goalBar{height:14px;border-radius:8px;background:#0d1428;border:1px solid var(--line);overflow:hidden;position:relative}
-  .goalFill{height:100%;border-radius:8px;background:linear-gradient(90deg,#2ee6a0,#5b9bff);
+  .wrap{max-width:1180px;margin:0 auto;padding:24px 28px 70px}
+  .banner{display:none;margin-bottom:18px;padding:11px 14px;border:2px solid var(--ink);
+          border-radius:10px;font-size:13px;background:#fff7dd;box-shadow:var(--shadow)}
+
+  /* ---------- HERO ---------- */
+  .hero{background:var(--paper2);border:2px solid var(--ink);border-radius:14px;
+        padding:20px 24px;margin-bottom:20px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+  .hero:before{content:"TODAY";position:absolute;top:14px;right:-34px;transform:rotate(35deg);
+        background:var(--ink);color:var(--paper);font-size:11px;letter-spacing:3px;
+        padding:4px 40px;font-family:'IBM Plex Mono',monospace}
+  .hero .label{font-size:12px;color:var(--faint);text-transform:uppercase;letter-spacing:1.6px;
+        font-family:'IBM Plex Mono',monospace}
+  .hero .big{font-family:'Fraunces',serif;font-size:52px;font-weight:900;margin:4px 0 2px;line-height:1;
+        font-variant-numeric:tabular-nums}
+  .hero .big.pos{color:var(--up)} .hero .big.neg{color:var(--down)}
+  .hero .meta{font-size:13px;color:var(--faint)}
+  .heroGrid{display:grid;grid-template-columns:1.4fr 1fr;gap:20px;align-items:center}
+  @media(max-width:820px){.heroGrid{grid-template-columns:1fr}}
+  .goalWrap{margin-top:14px}
+  .goalBar{height:16px;border:2px solid var(--ink);border-radius:999px;background:var(--paper);
+           overflow:hidden;position:relative}
+  .goalFill{height:100%;background:repeating-linear-gradient(45deg,var(--up),var(--up) 8px,#12995d 8px,#12995d 16px);
             width:0%;transition:width .8s cubic-bezier(.2,.8,.2,1)}
-  .goalFill.neg{background:linear-gradient(90deg,#ff5d7c,#ff9d5d)}
-  .goalTxt{font-size:11.5px;color:var(--mut);margin-top:5px;display:flex;justify-content:space-between}
-  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-  .chip{font-size:12px;padding:4px 11px;border-radius:8px;background:#1c2748;border:1px solid var(--line)}
-  .chip b{color:var(--txt)}
-  .streak{background:#2a1f10;border-color:#5d4a1a;color:var(--gold)}
+  .goalFill.neg{background:repeating-linear-gradient(45deg,var(--down),var(--down) 8px,#d95545 8px,#d95545 16px)}
+  .goalTxt{font-size:12px;color:var(--faint);margin-top:6px;display:flex;justify-content:space-between;
+           font-family:'IBM Plex Mono',monospace}
+  .chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+  .chip{font-size:12.5px;padding:5px 12px;border:2px solid var(--ink);border-radius:8px;
+        background:var(--paper2);box-shadow:2px 2px 0 var(--ink);font-weight:500}
+  .chip b{font-weight:700}
+  .chip.streak{background:#fff1c9;transform:rotate(-1.2deg)}
+  .chip:nth-child(2){transform:rotate(.8deg)}
 
-  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:20px}
-  .stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:13px 15px;
-        transition:border-color .2s}
-  .stat:hover{border-color:var(--accent)}
-  .stat .k{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.5px}
-  .stat .v{font-size:22px;font-weight:700;margin-top:5px;font-variant-numeric:tabular-nums}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-bottom:22px}
+  .stat{background:var(--paper2);border:2px solid var(--ink);border-radius:12px;padding:14px 16px;
+        box-shadow:var(--shadow)}
+  .stat .k{font-size:10.5px;color:var(--faint);text-transform:uppercase;letter-spacing:1.4px;
+        font-family:'IBM Plex Mono',monospace}
+  .stat .v{font-family:'Fraunces',serif;font-size:26px;font-weight:900;margin-top:4px;
+        font-variant-numeric:tabular-nums}
 
-  .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:18px}
-  .panel h2{font-size:15px;margin:0 0 12px}
-  .muted{color:var(--mut);font-size:13px}
-  .card{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:14px 16px;
-        margin-bottom:12px;border-left:4px solid var(--line);transition:transform .12s}
-  .card:hover{transform:translateX(2px)}
-  .card.LONG{border-left-color:var(--up)} .card.SHORT{border-left-color:var(--down)}
+  .panel{background:var(--paper2);border:2px solid var(--ink);border-radius:14px;
+         padding:18px 20px;margin-bottom:22px;box-shadow:var(--shadow)}
+  .panel h2{font-family:'Fraunces',serif;font-size:20px;font-weight:900;margin:0 0 12px}
+  .muted{color:var(--faint);font-size:13px}
+  .note{font-size:12.5px;margin:-4px 0 12px;padding:8px 12px;background:#fff7dd;
+        border:1.5px dashed var(--ink);border-radius:8px}
+
+  .card{background:var(--paper);border:2px solid var(--ink);border-radius:12px;padding:14px 16px;
+        margin-bottom:14px;box-shadow:3px 3px 0 var(--ink)}
+  .card.LONG{border-left:8px solid var(--up)} .card.SHORT{border-left:8px solid var(--down)}
   .ctop{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px}
-  .sym{font-size:16px;font-weight:700}
-  .tag{font-size:11px;font-weight:700;padding:2px 9px;border-radius:6px;margin-left:8px;color:#06121c}
-  .tag.LONG{background:var(--up)} .tag.SHORT{background:var(--down)}
-  .scorebar{display:inline-block;width:64px;height:7px;border-radius:4px;background:#0d1428;
-            vertical-align:1px;margin-left:6px;overflow:hidden}
-  .scorebar i{display:block;height:100%;background:linear-gradient(90deg,#5b9bff,#2ee6a0)}
-  .meta{font-size:12px;color:var(--mut);margin:6px 0 8px}
-  .sec b{font-size:11px;text-transform:uppercase;letter-spacing:.4px}
-  .why b{color:var(--accent)} .up b{color:var(--up)} .rk b{color:var(--down)}
-  ul{margin:4px 0 8px;padding-left:18px} li{margin:3px 0;font-size:12.5px;color:#cdd6ec}
-  table{width:100%;border-collapse:collapse;font-size:12.5px}
-  th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line)}
-  th{color:var(--mut);font-weight:600;text-transform:uppercase;font-size:11px}
-  tr{transition:background .12s} tbody tr:hover, table tr:hover{background:#1a234066}
-  .pos{color:var(--up)} .neg{color:var(--down)}
-  .grid{display:grid;grid-template-columns:1.3fr .9fr;gap:18px}
+  .sym{font-family:'Fraunces',serif;font-size:19px;font-weight:900}
+  .tag{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:6px;margin-left:8px;
+       border:1.5px solid var(--ink);letter-spacing:.8px;font-family:'IBM Plex Mono',monospace;
+       vertical-align:2px}
+  .tag.LONG{background:#dff2e4;color:var(--up)} .tag.SHORT{background:#f9ded9;color:var(--down)}
+  .scorebar{display:inline-block;width:64px;height:8px;border:1.5px solid var(--ink);border-radius:4px;
+            vertical-align:0;margin-left:6px;overflow:hidden;background:var(--paper)}
+  .scorebar i{display:block;height:100%;background:var(--amber)}
+  .meta{font-size:12.5px;color:var(--faint);margin:6px 0 8px;font-family:'IBM Plex Mono',monospace}
+  .sec b{font-size:11px;text-transform:uppercase;letter-spacing:1.2px;font-family:'IBM Plex Mono',monospace}
+  .why b{color:var(--blue)} .up b{color:var(--up)} .rk b{color:var(--down)}
+  ul{margin:5px 0 10px;padding-left:20px} li{margin:3px 0;font-size:13px}
+
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:left;padding:8px 9px;border-bottom:1.5px solid var(--rule)}
+  th{color:var(--faint);font-weight:600;text-transform:uppercase;font-size:10.5px;letter-spacing:1.2px;
+     font-family:'IBM Plex Mono',monospace;border-bottom:2px solid var(--ink)}
+  td{font-family:'IBM Plex Mono',monospace;font-size:12.8px}
+  td:first-child{font-family:'Inter',sans-serif;font-weight:700}
+  tr:hover td{background:#00000006}
+  .pos{color:var(--up);font-weight:600} .neg{color:var(--down);font-weight:600}
+
+  .grid{display:grid;grid-template-columns:1.3fr .9fr;gap:22px}
   @media(max-width:900px){.grid{grid-template-columns:1fr}}
-  .spin{display:inline-block;width:13px;height:13px;border:2px solid #ffffff66;border-top-color:#fff;
+  .spin{display:inline-block;width:13px;height:13px;border:2px solid #00000033;border-top-color:var(--ink);
         border-radius:50%;animation:sp .8s linear infinite;vertical-align:-2px;margin-right:6px}
   @keyframes sp{to{transform:rotate(360deg)}}
-  .dot{height:8px;width:8px;border-radius:50%;display:inline-block;margin-right:6px}
+  .dot{height:9px;width:9px;border-radius:50%;display:inline-block;margin-right:6px;border:1.5px solid var(--ink)}
   .medal{font-size:14px}
-  /* confetti canvas sits above everything but ignores clicks */
   #confetti{position:fixed;inset:0;pointer-events:none;z-index:50}
-  @keyframes pulseUp{0%{transform:scale(1)}40%{transform:scale(1.06)}100%{transform:scale(1)}}
+  @keyframes pulseUp{0%{transform:scale(1)}40%{transform:scale(1.05)}100%{transform:scale(1)}}
   .pulse{animation:pulseUp .5s ease}
+  .footer-rule{border-top:3px double var(--ink);margin-top:26px;padding-top:10px}
 </style>
 </head>
 <body>
 <canvas id="confetti"></canvas>
 <header>
   <div>
-    <h1>BEST <span>TRADING</span> BOT</h1>
-    <div class="sub" id="sub">Momentum dashboard</div>
+    <h1>The Daily <em>Ledger</em> — Best Trading Bot</h1>
+    <div class="sub" id="sub">₹10,000 per pick</div>
   </div>
   <div class="right">
     <span class="pill" id="market">—</span>
-    <span class="muted" id="status">starting…</span>
+    <span id="status">starting…</span>
     <button class="alt" id="demoBtn" onclick="loadDemo()">&#9654; Load demo</button>
     <button id="scanBtn" onclick="scanNow()">&#8635; Scan now</button>
   </div>
@@ -110,7 +144,6 @@
 <div class="wrap">
   <div class="banner" id="banner"></div>
 
-  <!-- HERO: today's mission vs the 1% goal -->
   <div class="hero" id="hero" style="display:none">
     <div class="heroGrid">
       <div>
@@ -134,13 +167,13 @@
 
   <div class="panel" id="mtmPanel" style="display:none">
     <h2>Today's scorecard <span class="pill" id="mtmGoal"></span></h2>
-    <div id="lockNote" class="muted" style="display:none;font-size:12.5px;margin:-4px 0 10px;padding:7px 10px;background:#15233a;border:1px solid var(--line);border-radius:8px"></div>
+    <div id="lockNote" class="note" style="display:none"></div>
     <div id="mtmTable"></div>
   </div>
 
   <div class="panel" id="newPanel" style="display:none">
     <h2>New today <span class="pill" id="newCount"></span></h2>
-    <div class="muted" style="font-size:12.5px;margin:-4px 0 10px">Extra ideas the bot added <i>after</i> the morning lock. Kept out of the scorecard above, but recorded in trade history.</div>
+    <div class="muted" style="font-size:12.5px;margin:-4px 0 10px">Extra ideas the bot spotted <i>after</i> the morning lock. Informational — kept out of the scorecard.</div>
     <div id="newTable"></div>
   </div>
 
@@ -167,12 +200,12 @@
   </div>
 
   <div class="panel" id="histPanel" style="display:none">
-    <h2>Daily history <span class="pill">final P&amp;L stored at 4pm</span></h2>
-    <div class="muted" style="font-size:12.5px;margin:-4px 0 10px">Each trading day's final scorecard, locked in after the close — watch the track record build day by day.</div>
+    <h2>Daily history <span class="pill">stored at the 4pm close</span></h2>
+    <div class="muted" style="font-size:12.5px;margin:-4px 0 10px">Each trading day's final scorecard — the track record, building day by day.</div>
     <div id="histTable"></div>
   </div>
 
-  <div class="muted" id="disc" style="font-size:11px;margin-top:10px"></div>
+  <div class="muted footer-rule" id="disc" style="font-size:11px"></div>
 </div>
 
 <script>window.__STATIC__=true;</script>
@@ -182,7 +215,6 @@ function cls(v){ return Number(v)>0?'pos':(Number(v)<0?'neg':''); }
 function rupee(v){ return (Number(v)>=0?'+':'')+'₹'+fmt(Math.round(Number(v))); }
 function esc(s){ return String(s==null?'':s).replace(/[<>&]/g,function(c){return {'<':'&lt;','>':'&gt;','&':'&amp;'}[c];}); }
 
-/* ------- animated count-up on the hero number ------- */
 var _lastPnl = null;
 function countUp(el, from, to, pct){
   var t0 = null, dur = 700;
@@ -196,13 +228,12 @@ function countUp(el, from, to, pct){
   requestAnimationFrame(step);
 }
 
-/* ------- confetti: fires once per session when the goal is hit ------- */
 var _celebrated = false;
 function confetti(){
   if(_celebrated) return; _celebrated = true;
   var cv = document.getElementById('confetti'), ctx = cv.getContext('2d');
   cv.width = innerWidth; cv.height = innerHeight;
-  var P = [], colors = ['#2ee6a0','#5b9bff','#ffd166','#ff5d7c','#e9eefb'];
+  var P = [], colors = ['#0e7c4a','#c33b2e','#b57a10','#2c55b0','#1e1b16'];
   for(var i=0;i<140;i++) P.push({x:Math.random()*cv.width,y:-20-Math.random()*cv.height*0.5,
     r:3+Math.random()*4,c:colors[i%colors.length],vy:2+Math.random()*3,vx:-1+Math.random()*2,a:Math.random()*6});
   var frames = 0;
@@ -215,7 +246,6 @@ function confetti(){
   })();
 }
 
-/* ------- streak from history (consecutive green days, most recent first) ------- */
 function calcStreak(hist){
   var s = 0;
   for(var i=0;i<hist.length;i++){
@@ -257,11 +287,11 @@ function render(d){
   const sc = d.scanning;
   const st = document.getElementById('status');
   if(STATIC){
-    st.innerHTML = '<span class="dot" style="background:var(--up)"></span>cloud · updated ' +
+    st.innerHTML = '<span class="dot" style="background:#0e7c4a"></span>cloud · updated ' +
       new Date(d.published_at || d.generated_at).toLocaleString('en-IN', {timeZone:'Asia/Kolkata'}) + ' IST';
   } else {
     st.innerHTML = sc ? '<span class="spin"></span>scanning the market…'
-      : (d.generated_at ? '<span class="dot" style="background:var(--up)"></span>updated ' + new Date(d.generated_at).toLocaleTimeString('en-IN') : 'idle');
+      : (d.generated_at ? '<span class="dot" style="background:#0e7c4a"></span>updated ' + new Date(d.generated_at).toLocaleTimeString('en-IN') : 'idle');
     const b=document.getElementById('scanBtn');
     b.disabled = sc; b.innerHTML = sc ? '<span class="spin"></span>Scanning…' : '↻ Scan now';
   }
@@ -273,15 +303,13 @@ function render(d){
   mk.className = 'pill ' + (d.market_open ? 'live' : 'closed');
 
   const ban = document.getElementById('banner');
-  if(d.status_msg){ ban.style.display='block'; ban.textContent=d.status_msg;
-    ban.style.background='#1a2138'; ban.style.border='1px solid var(--line)'; ban.style.color='var(--mut)'; }
+  if(d.status_msg){ ban.style.display='block'; ban.textContent=d.status_msg; }
   else ban.style.display='none';
 
   const pf = d.portfolio || {}, mtm = d.today_mtm || {}, pa = d.paper || {summary:{}};
   const hist = d.history || [];
   const goal = Number(mtm.goal_pct || 1);
 
-  /* ---------- HERO ---------- */
   var hero = document.getElementById('hero');
   if(mtm.n){
     hero.style.display='block';
@@ -306,10 +334,9 @@ function render(d){
       pct>=goal ? '🎯 GOAL HIT — ' + pct + '%' : (pct>=0? Math.round(prog)+'% of the way' : pct+'% — climb back');
     document.getElementById('goalRight').textContent = 'goal: +' + goal + '%';
     if(pct >= goal && d.market_open) confetti();
-    /* chips: streak, win rate, best pick, locked */
     var streak = calcStreak(hist);
     var rows = mtm.rows||[];
-    var best = rows.length? rows[0] : null;   /* rows are pnl-sorted desc */
+    var best = rows.length? rows[0] : null;
     var chips = [];
     if(streak>1) chips.push('<span class="chip streak">🔥 <b>'+streak+'-day</b> green streak</span>');
     else if(streak===1) chips.push('<span class="chip streak">🔥 green yesterday</span>');
@@ -368,12 +395,11 @@ function render(d){
     np.style.display='block';
     document.getElementById('newCount').textContent=nt.n+' added · '+(nt.total_pnl>=0?'+':'')+'₹'+fmt(nt.total_pnl)+' ('+nt.pct+'%)';
     document.getElementById('newTable').innerHTML='<table><tr><th>Symbol</th><th>Dir</th><th>Added</th><th>Entry</th><th>Now</th><th>Move</th><th>P&L</th></tr>'+
-      (nt.rows||[]).map(function(x){return '<tr><td>'+esc(x.symbol)+' <span class="tag" style="background:#f2c14e">NEW</span></td><td>'+x.direction+'</td><td class="muted">'+(x.added||'')+'</td><td>'+fmt(x.entry)+'</td><td>'+fmt(x.current)+'</td><td class="'+cls(x.move_pct)+'">'+(x.move_pct>=0?'+':'')+x.move_pct+'%</td><td class="'+cls(x.pnl)+'">'+rupee(x.pnl)+'</td></tr>';}).join('')+'</table>';
+      (nt.rows||[]).map(function(x){return '<tr><td>'+esc(x.symbol)+'</td><td>'+x.direction+'</td><td class="muted">'+(x.added||'')+'</td><td>'+fmt(x.entry)+'</td><td>'+fmt(x.current)+'</td><td class="'+cls(x.move_pct)+'">'+(x.move_pct>=0?'+':'')+x.move_pct+'%</td><td class="'+cls(x.pnl)+'">'+rupee(x.pnl)+'</td></tr>';}).join('')+'</table>';
   } else np.style.display='none';
 
-  /* ---------- Daily history (with live today row) ---------- */
-  var hist2=(hist||[]).slice(), hp=document.getElementById('histPanel');
-  hp.style.display='block';
+  var hist2=(hist||[]).slice(), hp2=document.getElementById('histPanel');
+  hp2.style.display='block';
   var mtm2=d.today_mtm||{};
   if(mtm2.n){
     var rws=mtm2.rows||[];
@@ -383,13 +409,13 @@ function render(d){
     var nIST=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
     var todayStr=nIST.getFullYear()+'-'+String(nIST.getMonth()+1).padStart(2,'0')+'-'+String(nIST.getDate()).padStart(2,'0');
     hist2=hist2.filter(function(h){return h.date!==todayStr;});
-    hist2.unshift({date:'today · live', picks:mtm2.n, total_pnl:mtm2.total_pnl, pct:mtm2.pct,
+    hist2.unshift({date:(d.market_open?'today · live':'today · at close'), picks:mtm2.n, total_pnl:mtm2.total_pnl, pct:mtm2.pct,
       peak_pct:(d.today_peak!=null?d.today_peak:mtm2.pct), win_rate_pct:Math.round(100*wins/mtm2.n),
       best_sym:best2?best2.symbol:'—', worst_sym:worst?worst.symbol:'—', _live:true});
   }
   if(hist2.length){
     document.getElementById('histTable').innerHTML='<table><tr><th>Date</th><th>Picks</th><th>P&L</th><th>%</th><th>Peak</th><th>Win%</th><th>Best</th><th>Worst</th></tr>'+
-      hist2.map(function(h){var g=Number(h.pct)>=goal?' 🎯':'';return '<tr style="'+(h._live?'background:#15233a':'')+'"><td>'+(h._live?'<b style="color:var(--accent)">'+esc(h.date)+'</b>':esc(h.date))+g+'</td><td>'+fmt(h.picks)+'</td><td class="'+cls(h.total_pnl)+'">'+rupee(h.total_pnl)+'</td><td class="'+cls(h.pct)+'">'+(h.pct>=0?'+':'')+h.pct+'%</td><td class="pos">'+(h.peak_pct>=0?'+':'')+h.peak_pct+'%</td><td>'+h.win_rate_pct+'%</td><td class="muted">'+esc(h.best_sym)+'</td><td class="muted">'+esc(h.worst_sym)+'</td></tr>';}).join('')+'</table>'+(hist2.length===1?'<div class="muted" style="font-size:11.5px;margin-top:6px">Past days fill in automatically at each 4 PM close.</div>':'');
+      hist2.map(function(h){var g=Number(h.pct)>=goal?' 🎯':'';return '<tr style="'+(h._live?'background:#fff7dd':'')+'"><td>'+(h._live?'<b style="color:#2c55b0">'+esc(h.date)+'</b>':esc(h.date))+g+'</td><td>'+fmt(h.picks)+'</td><td class="'+cls(h.total_pnl)+'">'+rupee(h.total_pnl)+'</td><td class="'+cls(h.pct)+'">'+(h.pct>=0?'+':'')+h.pct+'%</td><td class="pos">'+(h.peak_pct>=0?'+':'')+h.peak_pct+'%</td><td>'+h.win_rate_pct+'%</td><td class="muted">'+esc(h.best_sym)+'</td><td class="muted">'+esc(h.worst_sym)+'</td></tr>';}).join('')+'</table>'+(hist2.length===1?'<div class="muted" style="font-size:11.5px;margin-top:6px">Past days fill in automatically at each 4 PM close.</div>':'');
   } else {
     document.getElementById('histTable').innerHTML='<div class="muted" style="padding:6px 0">No picks locked yet today. Once the 9:40 lock runs, today shows here live, and past days are stored automatically at the <b>4:00 PM close</b>.</div>';
   }
@@ -399,14 +425,14 @@ function render(d){
   var lset = locked || [];
   var nset = d.new_picks || [];
   document.getElementById('picks').innerHTML = pk.length ? pk.map(function(p){
-    var star=lset.indexOf(p.symbol)>=0?'<span class="tag" style="background:#f2c14e">★ TODAY</span>':'';
-    var nb=nset.indexOf(p.symbol)>=0?'<span class="tag" style="background:#4f8cff;color:#fff">NEW</span>':'';
+    var star=lset.indexOf(p.symbol)>=0?'<span class="tag" style="background:#fff1c9;color:#8a6a10">★ TODAY</span>':'';
+    var nb=nset.indexOf(p.symbol)>=0?'<span class="tag" style="background:#dbe6ff;color:#2c55b0">NEW</span>':'';
     var sb='<span class="scorebar"><i style="width:'+Math.min(100,p.score)+'%"></i></span>';
     return '<div class="card '+p.direction+'"><div class="ctop"><div class="sym">'+esc(p.symbol)+'<span class="tag '+p.direction+'">'+p.direction+'</span>'+star+nb+'</div><div class="muted">score <b>'+p.score+'</b>'+sb+' · sent '+(p.sentiment>=0?'+':'')+p.sentiment+'</div></div><div class="meta">Entry near ₹'+fmt(p.entry)+'</div><div class="sec why"><b>Why look at it</b><ul>'+(p.why||[]).map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div><div class="sec up"><b>Potential upside</b><ul>'+(p.upside||[]).map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div><div class="sec rk"><b>Risks &amp; exit</b><ul>'+(p.risks||[]).map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div></div>';}).join('')
     : '<div class="muted">'+(esc(d.status_msg)||'No picks yet. Click <b>Scan now</b>, or wait for the next email scan — the market may simply be quiet.')+'</div>';
 
   var tr=(pa.trades||[]);
-  document.getElementById('trades').innerHTML = tr.length? '<table><tr><th>Symbol</th><th>Dir</th><th>Status</th><th>P&L</th></tr>'+tr.map(function(t){return '<tr><td>'+esc(t.symbol)+'</td><td>'+t.direction+'</td><td><span class="pill">'+t.status+'</span></td><td class="'+cls(t.pnl)+'">'+(t.pnl===''||t.pnl==null?'—':rupee(t.pnl))+'</td></tr>';}).join('')+'</table>' : '<div class="muted">No paper trades yet — they appear after the first scan.</div>';
+  document.getElementById('trades').innerHTML = tr.length? '<table><tr><th>Symbol</th><th>Dir</th><th>Status</th><th>P&L</th></tr>'+tr.map(function(t){return '<tr><td>'+esc(t.symbol)+'</td><td>'+t.direction+'</td><td><span class="pill" style="font-size:10.5px;padding:2px 8px">'+t.status+'</span></td><td class="'+cls(t.pnl)+'">'+(t.pnl===''||t.pnl==null?'—':rupee(t.pnl))+'</td></tr>';}).join('')+'</table>' : '<div class="muted">No paper trades yet — they appear after the first scan.</div>';
 
   document.getElementById('disc').textContent = d.disclaimer || '';
   }catch(err){
@@ -422,9 +448,9 @@ function drawLine(id, eq){
   var vb=svg.getAttribute('viewBox').split(' ');
   var w=Number(vb[2]),h=Number(vb[3]),pad=6, mn=Math.min.apply(null,eq), mx=Math.max.apply(null,eq), rng=(mx-mn)||1;
   var pts=eq.map(function(v,i){var x=pad+i*(w-2*pad)/(eq.length-1);var y=h-pad-((v-mn)/rng)*(h-2*pad);return x.toFixed(1)+','+y.toFixed(1);});
-  var last=eq[eq.length-1], col = last>=0?'#2ee6a0':'#ff5d7c';
+  var last=eq[eq.length-1], col = last>=0?'#0e7c4a':'#c33b2e';
   var area = 'M'+pts.join(' L')+' L'+(w-pad)+','+(h-pad)+' L'+pad+','+(h-pad)+' Z';
-  svg.innerHTML='<path d="'+area+'" fill="'+col+'18"/><polyline points="'+pts.join(' ')+'" fill="none" stroke="'+col+'" stroke-width="2"/>';
+  svg.innerHTML='<path d="'+area+'" fill="'+col+'22"/><polyline points="'+pts.join(' ')+'" fill="none" stroke="'+col+'" stroke-width="2.5"/>';
 }
 
 async function scanNow(){
