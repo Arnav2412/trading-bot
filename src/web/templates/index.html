@@ -408,7 +408,7 @@ function render(d){
     var nIST=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
     var todayStr=nIST.getFullYear()+'-'+String(nIST.getMonth()+1).padStart(2,'0')+'-'+String(nIST.getDate()).padStart(2,'0');
     hist2=hist2.filter(function(h){return h.date!==todayStr;});
-    hist2.unshift({date:'today · live', picks:mtm2.n, total_pnl:mtm2.total_pnl, pct:mtm2.pct,
+    hist2.unshift({date:(d.market_open?'today · live':'today · at close'), picks:mtm2.n, total_pnl:mtm2.total_pnl, pct:mtm2.pct,
       peak_pct:(d.today_peak!=null?d.today_peak:mtm2.pct), win_rate_pct:Math.round(100*wins/mtm2.n),
       best_sym:best2?best2.symbol:'—', worst_sym:worst?worst.symbol:'—', _live:true});
   }
