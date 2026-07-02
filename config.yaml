@@ -119,6 +119,10 @@ simulation:
   hypothetical_capital: 10000    # Rs put into EACH trade for the P&L email
   daily_goal_pct: 1              # target daily return (1%/day is already elite; 10% was fantasy)
   premarket_count: 8             # CONCENTRATED core: top 8 only - no filler picks diluting winners
+  # Track record = the LOCKED core picks only. Midday scans stay informational
+  # (emails + dashboard) but don't add paper positions, so stats measure the
+  # actual product instead of being diluted by dozens of extra names.
+  track_intraday_adds: false
 
 learning:
   # EOD auto-tune: after 4pm the bot reviews the day's losers and nudges its own

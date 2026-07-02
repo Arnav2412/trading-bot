@@ -245,7 +245,7 @@ def _pick_dict(e: dict) -> dict:
 
 def _paper_payload(cfg: dict) -> dict:
     summ = tracker.summary(cfg)
-    df = tracker.load(cfg)
+    df = tracker._core_rows(tracker.load(cfg))   # stats measure the core picks
     trades, equity = [], []
     if len(df):
         import pandas as pd

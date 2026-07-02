@@ -136,6 +136,15 @@ def log_signals(results: list, cfg: dict, lock: bool = False) -> int:
         log.info("Paper-tracker: market closed - scan is a PREVIEW only, "
                  "nothing logged (entries would be stale).")
         return 0
+    # CORE-ONLY tracking (default): the paper book measures the PRODUCT - the
+    # locked morning picks. Midday scans stay informational (emails/dashboard)
+    # but do NOT add positions, so the track record isn't diluted by dozens of
+    # extra names. Set simulation.track_intraday_adds: true to log them again.
+    track_extras = bool(cfg.get("simulation", {}).get("track_intraday_adds", False))
+    if not lock and not track_extras:
+        log.info("Paper-tracker: non-lock scan - informational only, "
+                 "not logged (core-only tracking).")
+        return 0
     locked = locked_symbols_today(cfg)
     tag = "core" if (lock or locked is None) else "intraday"
     df = load(cfg)
@@ -250,8 +259,15 @@ def _resolve(row, cfg):
 # --------------------------------------------------------------------------- #
 #  Track-record summary
 # --------------------------------------------------------------------------- #
+def _core_rows(df):
+    """The rows that count for the track record: the locked core picks."""
+    if not len(df) or "tag" not in df.columns:
+        return df
+    return df[df["tag"] == "core"]
+
+
 def summary(cfg: dict) -> dict:
-    df = load(cfg)
+    df = _core_rows(load(cfg))
     closed = df[df["status"] == "CLOSED"] if len(df) else df
     out = {"open": int((df["status"] == "OPEN").sum()) if len(df) else 0,
            "closed": len(closed)}
@@ -413,7 +429,7 @@ def portfolio(cfg: dict, capital_per_trade: float = None) -> dict:
     import pandas as pd
     if capital_per_trade is None:
         capital_per_trade = cfg.get("simulation", {}).get("hypothetical_capital", 10000)
-    df = load(cfg)
+    df = _core_rows(load(cfg))   # track record = locked core picks only
     open_rows, closed_rows = [], []
     realized = unrealized = 0.0
     for _, r in (df.iterrows() if len(df) else []):
