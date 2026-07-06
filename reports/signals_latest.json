@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-06T14:09:34.488477+05:30",
+  "generated_at": "2026-07-06T14:17:39.664613+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
     {
       "symbol": "CHOLAFIN",
       "direction": "LONG",
-      "score": 96.27777777777777,
-      "sentiment": 0.05555555555555555,
+      "score": 96.55555555555556,
+      "sentiment": 0.1111111111111111,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
         "Strong 20d momentum (+25.9%)",
@@ -21,54 +21,22 @@
       "plan": {
         "symbol": "CHOLAFIN",
         "direction": "LONG",
-        "entry": 1832.9,
-        "stop_loss": 1744.65,
-        "target1": 1991.75,
-        "target2": 2141.77,
+        "entry": 1833.2,
+        "stop_loss": 1744.95,
+        "target1": 1992.05,
+        "target2": 2142.07,
         "quantity": 11,
         "risk_per_share": 88.25,
         "rupees_at_risk": 970.74,
-        "notional": 20161.9,
+        "notional": 20165.2,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 156420.0,
+        "market_cap": 156300.0,
         "pe": 29.9,
         "roe": 19.3
       }
-    },
-    {
-      "symbol": "DELHIVERY",
-      "direction": "LONG",
-      "score": 94.66666666666667,
-      "sentiment": 0.3333333333333333,
-      "reasons": [
-        "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+17.2%)",
-        "20-day breakout (new high)",
-        "RSI 72 (momentum zone)",
-        "ADX 30 (strong trend)",
-        "Consistent move (13/20 up days)",
-        "Within 5% of 52-week high",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "DELHIVERY",
-        "direction": "LONG",
-        "entry": 515.05,
-        "stop_loss": 489.3,
-        "target1": 561.4,
-        "target2": 605.18,
-        "quantity": 38,
-        "risk_per_share": 25.75,
-        "rupees_at_risk": 978.59,
-        "notional": 19571.9,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {}
     },
     {
       "symbol": "GODREJPROP",
@@ -77,7 +45,7 @@
       "sentiment": 0.05555555555555555,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+23.1%)",
+        "Strong 20d momentum (+23.2%)",
         "20-day breakout (new high)",
         "Volume surge (>1.5x avg)",
         "RSI 77 (momentum zone)",
@@ -91,14 +59,45 @@
       "plan": {
         "symbol": "GODREJPROP",
         "direction": "LONG",
-        "entry": 2036.8,
-        "stop_loss": 1934.96,
-        "target1": 2220.11,
-        "target2": 2393.24,
+        "entry": 2037.8,
+        "stop_loss": 1935.91,
+        "target1": 2221.2,
+        "target2": 2394.42,
         "quantity": 9,
-        "risk_per_share": 101.84,
-        "rupees_at_risk": 916.56,
-        "notional": 18331.2,
+        "risk_per_share": 101.89,
+        "rupees_at_risk": 917.01,
+        "notional": 18340.2,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {}
+    },
+    {
+      "symbol": "HFCL",
+      "direction": "LONG",
+      "score": 89.38888888888889,
+      "sentiment": 0.2777777777777778,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "Strong 20d momentum (+26.6%)",
+        "20-day breakout (new high)",
+        "RSI 71 (momentum zone)",
+        "ADX 45 (strong trend)",
+        "Within 5% of 52-week high",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "HFCL",
+        "direction": "LONG",
+        "entry": 225.2,
+        "stop_loss": 213.94,
+        "target1": 245.47,
+        "target2": 264.61,
+        "quantity": 88,
+        "risk_per_share": 11.26,
+        "rupees_at_risk": 990.88,
+        "notional": 19817.6,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
@@ -107,11 +106,11 @@
     {
       "symbol": "ABCAPITAL",
       "direction": "LONG",
-      "score": 88.18888888888888,
+      "score": 88.28888888888889,
       "sentiment": 0.2777777777777778,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+18.9%)",
+        "Strong 20d momentum (+19.0%)",
         "20-day breakout (new high)",
         "RSI 70 (momentum zone)",
         "ADX 30 (strong trend)",
@@ -122,14 +121,14 @@
       "plan": {
         "symbol": "ABCAPITAL",
         "direction": "LONG",
-        "entry": 409.1,
-        "stop_loss": 388.89,
-        "target1": 445.47,
-        "target2": 479.82,
+        "entry": 409.5,
+        "stop_loss": 389.29,
+        "target1": 445.87,
+        "target2": 480.22,
         "quantity": 49,
         "risk_per_share": 20.21,
         "rupees_at_risk": 990.14,
-        "notional": 20045.9,
+        "notional": 20065.5,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
@@ -154,19 +153,19 @@
       "plan": {
         "symbol": "ICICIBANK",
         "direction": "LONG",
-        "entry": 1426.0,
-        "stop_loss": 1378.29,
-        "target1": 1511.87,
-        "target2": 1592.97,
+        "entry": 1425.9,
+        "stop_loss": 1378.19,
+        "target1": 1511.77,
+        "target2": 1592.87,
         "quantity": 20,
         "risk_per_share": 47.71,
         "rupees_at_risk": 954.13,
-        "notional": 28520.0,
+        "notional": 28518.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 1023675.0,
+        "market_cap": 1023496.0,
         "pe": 20.4,
         "roe": 16.0
       }
@@ -178,10 +177,10 @@
       "sentiment": -0.1111111111111111,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+15.2%)",
+        "Strong 20d momentum (+15.4%)",
         "20-day breakout (new high)",
         "Volume surge (>1.5x avg)",
-        "RSI 67 (momentum zone)",
+        "RSI 68 (momentum zone)",
         "Within 5% of 52-week high",
         "Outside upper Bollinger band - overbought",
         "Aligned with market regime"
@@ -189,27 +188,31 @@
       "plan": {
         "symbol": "MANAPPURAM",
         "direction": "LONG",
-        "entry": 344.8,
-        "stop_loss": 327.56,
-        "target1": 375.83,
-        "target2": 405.14,
-        "quantity": 58,
-        "risk_per_share": 17.24,
-        "rupees_at_risk": 999.92,
-        "notional": 19998.4,
+        "entry": 345.25,
+        "stop_loss": 327.99,
+        "target1": 376.32,
+        "target2": 405.67,
+        "quantity": 57,
+        "risk_per_share": 17.26,
+        "rupees_at_risk": 983.96,
+        "notional": 19679.25,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
-      "fundamentals": {}
+      "fundamentals": {
+        "market_cap": 32431.0,
+        "pe": 21.2,
+        "roe": 11.0
+      }
     },
     {
       "symbol": "AUBANK",
       "direction": "LONG",
-      "score": 74.4,
+      "score": 74.6,
       "sentiment": 0.0,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+11.3%)",
+        "Strong 20d momentum (+11.4%)",
         "Volume surge (>1.5x avg)",
         "RSI 63 (momentum zone)",
         "ADX 28 (strong trend)",
@@ -220,14 +223,14 @@
       "plan": {
         "symbol": "AUBANK",
         "direction": "LONG",
-        "entry": 1067.4,
-        "stop_loss": 1014.46,
-        "target1": 1162.69,
-        "target2": 1252.69,
+        "entry": 1068.4,
+        "stop_loss": 1015.46,
+        "target1": 1163.69,
+        "target2": 1253.69,
         "quantity": 18,
         "risk_per_share": 52.94,
         "rupees_at_risk": 952.93,
-        "notional": 19213.2,
+        "notional": 19231.2,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
@@ -240,7 +243,7 @@
       "sentiment": 0.2222222222222222,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+20.2%)",
+        "Strong 20d momentum (+20.1%)",
         "RSI 70 (momentum zone)",
         "ADX 41 (strong trend)",
         "Within 5% of 52-week high",
@@ -250,21 +253,85 @@
       "plan": {
         "symbol": "NYKAA",
         "direction": "LONG",
-        "entry": 312.8,
-        "stop_loss": 297.16,
-        "target1": 340.95,
-        "target2": 367.54,
+        "entry": 312.6,
+        "stop_loss": 296.97,
+        "target1": 340.73,
+        "target2": 367.31,
         "quantity": 63,
-        "risk_per_share": 15.64,
-        "rupees_at_risk": 985.32,
-        "notional": 19706.4,
+        "risk_per_share": 15.63,
+        "rupees_at_risk": 984.69,
+        "notional": 19693.8,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 89466.0,
+        "market_cap": 89495.0,
         "pe": 427.0,
         "roe": 15.3
+      }
+    },
+    {
+      "symbol": "DELHIVERY",
+      "direction": "LONG",
+      "score": 72.56666666666668,
+      "sentiment": 0.3333333333333333,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "Strong 20d momentum (+17.2%)",
+        "RSI 72 (momentum zone)",
+        "ADX 30 (strong trend)",
+        "Consistent move (13/20 up days)",
+        "Within 5% of 52-week high",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "DELHIVERY",
+        "direction": "LONG",
+        "entry": 514.95,
+        "stop_loss": 489.2,
+        "target1": 561.3,
+        "target2": 605.07,
+        "quantity": 38,
+        "risk_per_share": 25.75,
+        "rupees_at_risk": 978.41,
+        "notional": 19568.1,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {}
+    },
+    {
+      "symbol": "SHRIRAMFIN",
+      "direction": "LONG",
+      "score": 70.75555555555556,
+      "sentiment": 0.1111111111111111,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "Strong 20d momentum (+18.4%)",
+        "RSI 70 (momentum zone)",
+        "ADX 29 (strong trend)",
+        "Within 5% of 52-week high",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "SHRIRAMFIN",
+        "direction": "LONG",
+        "entry": 1061.2,
+        "stop_loss": 1012.66,
+        "target1": 1148.57,
+        "target2": 1231.08,
+        "quantity": 20,
+        "risk_per_share": 48.54,
+        "rupees_at_risk": 970.77,
+        "notional": 21224.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 249950.0,
+        "pe": 25.0,
+        "roe": 16.4
       }
     }
   ]
