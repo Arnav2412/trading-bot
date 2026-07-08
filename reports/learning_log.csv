@@ -6,3 +6,5 @@ date,knob,old,new,reason
 2026-07-03,min_score,51,52,win rate 0% / stop-heavy
 2026-07-06,min_score,52,53,winners scored 85.7 vs losers 74.4
 2026-07-07,min_score,53,52,strong day (win 75%)
+2026-07-08,counter_trend_penalty,10,12,counter-trend picks kept losing
+2026-07-08,min_score,52,53,win rate 0% / stop-heavy
