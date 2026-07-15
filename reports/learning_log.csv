@@ -11,3 +11,4 @@ date,knob,old,new,reason
 2026-07-10,counter_trend_penalty,12,14,counter-trend picks kept losing
 2026-07-13,counter_trend_penalty,14,16,counter-trend picks kept losing
 2026-07-14,min_score,53,54,win rate 29% / stop-heavy
+2026-07-15,min_score,54,55,win rate 25% / stop-heavy
