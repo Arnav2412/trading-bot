@@ -16,3 +16,4 @@ date,knob,old,new,reason
 2026-07-17,counter_trend_penalty,16,18,counter-trend picks kept losing
 2026-07-17,min_score,56,57,winners scored 70.7 vs losers 63.2
 2026-07-20,counter_trend_penalty,18,20,counter-trend picks kept losing
+2026-07-21,min_score,57,58,winners scored 67.7 vs losers 62.7
