@@ -1,11 +1,151 @@
 {
-  "generated_at": "2026-07-22T12:43:55.072830+05:30",
+  "generated_at": "2026-07-22T16:09:41.526370+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
     {
+      "symbol": "BAJAJ-AUTO",
+      "direction": "LONG",
+      "score": 85.94444444444444,
+      "sentiment": 0.3888888888888889,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "Strong 20d momentum (+12.8%)",
+        "20-day breakout (new high)",
+        "Volume surge (>1.5x avg)",
+        "RSI 71 (momentum zone)",
+        "Consistent move (14/20 up days)",
+        "Within 5% of 52-week high",
+        "Price 3.0 ATR above its mean - extended",
+        "Outside upper Bollinger band - overbought",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "BAJAJ-AUTO",
+        "direction": "LONG",
+        "entry": 10998.5,
+        "stop_loss": 10524.91,
+        "target1": 11850.96,
+        "target2": 12656.07,
+        "quantity": 2,
+        "risk_per_share": 473.59,
+        "rupees_at_risk": 947.18,
+        "notional": 21997.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 302265.0,
+        "pe": 28.1,
+        "roe": 29.3
+      }
+    },
+    {
+      "symbol": "TVSMOTOR",
+      "direction": "LONG",
+      "score": 82.17777777777778,
+      "sentiment": 0.5555555555555556,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "Strong 20d momentum (+13.6%)",
+        "20-day breakout (new high)",
+        "Volume surge (>1.5x avg)",
+        "RSI 70 (momentum zone)",
+        "Within 5% of 52-week high",
+        "Outside upper Bollinger band - overbought",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "TVSMOTOR",
+        "direction": "LONG",
+        "entry": 3907.6,
+        "stop_loss": 3712.22,
+        "target1": 4259.28,
+        "target2": 4591.43,
+        "quantity": 5,
+        "risk_per_share": 195.38,
+        "rupees_at_risk": 976.9,
+        "notional": 19538.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 185666.0,
+        "pe": 45.8,
+        "roe": 34.4
+      }
+    },
+    {
+      "symbol": "NESTLEIND",
+      "direction": "LONG",
+      "score": 62.833333333333336,
+      "sentiment": 0.16666666666666666,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "20-day breakout (new high)",
+        "Volume surge (>1.5x avg)",
+        "RSI 66 (momentum zone)",
+        "Within 5% of 52-week high",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "NESTLEIND",
+        "direction": "LONG",
+        "entry": 1493.6,
+        "stop_loss": 1433.87,
+        "target1": 1601.12,
+        "target2": 1702.66,
+        "quantity": 16,
+        "risk_per_share": 59.73,
+        "rupees_at_risk": 955.72,
+        "notional": 23897.6,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 287525.0,
+        "pe": 76.6,
+        "roe": 73.2
+      }
+    },
+    {
+      "symbol": "TITAN",
+      "direction": "LONG",
+      "score": 62.5,
+      "sentiment": 0.5,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "20-day breakout (new high)",
+        "RSI 73 (momentum zone)",
+        "ADX 35 (strong trend)",
+        "Within 5% of 52-week high",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "TITAN",
+        "direction": "LONG",
+        "entry": 4711.6,
+        "stop_loss": 4556.58,
+        "target1": 4990.63,
+        "target2": 5254.16,
+        "quantity": 6,
+        "risk_per_share": 155.02,
+        "rupees_at_risk": 930.1,
+        "notional": 28269.6,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 417761.0,
+        "pe": 88.9,
+        "roe": 25.2
+      }
+    },
+    {
       "symbol": "TATAELXSI",
       "direction": "SHORT",
-      "score": 81.61111111111111,
+      "score": 61.51111111111112,
       "sentiment": 0.2777777777777778,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
@@ -14,332 +154,200 @@
         "RSI 30 (weak)",
         "ADX 32 (strong trend)",
         "Within 5% of 52-week low",
-        "Aligned with market regime",
+        "Counter-trend vs market (needs extra conviction; -20 score)",
         "Top relative strength (universe)"
       ],
       "plan": {
         "symbol": "TATAELXSI",
         "direction": "SHORT",
-        "entry": 3403.7,
-        "stop_loss": 3573.88,
-        "target1": 3097.37,
-        "target2": 2808.05,
+        "entry": 3406.6,
+        "stop_loss": 3576.93,
+        "target1": 3100.01,
+        "target2": 2810.45,
         "quantity": 5,
-        "risk_per_share": 170.18,
-        "rupees_at_risk": 850.92,
-        "notional": 17018.5,
+        "risk_per_share": 170.33,
+        "rupees_at_risk": 851.65,
+        "notional": 17033.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 21213.0,
+        "market_cap": 21214.0,
         "pe": 30.0,
         "roe": 23.6
       }
     },
     {
-      "symbol": "IRFC",
-      "direction": "SHORT",
-      "score": 65.53333333333333,
-      "sentiment": -0.16666666666666666,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-11.6%)",
-        "RSI 32 (weak)",
-        "ADX 28 (strong trend)",
-        "Consistent weakness (15/20 down days)",
-        "Within 5% of 52-week low",
-        "Aligned with market regime"
-      ],
-      "plan": {
-        "symbol": "IRFC",
-        "direction": "SHORT",
-        "entry": 87.24,
-        "stop_loss": 90.54,
-        "target1": 81.31,
-        "target2": 75.71,
-        "quantity": 303,
-        "risk_per_share": 3.3,
-        "rupees_at_risk": 998.46,
-        "notional": 26433.72,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 114062.0,
-        "pe": 16.3,
-        "roe": 12.8
-      }
-    },
-    {
-      "symbol": "BAJAJ-AUTO",
+      "symbol": "TORNTPHARM",
       "direction": "LONG",
-      "score": 63.67777777777778,
-      "sentiment": 0.5555555555555556,
+      "score": 60.56666666666668,
+      "sentiment": 0.3333333333333333,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
         "Strong 20d momentum (+11.7%)",
-        "20-day breakout (new high)",
-        "Volume surge (>1.5x avg)",
-        "RSI 70 (momentum zone)",
-        "Consistent move (14/20 up days)",
+        "RSI 66 (momentum zone)",
+        "ADX 32 (strong trend)",
+        "Consistent move (15/20 up days)",
         "Within 5% of 52-week high",
-        "Outside upper Bollinger band - overbought",
-        "Counter-trend vs market (needs extra conviction; -20 score)"
+        "Aligned with market regime",
+        "Picked recently (-6 to favour fresh names)"
       ],
       "plan": {
-        "symbol": "BAJAJ-AUTO",
+        "symbol": "TORNTPHARM",
         "direction": "LONG",
-        "entry": 10891.0,
-        "stop_loss": 10433.98,
-        "target1": 11713.64,
-        "target2": 12490.57,
-        "quantity": 2,
-        "risk_per_share": 457.02,
-        "rupees_at_risk": 914.04,
-        "notional": 21782.0,
+        "entry": 5033.4,
+        "stop_loss": 4781.73,
+        "target1": 5486.41,
+        "target2": 5914.24,
+        "quantity": 3,
+        "risk_per_share": 251.67,
+        "rupees_at_risk": 755.01,
+        "notional": 15100.2,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 299569.0,
-        "pe": 27.9,
-        "roe": 29.3
+        "market_cap": 170644.0,
+        "pe": 77.2,
+        "roe": 27.6
       }
     },
     {
-      "symbol": "TVSMOTOR",
+      "symbol": "SONACOMS",
       "direction": "LONG",
-      "score": 61.72222222222223,
+      "score": 59.62222222222222,
       "sentiment": 0.4444444444444444,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+14.1%)",
-        "20-day breakout (new high)",
-        "Volume surge (>1.5x avg)",
-        "RSI 71 (momentum zone)",
+        "Strong 20d momentum (+17.0%)",
+        "RSI 79 (momentum zone)",
+        "ADX 56 (strong trend)",
         "Within 5% of 52-week high",
-        "Outside upper Bollinger band - overbought",
-        "Counter-trend vs market (needs extra conviction; -20 score)",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "TVSMOTOR",
-        "direction": "LONG",
-        "entry": 3926.0,
-        "stop_loss": 3729.7,
-        "target1": 4279.34,
-        "target2": 4613.05,
-        "quantity": 5,
-        "risk_per_share": 196.3,
-        "rupees_at_risk": 981.5,
-        "notional": 19630.0,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 186495.0,
-        "pe": 46.0,
-        "roe": 34.4
-      }
-    },
-    {
-      "symbol": "RVNL",
-      "direction": "SHORT",
-      "score": 59.166666666666664,
-      "sentiment": 0.16666666666666666,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "20-day breakdown (new low)",
-        "RSI 33 (weak)",
-        "Consistent weakness (15/20 down days)",
-        "Within 5% of 52-week low",
-        "Aligned with market regime"
-      ],
-      "plan": {
-        "symbol": "RVNL",
-        "direction": "SHORT",
-        "entry": 222.5,
-        "stop_loss": 232.98,
-        "target1": 203.64,
-        "target2": 185.82,
-        "quantity": 95,
-        "risk_per_share": 10.48,
-        "rupees_at_risk": 995.62,
-        "notional": 21137.5,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {}
-    },
-    {
-      "symbol": "KEC",
-      "direction": "SHORT",
-      "score": 59.166666666666664,
-      "sentiment": 0.16666666666666666,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "20-day breakdown (new low)",
-        "RSI 38 (weak)",
-        "Consistent weakness (15/20 down days)",
-        "Within 5% of 52-week low",
-        "Aligned with market regime"
-      ],
-      "plan": {
-        "symbol": "KEC",
-        "direction": "SHORT",
-        "entry": 479.25,
-        "stop_loss": 503.21,
-        "target1": 436.12,
-        "target2": 395.38,
-        "quantity": 41,
-        "risk_per_share": 23.96,
-        "rupees_at_risk": 982.46,
-        "notional": 19649.25,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 12861.0,
-        "pe": 19.8,
-        "roe": 11.3
-      }
-    },
-    {
-      "symbol": "KPITTECH",
-      "direction": "SHORT",
-      "score": 59.16666666666666,
-      "sentiment": 0.16666666666666666,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-24.9%)",
-        "RSI 28 (weak)",
-        "ADX 45 (strong trend)",
-        "Within 5% of 52-week low",
-        "Bullish divergence - new low, stronger momentum",
+        "Overbought RSI 79 - up-move stretched",
         "Aligned with market regime",
         "Top relative strength (universe)",
         "Picked recently (-6 to favour fresh names)"
       ],
       "plan": {
-        "symbol": "KPITTECH",
-        "direction": "SHORT",
-        "entry": 552.45,
-        "stop_loss": 580.07,
-        "target1": 502.73,
-        "target2": 455.77,
-        "quantity": 36,
-        "risk_per_share": 27.62,
-        "rupees_at_risk": 994.41,
-        "notional": 19888.2,
+        "symbol": "SONACOMS",
+        "direction": "LONG",
+        "entry": 726.5,
+        "stop_loss": 690.52,
+        "target1": 791.26,
+        "target2": 852.42,
+        "quantity": 27,
+        "risk_per_share": 35.98,
+        "rupees_at_risk": 971.39,
+        "notional": 19615.5,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 15162.0,
-        "pe": 25.7,
-        "roe": 27.9
+        "market_cap": 45217.0,
+        "pe": 68.9,
+        "roe": 11.7
       }
     },
     {
-      "symbol": "VGUARD",
-      "direction": "SHORT",
-      "score": 58.333333333333336,
+      "symbol": "DIXON",
+      "direction": "LONG",
+      "score": 53.96666666666666,
       "sentiment": 0.3333333333333333,
       "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "20-day breakdown (new low)",
-        "RSI 41 (weak)",
-        "Consistent weakness (13/20 down days)",
-        "Within 5% of 52-week low",
-        "Aligned with market regime"
+        "Stacked uptrend (20>50>100 EMA)",
+        "Strong 20d momentum (+14.9%)",
+        "RSI 61 (momentum zone)",
+        "ADX 34 (strong trend)",
+        "Aligned with market regime",
+        "Top relative strength (universe)",
+        "Picked recently (-6 to favour fresh names)"
       ],
       "plan": {
-        "symbol": "VGUARD",
-        "direction": "SHORT",
-        "entry": 297.95,
-        "stop_loss": 310.51,
-        "target1": 275.34,
-        "target2": 253.98,
-        "quantity": 79,
-        "risk_per_share": 12.56,
-        "rupees_at_risk": 992.45,
-        "notional": 23538.05,
+        "symbol": "DIXON",
+        "direction": "LONG",
+        "entry": 13882.0,
+        "stop_loss": 13187.9,
+        "target1": 15131.38,
+        "target2": 16311.35,
+        "quantity": 1,
+        "risk_per_share": 694.1,
+        "rupees_at_risk": 694.1,
+        "notional": 13882.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 13015.0,
-        "pe": 47.9,
-        "roe": 12.9
+        "market_cap": 84827.0,
+        "pe": 112.0,
+        "roe": 28.0
       }
     },
     {
-      "symbol": "DRREDDY",
-      "direction": "SHORT",
-      "score": 58.13333333333333,
+      "symbol": "PIDILITIND",
+      "direction": "LONG",
+      "score": 49.666666666666664,
       "sentiment": 0.3333333333333333,
       "reasons": [
-        "Strong 20d down-momentum (-10.8%)",
-        "20-day breakdown (new low)",
-        "RSI 29 (weak)",
-        "ADX 30 (strong trend)",
-        "Consistent weakness (14/20 down days)",
-        "Within 5% of 52-week low",
+        "Stacked uptrend (20>50>100 EMA)",
+        "Volume surge (>1.5x avg)",
+        "RSI 61 (momentum zone)",
+        "ADX 29 (strong trend)",
+        "Within 5% of 52-week high",
+        "Bearish divergence - new high, weaker momentum",
         "Aligned with market regime"
       ],
       "plan": {
-        "symbol": "DRREDDY",
-        "direction": "SHORT",
-        "entry": 1185.5,
-        "stop_loss": 1244.57,
-        "target1": 1079.18,
-        "target2": 978.77,
+        "symbol": "PIDILITIND",
+        "direction": "LONG",
+        "entry": 1608.6,
+        "stop_loss": 1546.37,
+        "target1": 1720.62,
+        "target2": 1826.41,
         "quantity": 16,
-        "risk_per_share": 59.07,
-        "rupees_at_risk": 945.05,
-        "notional": 18968.0,
+        "risk_per_share": 62.23,
+        "rupees_at_risk": 995.72,
+        "notional": 25737.6,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 99051.0,
-        "pe": 32.4,
-        "roe": 10.2
+        "market_cap": 163732.0,
+        "pe": 68.4,
+        "roe": 23.5
       }
     },
     {
-      "symbol": "ICICIGI",
-      "direction": "SHORT",
-      "score": 54.788888888888884,
+      "symbol": "ICICIBANK",
+      "direction": "LONG",
+      "score": 47.111111111111114,
       "sentiment": 0.2222222222222222,
       "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-13.2%)",
-        "RSI 29 (weak)",
-        "Within 5% of 52-week low",
-        "Outside lower Bollinger band - oversold",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
+        "Stacked uptrend (20>50>100 EMA)",
+        "RSI 65 (momentum zone)",
+        "ADX 36 (strong trend)",
+        "Consistent move (14/20 up days)",
+        "Within 5% of 52-week high",
+        "Bearish divergence - new high, weaker momentum",
+        "Aligned with market regime"
       ],
       "plan": {
-        "symbol": "ICICIGI",
-        "direction": "SHORT",
-        "entry": 1589.9,
-        "stop_loss": 1669.4,
-        "target1": 1446.81,
-        "target2": 1311.67,
-        "quantity": 12,
-        "risk_per_share": 79.5,
-        "rupees_at_risk": 953.94,
-        "notional": 19078.8,
+        "symbol": "ICICIBANK",
+        "direction": "LONG",
+        "entry": 1440.7,
+        "stop_loss": 1389.21,
+        "target1": 1533.39,
+        "target2": 1620.93,
+        "quantity": 19,
+        "risk_per_share": 51.49,
+        "rupees_at_risk": 978.39,
+        "notional": 27373.3,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 79435.0,
-        "pe": 32.8,
-        "roe": 16.6
+        "market_cap": 1033850.0,
+        "pe": 19.8,
+        "roe": 15.8
       }
     }
   ]
