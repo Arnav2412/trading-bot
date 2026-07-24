@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-07-24T12:06:34.069413+05:30",
+  "generated_at": "2026-07-24T12:39:31.035012+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
+    {
+      "symbol": "KEC",
+      "direction": "SHORT",
+      "score": 64.96666666666667,
+      "sentiment": 0.16666666666666666,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-10.9%)",
+        "20-day breakdown (new low)",
+        "RSI 35 (weak)",
+        "Consistent weakness (15/20 down days)",
+        "Within 5% of 52-week low",
+        "Outside lower Bollinger band - oversold",
+        "Aligned with market regime",
+        "Picked recently (-6 to favour fresh names)"
+      ],
+      "plan": {
+        "symbol": "KEC",
+        "direction": "SHORT",
+        "entry": 470.5,
+        "stop_loss": 494.02,
+        "target1": 428.15,
+        "target2": 388.16,
+        "quantity": 42,
+        "risk_per_share": 23.52,
+        "rupees_at_risk": 988.05,
+        "notional": 19761.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {}
+    },
     {
       "symbol": "KPITTECH",
       "direction": "SHORT",
@@ -9,9 +41,9 @@
       "sentiment": 0.2222222222222222,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-24.9%)",
-        "RSI 32 (weak)",
-        "ADX 44 (strong trend)",
+        "Strong 20d down-momentum (-24.1%)",
+        "RSI 34 (weak)",
+        "ADX 43 (strong trend)",
         "Within 5% of 52-week low",
         "Aligned with market regime",
         "Top relative strength (universe)",
@@ -20,20 +52,20 @@
       "plan": {
         "symbol": "KPITTECH",
         "direction": "SHORT",
-        "entry": 558.0,
-        "stop_loss": 585.9,
-        "target1": 507.78,
-        "target2": 460.35,
+        "entry": 563.65,
+        "stop_loss": 591.83,
+        "target1": 512.92,
+        "target2": 465.01,
         "quantity": 35,
-        "risk_per_share": 27.9,
-        "rupees_at_risk": 976.5,
-        "notional": 19530.0,
+        "risk_per_share": 28.18,
+        "rupees_at_risk": 986.39,
+        "notional": 19727.75,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 15231.0,
-        "pe": 25.8,
+        "market_cap": 15518.0,
+        "pe": 26.3,
         "roe": 27.9
       }
     },
@@ -44,7 +76,7 @@
       "sentiment": 0.16666666666666666,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-14.9%)",
+        "Strong 20d down-momentum (-14.8%)",
         "RSI 25 (weak)",
         "ADX 34 (strong trend)",
         "Consistent weakness (15/20 down days)",
@@ -57,63 +89,27 @@
       "plan": {
         "symbol": "DRREDDY",
         "direction": "SHORT",
-        "entry": 1149.9,
-        "stop_loss": 1207.4,
-        "target1": 1046.41,
-        "target2": 948.67,
+        "entry": 1150.8,
+        "stop_loss": 1208.34,
+        "target1": 1047.23,
+        "target2": 949.41,
         "quantity": 17,
-        "risk_per_share": 57.5,
-        "rupees_at_risk": 977.42,
-        "notional": 19548.3,
+        "risk_per_share": 57.54,
+        "rupees_at_risk": 978.18,
+        "notional": 19563.6,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 95792.0,
-        "pe": 144.0,
+        "market_cap": 96009.0,
+        "pe": 145.0,
         "roe": 10.2
-      }
-    },
-    {
-      "symbol": "HDFCBANK",
-      "direction": "SHORT",
-      "score": 62.25555555555556,
-      "sentiment": -0.1111111111111111,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "20-day breakdown (new low)",
-        "RSI 33 (weak)",
-        "ADX 25 (strong trend)",
-        "Consistent weakness (13/20 down days)",
-        "Within 5% of 52-week low",
-        "Outside lower Bollinger band - oversold",
-        "Aligned with market regime",
-        "Picked recently (-6 to favour fresh names)"
-      ],
-      "plan": {
-        "symbol": "HDFCBANK",
-        "direction": "SHORT",
-        "entry": 741.2,
-        "stop_loss": 772.27,
-        "target1": 685.27,
-        "target2": 632.44,
-        "quantity": 32,
-        "risk_per_share": 31.07,
-        "rupees_at_risk": 994.39,
-        "notional": 23718.4,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 1141675.0,
-        "pe": 15.1,
-        "roe": 14.0
       }
     },
     {
       "symbol": "LT",
       "direction": "SHORT",
-      "score": 54.08888888888889,
+      "score": 53.98888888888889,
       "sentiment": 0.2222222222222222,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
@@ -126,20 +122,20 @@
       "plan": {
         "symbol": "LT",
         "direction": "SHORT",
-        "entry": 3788.6,
-        "stop_loss": 3921.04,
-        "target1": 3550.21,
-        "target2": 3325.06,
+        "entry": 3792.1,
+        "stop_loss": 3925.2,
+        "target1": 3552.53,
+        "target2": 3326.26,
         "quantity": 7,
-        "risk_per_share": 132.44,
-        "rupees_at_risk": 927.07,
-        "notional": 26520.2,
+        "risk_per_share": 133.1,
+        "rupees_at_risk": 931.68,
+        "notional": 26544.7,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 521401.0,
-        "pe": 48.2,
+        "market_cap": 522282.0,
+        "pe": 48.3,
         "roe": 14.8
       }
     },
@@ -150,7 +146,7 @@
       "sentiment": -0.16666666666666666,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "RSI 34 (weak)",
+        "RSI 35 (weak)",
         "ADX 30 (strong trend)",
         "Consistent weakness (14/20 down days)",
         "Within 5% of 52-week low",
@@ -159,21 +155,180 @@
       "plan": {
         "symbol": "IRFC",
         "direction": "SHORT",
-        "entry": 87.35,
-        "stop_loss": 90.46,
-        "target1": 81.76,
-        "target2": 76.48,
-        "quantity": 321,
-        "risk_per_share": 3.11,
-        "rupees_at_risk": 997.14,
-        "notional": 28039.35,
+        "entry": 87.56,
+        "stop_loss": 90.71,
+        "target1": 81.88,
+        "target2": 76.52,
+        "quantity": 317,
+        "risk_per_share": 3.15,
+        "rupees_at_risk": 999.66,
+        "notional": 27756.52,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 113892.0,
+        "market_cap": 114480.0,
         "pe": 16.3,
         "roe": 12.8
+      }
+    },
+    {
+      "symbol": "TATASTEEL",
+      "direction": "SHORT",
+      "score": 51.44444444444444,
+      "sentiment": 0.1111111111111111,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "20-day breakdown (new low)",
+        "RSI 33 (weak)",
+        "ADX 28 (strong trend)",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "TATASTEEL",
+        "direction": "SHORT",
+        "entry": 183.08,
+        "stop_loss": 190.01,
+        "target1": 170.6,
+        "target2": 158.81,
+        "quantity": 144,
+        "risk_per_share": 6.93,
+        "rupees_at_risk": 998.42,
+        "notional": 26363.52,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 228948.0,
+        "pe": 13.5,
+        "roe": 12.9
+      }
+    },
+    {
+      "symbol": "VGUARD",
+      "direction": "SHORT",
+      "score": 49.03333333333334,
+      "sentiment": 0.3333333333333333,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "20-day breakdown (new low)",
+        "RSI 34 (weak)",
+        "Consistent weakness (14/20 down days)",
+        "Within 5% of 52-week low",
+        "Outside lower Bollinger band - oversold",
+        "Aligned with market regime",
+        "Picked recently (-6 to favour fresh names)"
+      ],
+      "plan": {
+        "symbol": "VGUARD",
+        "direction": "SHORT",
+        "entry": 291.2,
+        "stop_loss": 303.9,
+        "target1": 268.34,
+        "target2": 246.74,
+        "quantity": 78,
+        "risk_per_share": 12.7,
+        "rupees_at_risk": 990.77,
+        "notional": 22713.6,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {}
+    },
+    {
+      "symbol": "GMDCLTD",
+      "direction": "SHORT",
+      "score": 48.87777777777778,
+      "sentiment": 0.4444444444444444,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "20-day breakdown (new low)",
+        "RSI 32 (weak)",
+        "Consistent weakness (14/20 down days)",
+        "Outside lower Bollinger band - oversold",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "GMDCLTD",
+        "direction": "SHORT",
+        "entry": 557.55,
+        "stop_loss": 585.43,
+        "target1": 507.37,
+        "target2": 459.98,
+        "quantity": 35,
+        "risk_per_share": 27.88,
+        "rupees_at_risk": 975.71,
+        "notional": 19514.25,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {}
+    },
+    {
+      "symbol": "RAILTEL",
+      "direction": "SHORT",
+      "score": 48.855555555555554,
+      "sentiment": 0.3888888888888889,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "20-day breakdown (new low)",
+        "RSI 30 (weak)",
+        "Consistent weakness (14/20 down days)",
+        "Outside lower Bollinger band - oversold",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "RAILTEL",
+        "direction": "SHORT",
+        "entry": 284.3,
+        "stop_loss": 298.51,
+        "target1": 258.71,
+        "target2": 234.55,
+        "quantity": 70,
+        "risk_per_share": 14.21,
+        "rupees_at_risk": 995.05,
+        "notional": 19901.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 9145.0,
+        "pe": 48.8,
+        "roe": 12.0
+      }
+    },
+    {
+      "symbol": "HDFCBANK",
+      "direction": "SHORT",
+      "score": 46.55555555555556,
+      "sentiment": -0.1111111111111111,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "RSI 34 (weak)",
+        "ADX 25 (strong trend)",
+        "Consistent weakness (13/20 down days)",
+        "Within 5% of 52-week low",
+        "Aligned with market regime",
+        "Picked recently (-6 to favour fresh names)"
+      ],
+      "plan": {
+        "symbol": "HDFCBANK",
+        "direction": "SHORT",
+        "entry": 744.35,
+        "stop_loss": 775.42,
+        "target1": 688.42,
+        "target2": 635.59,
+        "quantity": 32,
+        "risk_per_share": 31.07,
+        "rupees_at_risk": 994.39,
+        "notional": 23819.2,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 1149070.0,
+        "pe": 15.2,
+        "roe": 14.0
       }
     }
   ]
