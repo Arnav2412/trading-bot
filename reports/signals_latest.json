@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T13:23:12.022018+05:30",
+  "generated_at": "2026-08-07T15:03:47.767331+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
     {
@@ -9,7 +9,7 @@
       "sentiment": 0.1111111111111111,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+20.8%)",
+        "Strong 20d momentum (+20.9%)",
         "RSI 72 (momentum zone)",
         "ADX 53 (strong trend)",
         "Consistent move (14/20 up days)",
@@ -21,50 +21,52 @@
       "plan": {
         "symbol": "DIVISLAB",
         "direction": "LONG",
-        "entry": 8254.5,
-        "stop_loss": 7867.46,
-        "target1": 8951.18,
-        "target2": 9609.16,
+        "entry": 8262.0,
+        "stop_loss": 7874.96,
+        "target1": 8958.68,
+        "target2": 9616.66,
         "quantity": 2,
         "risk_per_share": 387.04,
         "rupees_at_risk": 774.09,
-        "notional": 16509.0,
+        "notional": 16524.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 218746.0,
-        "pe": 73.0,
+        "market_cap": 219317.0,
+        "pe": 73.2,
         "roe": 16.8
       }
     },
     {
-      "symbol": "EXIDEIND",
+      "symbol": "SONACOMS",
       "direction": "LONG",
-      "score": 68.15555555555555,
-      "sentiment": 0.1111111111111111,
+      "score": 67.18888888888888,
+      "sentiment": 0.2777777777777778,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+15.9%)",
-        "20-day breakout (new high)",
-        "RSI 75 (momentum zone)",
-        "ADX 40 (strong trend)",
+        "Strong 20d momentum (+22.5%)",
+        "RSI 78 (momentum zone)",
+        "ADX 64 (strong trend)",
+        "Consistent move (14/20 up days)",
         "Within 5% of 52-week high",
-        "Outside upper Bollinger band - overbought",
+        "Overbought RSI 78 - up-move stretched",
+        "Price 3.2 ATR above its mean - extended",
         "Aligned with market regime",
+        "Top relative strength (universe)",
         "Picked recently (-6 to favour fresh names)"
       ],
       "plan": {
-        "symbol": "EXIDEIND",
+        "symbol": "SONACOMS",
         "direction": "LONG",
-        "entry": 488.4,
-        "stop_loss": 463.98,
-        "target1": 532.36,
-        "target2": 573.87,
-        "quantity": 40,
-        "risk_per_share": 24.42,
-        "rupees_at_risk": 976.8,
-        "notional": 19536.0,
+        "entry": 818.65,
+        "stop_loss": 777.72,
+        "target1": 892.33,
+        "target2": 961.91,
+        "quantity": 24,
+        "risk_per_share": 40.93,
+        "rupees_at_risk": 982.38,
+        "notional": 19647.6,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
@@ -73,17 +75,17 @@
     {
       "symbol": "TVSMOTOR",
       "direction": "LONG",
-      "score": 66.92222222222223,
+      "score": 66.52222222222223,
       "sentiment": 0.4444444444444444,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+22.3%)",
+        "Strong 20d momentum (+22.6%)",
         "RSI 77 (momentum zone)",
         "ADX 37 (strong trend)",
         "Consistent move (13/20 up days)",
         "Within 5% of 52-week high",
         "Overbought RSI 77 - up-move stretched",
-        "Price 3.9 ATR above its mean - extended",
+        "Price 4.0 ATR above its mean - extended",
         "Aligned with market regime",
         "Top relative strength (universe)",
         "Picked recently (-6 to favour fresh names)"
@@ -91,31 +93,62 @@
       "plan": {
         "symbol": "TVSMOTOR",
         "direction": "LONG",
-        "entry": 4433.3,
-        "stop_loss": 4230.87,
-        "target1": 4797.68,
-        "target2": 5141.82,
+        "entry": 4444.2,
+        "stop_loss": 4241.77,
+        "target1": 4808.58,
+        "target2": 5152.72,
         "quantity": 4,
         "risk_per_share": 202.43,
         "rupees_at_risk": 809.74,
-        "notional": 17733.2,
+        "notional": 17776.8,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 210559.0,
-        "pe": 52.0,
+        "market_cap": 210661.0,
+        "pe": 52.1,
         "roe": 34.4
       }
     },
     {
+      "symbol": "AUROPHARMA",
+      "direction": "LONG",
+      "score": 65.57777777777777,
+      "sentiment": 0.05555555555555555,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "20-day breakout (new high)",
+        "Volume surge (>1.5x avg)",
+        "RSI 65 (momentum zone)",
+        "ADX 27 (strong trend)",
+        "Within 5% of 52-week high",
+        "Outside upper Bollinger band - overbought",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "AUROPHARMA",
+        "direction": "LONG",
+        "entry": 1659.0,
+        "stop_loss": 1576.05,
+        "target1": 1808.31,
+        "target2": 1949.33,
+        "quantity": 12,
+        "risk_per_share": 82.95,
+        "rupees_at_risk": 995.4,
+        "notional": 19908.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {}
+    },
+    {
       "symbol": "BAJAJ-AUTO",
       "direction": "LONG",
-      "score": 64.14444444444445,
+      "score": 64.04444444444444,
       "sentiment": 0.3888888888888889,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+14.8%)",
+        "Strong 20d momentum (+14.7%)",
         "RSI 67 (momentum zone)",
         "ADX 48 (strong trend)",
         "Consistent move (14/20 up days)",
@@ -126,133 +159,96 @@
       "plan": {
         "symbol": "BAJAJ-AUTO",
         "direction": "LONG",
-        "entry": 11655.0,
-        "stop_loss": 11162.9,
-        "target1": 12540.77,
-        "target2": 13377.34,
+        "entry": 11643.0,
+        "stop_loss": 11150.9,
+        "target1": 12528.77,
+        "target2": 13365.34,
         "quantity": 2,
         "risk_per_share": 492.1,
         "rupees_at_risk": 984.19,
-        "notional": 23310.0,
+        "notional": 23286.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 320078.0,
-        "pe": 29.9,
+        "market_cap": 319877.0,
+        "pe": 29.8,
         "roe": 29.3
       }
     },
     {
-      "symbol": "TANLA",
+      "symbol": "SBIN",
       "direction": "LONG",
-      "score": 64.08888888888889,
-      "sentiment": 0.2777777777777778,
+      "score": 60.46666666666666,
+      "sentiment": 0.3333333333333333,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+18.8%)",
-        "RSI 63 (momentum zone)",
-        "ADX 42 (strong trend)",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
+        "20-day breakout (new high)",
+        "Volume surge (>1.5x avg)",
+        "RSI 71 (momentum zone)",
+        "Consistent move (14/20 up days)",
+        "Outside upper Bollinger band - overbought",
+        "Aligned with market regime"
       ],
       "plan": {
-        "symbol": "TANLA",
+        "symbol": "SBIN",
         "direction": "LONG",
-        "entry": 620.0,
-        "stop_loss": 589.0,
-        "target1": 675.8,
-        "target2": 728.5,
-        "quantity": 32,
-        "risk_per_share": 31.0,
-        "rupees_at_risk": 992.0,
-        "notional": 19840.0,
+        "entry": 1100.0,
+        "stop_loss": 1057.71,
+        "target1": 1176.13,
+        "target2": 1248.02,
+        "quantity": 23,
+        "risk_per_share": 42.29,
+        "rupees_at_risk": 972.73,
+        "notional": 25300.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 1017214.0,
+        "pe": 12.7,
+        "roe": 16.2
+      }
+    },
+    {
+      "symbol": "BHARATFORG",
+      "direction": "LONG",
+      "score": 59.91111111111111,
+      "sentiment": 0.2222222222222222,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "20-day breakout (new high)",
+        "RSI 68 (momentum zone)",
+        "ADX 27 (strong trend)",
+        "Within 5% of 52-week high",
+        "Outside upper Bollinger band - overbought",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "BHARATFORG",
+        "direction": "LONG",
+        "entry": 2265.7,
+        "stop_loss": 2164.82,
+        "target1": 2447.28,
+        "target2": 2618.77,
+        "quantity": 9,
+        "risk_per_share": 100.88,
+        "rupees_at_risk": 907.9,
+        "notional": 20391.3,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {}
     },
     {
-      "symbol": "SONACOMS",
-      "direction": "LONG",
-      "score": 62.366666666666674,
-      "sentiment": 0.3333333333333333,
-      "reasons": [
-        "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+21.4%)",
-        "RSI 77 (momentum zone)",
-        "ADX 64 (strong trend)",
-        "Consistent move (14/20 up days)",
-        "Within 5% of 52-week high",
-        "Overbought RSI 77 - up-move stretched",
-        "Price 3.1 ATR above its mean - extended",
-        "Bearish divergence - new high, weaker momentum",
-        "Aligned with market regime",
-        "Top relative strength (universe)",
-        "Picked recently (-6 to favour fresh names)"
-      ],
-      "plan": {
-        "symbol": "SONACOMS",
-        "direction": "LONG",
-        "entry": 811.95,
-        "stop_loss": 771.35,
-        "target1": 885.03,
-        "target2": 954.04,
-        "quantity": 24,
-        "risk_per_share": 40.6,
-        "rupees_at_risk": 974.34,
-        "notional": 19486.8,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 50517.0,
-        "pe": 65.0,
-        "roe": 11.7
-      }
-    },
-    {
-      "symbol": "BHARATFORG",
-      "direction": "LONG",
-      "score": 61.111111111111114,
-      "sentiment": 0.2222222222222222,
-      "reasons": [
-        "Stacked uptrend (20>50>100 EMA)",
-        "20-day breakout (new high)",
-        "RSI 67 (momentum zone)",
-        "ADX 26 (strong trend)",
-        "Within 5% of 52-week high",
-        "Aligned with market regime"
-      ],
-      "plan": {
-        "symbol": "BHARATFORG",
-        "direction": "LONG",
-        "entry": 2248.4,
-        "stop_loss": 2149.68,
-        "target1": 2426.1,
-        "target2": 2593.92,
-        "quantity": 10,
-        "risk_per_share": 98.72,
-        "rupees_at_risk": 987.21,
-        "notional": 22484.0,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 107360.0,
-        "pe": 95.9,
-        "roe": 10.2
-      }
-    },
-    {
       "symbol": "COFORGE",
       "direction": "LONG",
-      "score": 59.03333333333333,
+      "score": 59.53333333333333,
       "sentiment": 0.6666666666666666,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+17.9%)",
-        "RSI 71 (momentum zone)",
+        "Strong 20d momentum (+18.4%)",
+        "RSI 72 (momentum zone)",
         "ADX 27 (strong trend)",
         "Aligned with market regime",
         "Top relative strength (universe)",
@@ -261,36 +257,36 @@
       "plan": {
         "symbol": "COFORGE",
         "direction": "LONG",
-        "entry": 1772.5,
-        "stop_loss": 1683.88,
-        "target1": 1932.03,
-        "target2": 2082.69,
+        "entry": 1779.9,
+        "stop_loss": 1690.91,
+        "target1": 1940.09,
+        "target2": 2091.38,
         "quantity": 11,
-        "risk_per_share": 88.62,
-        "rupees_at_risk": 974.88,
-        "notional": 19497.5,
+        "risk_per_share": 89.0,
+        "rupees_at_risk": 978.95,
+        "notional": 19578.9,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 78368.0,
-        "pe": 58.4,
+        "market_cap": 78618.0,
+        "pe": 58.6,
         "roe": 19.0
       }
     },
     {
       "symbol": "LAURUSLABS",
       "direction": "LONG",
-      "score": 58.37777777777778,
+      "score": 59.17777777777778,
       "sentiment": 0.5555555555555556,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+22.7%)",
-        "ADX 52 (strong trend)",
-        "Consistent move (13/20 up days)",
+        "Strong 20d momentum (+20.4%)",
+        "RSI 79 (momentum zone)",
+        "ADX 54 (strong trend)",
         "Within 5% of 52-week high",
-        "Overbought RSI 80 - up-move stretched",
-        "Price 3.6 ATR above its mean - extended",
+        "Overbought RSI 79 - up-move stretched",
+        "Price 3.4 ATR above its mean - extended",
         "Aligned with market regime",
         "Top relative strength (universe)",
         "Picked recently (-6 to favour fresh names)"
@@ -298,56 +294,48 @@
       "plan": {
         "symbol": "LAURUSLABS",
         "direction": "LONG",
-        "entry": 1849.9,
-        "stop_loss": 1765.89,
-        "target1": 2001.11,
-        "target2": 2143.92,
-        "quantity": 11,
-        "risk_per_share": 84.01,
-        "rupees_at_risk": 924.06,
-        "notional": 20348.9,
+        "entry": 1851.3,
+        "stop_loss": 1769.3,
+        "target1": 1998.9,
+        "target2": 2138.29,
+        "quantity": 12,
+        "risk_per_share": 82.0,
+        "rupees_at_risk": 983.97,
+        "notional": 22215.6,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
-      "fundamentals": {
-        "market_cap": 99958.0,
-        "pe": 115.0,
-        "roe": 15.2
-      }
+      "fundamentals": {}
     },
     {
-      "symbol": "AUROPHARMA",
+      "symbol": "TANLA",
       "direction": "LONG",
-      "score": 57.17777777777778,
-      "sentiment": 0.05555555555555555,
+      "score": 56.98888888888889,
+      "sentiment": 0.2777777777777778,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "20-day breakout (new high)",
-        "RSI 63 (momentum zone)",
-        "ADX 27 (strong trend)",
-        "Within 5% of 52-week high",
-        "Outside upper Bollinger band - overbought",
-        "Aligned with market regime"
+        "Strong 20d momentum (+17.8%)",
+        "RSI 61 (momentum zone)",
+        "ADX 42 (strong trend)",
+        "Bearish divergence - new high, weaker momentum",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
       ],
       "plan": {
-        "symbol": "AUROPHARMA",
+        "symbol": "TANLA",
         "direction": "LONG",
-        "entry": 1640.7,
-        "stop_loss": 1558.66,
-        "target1": 1788.36,
-        "target2": 1927.82,
-        "quantity": 12,
-        "risk_per_share": 82.03,
-        "rupees_at_risk": 984.42,
-        "notional": 19688.4,
+        "entry": 614.8,
+        "stop_loss": 584.06,
+        "target1": 670.13,
+        "target2": 722.39,
+        "quantity": 32,
+        "risk_per_share": 30.74,
+        "rupees_at_risk": 983.68,
+        "notional": 19673.6,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
-      "fundamentals": {
-        "market_cap": 95411.0,
-        "pe": 36.6,
-        "roe": 11.2
-      }
+      "fundamentals": {}
     }
   ]
 }
