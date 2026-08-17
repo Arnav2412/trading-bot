@@ -1,20 +1,23 @@
 {
-  "generated_at": "2026-08-17T13:03:53.717478+05:30",
+  "generated_at": "2026-08-17T14:40:21.021395+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
     {
       "symbol": "GNFC",
       "direction": "LONG",
-      "score": 92.13333333333333,
+      "score": 92.03333333333333,
       "sentiment": 0.16666666666666666,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+15.2%)",
+        "Strong 20d momentum (+18.4%)",
         "20-day breakout (new high)",
         "Volume surge (>1.5x avg)",
-        "RSI 74 (momentum zone)",
+        "RSI 77 (momentum zone)",
         "ADX 26 (strong trend)",
         "Consistent move (14/20 up days)",
+        "Within 5% of 52-week high",
+        "Overbought RSI 77 - up-move stretched",
+        "Price 3.9 ATR above its mean - extended",
         "Outside upper Bollinger band - overbought",
         "Aligned with market regime",
         "Top relative strength (universe)"
@@ -22,14 +25,14 @@
       "plan": {
         "symbol": "GNFC",
         "direction": "LONG",
-        "entry": 583.75,
-        "stop_loss": 554.56,
-        "target1": 636.29,
-        "target2": 685.91,
-        "quantity": 34,
-        "risk_per_share": 29.19,
-        "rupees_at_risk": 992.38,
-        "notional": 19847.5,
+        "entry": 600.0,
+        "stop_loss": 570.0,
+        "target1": 654.0,
+        "target2": 705.0,
+        "quantity": 33,
+        "risk_per_share": 30.0,
+        "rupees_at_risk": 990.0,
+        "notional": 19800.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
@@ -38,30 +41,29 @@
     {
       "symbol": "PAYTM",
       "direction": "LONG",
-      "score": 76.88888888888889,
+      "score": 78.98888888888888,
       "sentiment": 0.2777777777777778,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+19.2%)",
-        "RSI 76 (momentum zone)",
-        "ADX 47 (strong trend)",
-        "Consistent move (14/20 up days)",
+        "Strong 20d momentum (+17.9%)",
+        "RSI 73 (momentum zone)",
+        "ADX 46 (strong trend)",
+        "Consistent move (13/20 up days)",
         "Within 5% of 52-week high",
-        "Overbought RSI 76 - up-move stretched",
         "Aligned with market regime",
         "Top relative strength (universe)"
       ],
       "plan": {
         "symbol": "PAYTM",
         "direction": "LONG",
-        "entry": 1606.5,
-        "stop_loss": 1526.17,
-        "target1": 1751.09,
-        "target2": 1887.64,
+        "entry": 1588.2,
+        "stop_loss": 1508.79,
+        "target1": 1731.14,
+        "target2": 1866.13,
         "quantity": 12,
-        "risk_per_share": 80.33,
-        "rupees_at_risk": 963.9,
-        "notional": 19278.0,
+        "risk_per_share": 79.41,
+        "rupees_at_risk": 952.92,
+        "notional": 19058.4,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
@@ -70,12 +72,12 @@
     {
       "symbol": "DIVISLAB",
       "direction": "LONG",
-      "score": 76.33333333333333,
-      "sentiment": 0.16666666666666666,
+      "score": 77.21111111111111,
+      "sentiment": 0.2222222222222222,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+15.9%)",
-        "RSI 72 (momentum zone)",
+        "Strong 20d momentum (+16.5%)",
+        "RSI 73 (momentum zone)",
         "ADX 58 (strong trend)",
         "Consistent move (13/20 up days)",
         "Within 5% of 52-week high",
@@ -85,20 +87,20 @@
       "plan": {
         "symbol": "DIVISLAB",
         "direction": "LONG",
-        "entry": 8480.0,
-        "stop_loss": 8118.85,
-        "target1": 9130.07,
-        "target2": 9744.02,
+        "entry": 8525.0,
+        "stop_loss": 8163.85,
+        "target1": 9175.07,
+        "target2": 9789.02,
         "quantity": 2,
         "risk_per_share": 361.15,
         "rupees_at_risk": 722.3,
-        "notional": 16960.0,
+        "notional": 17050.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 225383.0,
-        "pe": 75.2,
+        "market_cap": 226434.0,
+        "pe": 75.6,
         "roe": 16.8
       }
     },
@@ -109,8 +111,8 @@
       "sentiment": 0.6666666666666666,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+20.8%)",
-        "RSI 67 (momentum zone)",
+        "Strong 20d momentum (+21.1%)",
+        "RSI 68 (momentum zone)",
         "ADX 42 (strong trend)",
         "Within 5% of 52-week high",
         "Aligned with market regime",
@@ -119,101 +121,63 @@
       "plan": {
         "symbol": "TVSMOTOR",
         "direction": "LONG",
-        "entry": 4372.1,
-        "stop_loss": 4189.99,
-        "target1": 4699.89,
-        "target2": 5009.47,
+        "entry": 4379.9,
+        "stop_loss": 4197.79,
+        "target1": 4707.69,
+        "target2": 5017.27,
         "quantity": 5,
         "risk_per_share": 182.11,
         "rupees_at_risk": 910.53,
-        "notional": 21860.5,
+        "notional": 21899.5,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
-      "fundamentals": {
-        "market_cap": 207789.0,
-        "pe": 51.4,
-        "roe": 34.4
-      }
+      "fundamentals": {}
     },
     {
       "symbol": "HAL",
       "direction": "LONG",
-      "score": 71.53333333333333,
+      "score": 71.33333333333333,
       "sentiment": 0.16666666666666666,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+13.2%)",
+        "Strong 20d momentum (+12.7%)",
         "20-day breakout (new high)",
-        "RSI 77 (momentum zone)",
+        "RSI 76 (momentum zone)",
         "ADX 30 (strong trend)",
         "Within 5% of 52-week high",
-        "Overbought RSI 77 - up-move stretched",
+        "Overbought RSI 76 - up-move stretched",
         "Aligned with market regime"
       ],
       "plan": {
         "symbol": "HAL",
         "direction": "LONG",
-        "entry": 5085.3,
-        "stop_loss": 4860.41,
-        "target1": 5490.1,
-        "target2": 5872.41,
+        "entry": 5062.5,
+        "stop_loss": 4837.61,
+        "target1": 5467.3,
+        "target2": 5849.61,
         "quantity": 4,
         "risk_per_share": 224.89,
         "rupees_at_risk": 899.55,
-        "notional": 20341.2,
+        "notional": 20250.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 340179.0,
-        "pe": 36.6,
+        "market_cap": 338868.0,
+        "pe": 36.5,
         "roe": 24.0
-      }
-    },
-    {
-      "symbol": "BAJAJ-AUTO",
-      "direction": "LONG",
-      "score": 69.13333333333333,
-      "sentiment": 0.6666666666666666,
-      "reasons": [
-        "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+12.5%)",
-        "RSI 68 (momentum zone)",
-        "ADX 55 (strong trend)",
-        "Consistent move (13/20 up days)",
-        "Within 5% of 52-week high",
-        "Aligned with market regime"
-      ],
-      "plan": {
-        "symbol": "BAJAJ-AUTO",
-        "direction": "LONG",
-        "entry": 11750.0,
-        "stop_loss": 11320.43,
-        "target1": 12523.22,
-        "target2": 13253.49,
-        "quantity": 2,
-        "risk_per_share": 429.57,
-        "rupees_at_risk": 859.14,
-        "notional": 23500.0,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 322895.0,
-        "pe": 30.1,
-        "roe": 29.3
       }
     },
     {
       "symbol": "HEROMOTOCO",
       "direction": "LONG",
-      "score": 68.71111111111111,
+      "score": 68.21111111111111,
       "sentiment": 0.2222222222222222,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+16.0%)",
-        "RSI 68 (momentum zone)",
+        "Strong 20d momentum (+15.5%)",
+        "RSI 67 (momentum zone)",
         "ADX 51 (strong trend)",
         "Consistent move (13/20 up days)",
         "Aligned with market regime",
@@ -222,31 +186,31 @@
       "plan": {
         "symbol": "HEROMOTOCO",
         "direction": "LONG",
-        "entry": 5776.0,
-        "stop_loss": 5522.04,
-        "target1": 6233.13,
-        "target2": 6664.85,
+        "entry": 5751.0,
+        "stop_loss": 5497.04,
+        "target1": 6208.13,
+        "target2": 6639.85,
         "quantity": 3,
         "risk_per_share": 253.96,
         "rupees_at_risk": 761.88,
-        "notional": 17328.0,
+        "notional": 17253.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 115642.0,
-        "pe": 20.4,
+        "market_cap": 115203.0,
+        "pe": 20.3,
         "roe": 25.5
       }
     },
     {
       "symbol": "APLAPOLLO",
       "direction": "LONG",
-      "score": 68.11111111111111,
+      "score": 68.21111111111111,
       "sentiment": 0.2222222222222222,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+15.5%)",
+        "Strong 20d momentum (+15.6%)",
         "RSI 74 (momentum zone)",
         "ADX 29 (strong trend)",
         "Consistent move (13/20 up days)",
@@ -256,19 +220,19 @@
       "plan": {
         "symbol": "APLAPOLLO",
         "direction": "LONG",
-        "entry": 2095.0,
-        "stop_loss": 1996.44,
-        "target1": 2272.4,
-        "target2": 2439.95,
+        "entry": 2096.8,
+        "stop_loss": 1998.24,
+        "target1": 2274.2,
+        "target2": 2441.75,
         "quantity": 10,
         "risk_per_share": 98.56,
         "rupees_at_risk": 985.56,
-        "notional": 20950.0,
+        "notional": 20968.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 58183.0,
+        "market_cap": 58204.0,
         "pe": 101.0,
         "roe": 16.7
       }
@@ -276,12 +240,12 @@
     {
       "symbol": "COFORGE",
       "direction": "LONG",
-      "score": 66.3,
+      "score": 66.0,
       "sentiment": 0.5,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+19.8%)",
-        "RSI 69 (momentum zone)",
+        "Strong 20d momentum (+19.5%)",
+        "RSI 68 (momentum zone)",
         "ADX 33 (strong trend)",
         "Aligned with market regime",
         "Top relative strength (universe)"
@@ -289,32 +253,36 @@
       "plan": {
         "symbol": "COFORGE",
         "direction": "LONG",
-        "entry": 1806.4,
-        "stop_loss": 1716.08,
-        "target1": 1968.98,
-        "target2": 2122.52,
+        "entry": 1801.7,
+        "stop_loss": 1711.61,
+        "target1": 1963.85,
+        "target2": 2117.0,
         "quantity": 11,
-        "risk_per_share": 90.32,
-        "rupees_at_risk": 993.52,
-        "notional": 19870.4,
+        "risk_per_share": 90.08,
+        "rupees_at_risk": 990.93,
+        "notional": 19818.7,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
-      "fundamentals": {}
+      "fundamentals": {
+        "market_cap": 79861.0,
+        "pe": 59.5,
+        "roe": 19.0
+      }
     },
     {
       "symbol": "FINCABLES",
       "direction": "LONG",
-      "score": 64.05555555555556,
+      "score": 63.65555555555556,
       "sentiment": 0.1111111111111111,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+28.9%)",
+        "Strong 20d momentum (+29.2%)",
         "RSI 76 (momentum zone)",
         "ADX 32 (strong trend)",
         "Within 5% of 52-week high",
         "Overbought RSI 76 - up-move stretched",
-        "Price 3.6 ATR above its mean - extended",
+        "Price 3.7 ATR above its mean - extended",
         "Outside upper Bollinger band - overbought",
         "Aligned with market regime",
         "Top relative strength (universe)"
@@ -322,21 +290,56 @@
       "plan": {
         "symbol": "FINCABLES",
         "direction": "LONG",
-        "entry": 1311.5,
-        "stop_loss": 1245.92,
-        "target1": 1429.54,
-        "target2": 1541.01,
+        "entry": 1314.65,
+        "stop_loss": 1248.92,
+        "target1": 1432.97,
+        "target2": 1544.71,
         "quantity": 15,
-        "risk_per_share": 65.58,
-        "rupees_at_risk": 983.62,
-        "notional": 19672.5,
+        "risk_per_share": 65.73,
+        "rupees_at_risk": 985.99,
+        "notional": 19719.75,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 20208.0,
-        "pe": 25.2,
+        "market_cap": 20072.0,
+        "pe": 25.1,
         "roe": 12.3
+      }
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "direction": "LONG",
+      "score": 63.44444444444444,
+      "sentiment": 0.3888888888888889,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "Strong 20d momentum (+15.9%)",
+        "RSI 64 (momentum zone)",
+        "ADX 54 (strong trend)",
+        "Within 5% of 52-week high",
+        "Bearish divergence - new high, weaker momentum",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "LAURUSLABS",
+        "direction": "LONG",
+        "entry": 1806.2,
+        "stop_loss": 1722.37,
+        "target1": 1957.1,
+        "target2": 2099.61,
+        "quantity": 11,
+        "risk_per_share": 83.83,
+        "rupees_at_risk": 922.15,
+        "notional": 19868.2,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 97532.0,
+        "pe": 112.0,
+        "roe": 15.2
       }
     }
   ]
