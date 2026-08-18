@@ -29,3 +29,4 @@ date,knob,old,new,reason
 2026-08-06,min_score,61,62,win rate 25% / stop-heavy
 2026-08-07,min_score,62,63,winners scored 67.7 vs losers 62.2
 2026-08-10,min_score,63,64,win rate 38% / stop-heavy
+2026-08-18,counter_trend_penalty,24,25,counter-trend picks kept losing
