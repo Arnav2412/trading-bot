@@ -1,57 +1,51 @@
 {
-  "generated_at": "2026-09-03T14:36:24.404663+05:30",
+  "generated_at": "2026-09-04T14:18:33.334501+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
     {
-      "symbol": "GODREJCP",
+      "symbol": "LUPIN",
       "direction": "SHORT",
-      "score": 94.0,
-      "sentiment": 0.16666666666666666,
+      "score": 71.62222222222223,
+      "sentiment": 0.05555555555555555,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-18.3%)",
+        "Strong 20d down-momentum (-10.8%)",
         "20-day breakdown (new low)",
-        "Volume surge (>1.5x avg)",
-        "RSI 25 (weak)",
-        "ADX 43 (strong trend)",
-        "Consistent weakness (14/20 down days)",
-        "Within 5% of 52-week low",
-        "Oversold RSI 25 - down-move stretched",
-        "Aligned with market regime",
-        "Top relative strength (universe)",
-        "Picked recently (-6 to favour fresh names)"
+        "RSI 26 (weak)",
+        "ADX 34 (strong trend)",
+        "Consistent weakness (13/20 down days)",
+        "Aligned with market regime"
       ],
       "plan": {
-        "symbol": "GODREJCP",
+        "symbol": "LUPIN",
         "direction": "SHORT",
-        "entry": 879.95,
-        "stop_loss": 923.95,
-        "target1": 800.75,
-        "target2": 725.96,
-        "quantity": 22,
-        "risk_per_share": 44.0,
-        "rupees_at_risk": 967.95,
-        "notional": 19358.9,
+        "entry": 2108.8,
+        "stop_loss": 2192.85,
+        "target1": 1957.51,
+        "target2": 1814.63,
+        "quantity": 11,
+        "risk_per_share": 84.05,
+        "rupees_at_risk": 924.52,
+        "notional": 23196.8,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 90020.0,
-        "pe": 57.4,
-        "roe": 18.6
+        "market_cap": 96495.0,
+        "pe": 14.6,
+        "roe": 21.2
       }
     },
     {
       "symbol": "KEC",
       "direction": "SHORT",
-      "score": 84.22222222222223,
-      "sentiment": 0.05555555555555555,
+      "score": 68.04444444444444,
+      "sentiment": 0.1111111111111111,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-15.0%)",
-        "20-day breakdown (new low)",
-        "RSI 27 (weak)",
-        "ADX 39 (strong trend)",
+        "Strong 20d down-momentum (-15.1%)",
+        "RSI 28 (weak)",
+        "ADX 41 (strong trend)",
         "Consistent weakness (13/20 down days)",
         "Within 5% of 52-week low",
         "Aligned with market regime",
@@ -61,285 +55,124 @@
       "plan": {
         "symbol": "KEC",
         "direction": "SHORT",
-        "entry": 406.05,
-        "stop_loss": 426.35,
-        "target1": 369.51,
-        "target2": 334.99,
+        "entry": 406.6,
+        "stop_loss": 426.93,
+        "target1": 370.01,
+        "target2": 335.45,
         "quantity": 49,
-        "risk_per_share": 20.3,
-        "rupees_at_risk": 994.82,
-        "notional": 19896.45,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {}
-    },
-    {
-      "symbol": "PFC",
-      "direction": "SHORT",
-      "score": 70.46666666666667,
-      "sentiment": 0.16666666666666666,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-17.5%)",
-        "RSI 26 (weak)",
-        "ADX 43 (strong trend)",
-        "Consistent weakness (13/20 down days)",
-        "Within 5% of 52-week low",
-        "Aligned with market regime",
-        "Top relative strength (universe)",
-        "Picked recently (-6 to favour fresh names)"
-      ],
-      "plan": {
-        "symbol": "PFC",
-        "direction": "SHORT",
-        "entry": 344.75,
-        "stop_loss": 361.32,
-        "target1": 314.92,
-        "target2": 286.75,
-        "quantity": 60,
-        "risk_per_share": 16.57,
-        "rupees_at_risk": 994.23,
-        "notional": 20685.0,
+        "risk_per_share": 20.33,
+        "rupees_at_risk": 996.17,
+        "notional": 19923.4,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 113804.0,
-        "pe": 5.67,
-        "roe": 20.7
+        "market_cap": 10809.0,
+        "pe": 18.0,
+        "roe": 11.4
       }
     },
     {
-      "symbol": "CROMPTON",
+      "symbol": "GODREJCP",
       "direction": "SHORT",
-      "score": 68.64444444444445,
-      "sentiment": 0.1111111111111111,
+      "score": 64.85555555555555,
+      "sentiment": 0.3888888888888889,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-15.7%)",
-        "RSI 30 (weak)",
-        "ADX 26 (strong trend)",
+        "Strong 20d down-momentum (-16.4%)",
+        "RSI 24 (weak)",
+        "ADX 45 (strong trend)",
         "Consistent weakness (14/20 down days)",
         "Within 5% of 52-week low",
+        "Oversold RSI 24 - down-move stretched",
         "Aligned with market regime",
         "Top relative strength (universe)",
         "Picked recently (-6 to favour fresh names)"
       ],
       "plan": {
-        "symbol": "CROMPTON",
+        "symbol": "GODREJCP",
         "direction": "SHORT",
-        "entry": 227.7,
-        "stop_loss": 239.08,
-        "target1": 207.21,
-        "target2": 187.85,
-        "quantity": 87,
-        "risk_per_share": 11.38,
-        "rupees_at_risk": 990.49,
-        "notional": 19809.9,
+        "entry": 877.7,
+        "stop_loss": 921.57,
+        "target1": 798.74,
+        "target2": 724.16,
+        "quantity": 22,
+        "risk_per_share": 43.87,
+        "rupees_at_risk": 965.08,
+        "notional": 19309.4,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
-      "fundamentals": {}
+      "fundamentals": {
+        "market_cap": 89815.0,
+        "pe": 57.3,
+        "roe": 18.6
+      }
     },
     {
-      "symbol": "ALKEM",
+      "symbol": "IRFC",
       "direction": "SHORT",
-      "score": 68.27777777777777,
-      "sentiment": -0.05555555555555555,
+      "score": 53.94444444444444,
+      "sentiment": -0.3888888888888889,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "20-day breakdown (new low)",
-        "RSI 31 (weak)",
-        "ADX 30 (strong trend)",
-        "Consistent weakness (13/20 down days)",
+        "RSI 32 (weak)",
+        "ADX 44 (strong trend)",
+        "Consistent weakness (14/20 down days)",
         "Within 5% of 52-week low",
         "Aligned with market regime"
       ],
       "plan": {
-        "symbol": "ALKEM",
+        "symbol": "IRFC",
         "direction": "SHORT",
-        "entry": 5170.0,
-        "stop_loss": 5379.87,
-        "target1": 4792.23,
-        "target2": 4435.44,
-        "quantity": 4,
-        "risk_per_share": 209.87,
-        "rupees_at_risk": 839.49,
-        "notional": 20680.0,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {}
-    },
-    {
-      "symbol": "SBILIFE",
-      "direction": "SHORT",
-      "score": 62.55555555555556,
-      "sentiment": -0.1111111111111111,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "20-day breakdown (new low)",
-        "RSI 28 (weak)",
-        "ADX 33 (strong trend)",
-        "Consistent weakness (15/20 down days)",
-        "Within 5% of 52-week low",
-        "Aligned with market regime",
-        "Picked recently (-6 to favour fresh names)"
-      ],
-      "plan": {
-        "symbol": "SBILIFE",
-        "direction": "SHORT",
-        "entry": 1713.6,
-        "stop_loss": 1775.86,
-        "target1": 1601.53,
-        "target2": 1495.7,
-        "quantity": 16,
-        "risk_per_share": 62.26,
-        "rupees_at_risk": 996.14,
-        "notional": 27417.6,
+        "entry": 83.15,
+        "stop_loss": 85.98,
+        "target1": 78.05,
+        "target2": 73.24,
+        "quantity": 353,
+        "risk_per_share": 2.83,
+        "rupees_at_risk": 999.87,
+        "notional": 29351.95,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 171959.0,
-        "pe": 66.1,
-        "roe": 13.7
+        "market_cap": 108638.0,
+        "pe": 15.1,
+        "roe": 12.8
       }
     },
     {
-      "symbol": "RECLTD",
+      "symbol": "IEX",
       "direction": "SHORT",
-      "score": 58.5,
-      "sentiment": 0.0,
+      "score": 53.72222222222222,
+      "sentiment": 0.05555555555555555,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-13.2%)",
-        "RSI 30 (weak)",
-        "ADX 47 (strong trend)",
-        "Within 5% of 52-week low",
-        "Aligned with market regime",
-        "Top relative strength (universe)",
-        "Picked recently (-6 to favour fresh names)"
-      ],
-      "plan": {
-        "symbol": "RECLTD",
-        "direction": "SHORT",
-        "entry": 313.9,
-        "stop_loss": 329.58,
-        "target1": 285.68,
-        "target2": 259.04,
-        "quantity": 63,
-        "risk_per_share": 15.68,
-        "rupees_at_risk": 987.55,
-        "notional": 19775.7,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 82683.0,
-        "pe": 5.24,
-        "roe": 20.3
-      }
-    },
-    {
-      "symbol": "ICICIGI",
-      "direction": "SHORT",
-      "score": 57.36666666666667,
-      "sentiment": 0.16666666666666666,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "20-day breakdown (new low)",
-        "RSI 26 (weak)",
-        "Consistent weakness (15/20 down days)",
-        "Within 5% of 52-week low",
-        "Outside lower Bollinger band - oversold",
-        "Aligned with market regime"
-      ],
-      "plan": {
-        "symbol": "ICICIGI",
-        "direction": "SHORT",
-        "entry": 1519.0,
-        "stop_loss": 1587.93,
-        "target1": 1394.92,
-        "target2": 1277.73,
-        "quantity": 14,
-        "risk_per_share": 68.93,
-        "rupees_at_risk": 965.06,
-        "notional": 21266.0,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 75934.0,
-        "pe": 31.3,
-        "roe": 16.6
-      }
-    },
-    {
-      "symbol": "TANLA",
-      "direction": "SHORT",
-      "score": 53.81111111111112,
-      "sentiment": 0.2777777777777778,
-      "reasons": [
-        "Strong 20d down-momentum (-15.6%)",
-        "20-day breakdown (new low)",
+        "Volume surge (>1.5x avg)",
         "RSI 35 (weak)",
-        "Consistent weakness (13/20 down days)",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "TANLA",
-        "direction": "SHORT",
-        "entry": 513.65,
-        "stop_loss": 539.33,
-        "target1": 467.42,
-        "target2": 423.76,
-        "quantity": 38,
-        "risk_per_share": 25.68,
-        "rupees_at_risk": 975.94,
-        "notional": 19518.7,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 6811.0,
-        "pe": 12.8,
-        "roe": 21.4
-      }
-    },
-    {
-      "symbol": "ITC",
-      "direction": "SHORT",
-      "score": 51.44444444444444,
-      "sentiment": 0.1111111111111111,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "RSI 39 (weak)",
-        "ADX 39 (strong trend)",
         "Consistent weakness (14/20 down days)",
         "Within 5% of 52-week low",
         "Aligned with market regime"
       ],
       "plan": {
-        "symbol": "ITC",
+        "symbol": "IEX",
         "direction": "SHORT",
-        "entry": 263.55,
-        "stop_loss": 274.02,
-        "target1": 244.7,
-        "target2": 226.9,
-        "quantity": 95,
-        "risk_per_share": 10.47,
-        "rupees_at_risk": 994.9,
-        "notional": 25037.25,
+        "entry": 119.23,
+        "stop_loss": 123.68,
+        "target1": 111.22,
+        "target2": 103.65,
+        "quantity": 224,
+        "risk_per_share": 4.45,
+        "rupees_at_risk": 996.98,
+        "notional": 26707.52,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 330974.0,
-        "pe": 17.3,
-        "roe": 29.6
+        "market_cap": 10620.0,
+        "pe": 20.9,
+        "roe": 39.4
       }
     }
   ]
