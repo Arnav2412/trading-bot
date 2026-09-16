@@ -1,260 +1,52 @@
 {
-  "generated_at": "2026-09-15T15:03:42.464731+05:30",
+  "generated_at": "2026-09-16T14:45:08.878205+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
     {
-      "symbol": "CESC",
+      "symbol": "RVNL",
       "direction": "SHORT",
-      "score": 82.34444444444445,
-      "sentiment": 0.1111111111111111,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-15.4%)",
-        "20-day breakdown (new low)",
-        "RSI 29 (weak)",
-        "Consistent weakness (15/20 down days)",
-        "Within 5% of 52-week low",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "CESC",
-        "direction": "SHORT",
-        "entry": 142.02,
-        "stop_loss": 149.12,
-        "target1": 129.24,
-        "target2": 117.17,
-        "quantity": 140,
-        "risk_per_share": 7.1,
-        "rupees_at_risk": 994.14,
-        "notional": 19882.8,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {}
-    },
-    {
-      "symbol": "ASTRAL",
-      "direction": "SHORT",
-      "score": 72.73333333333333,
+      "score": 79.83333333333333,
       "sentiment": 0.3333333333333333,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-11.6%)",
+        "Strong 20d down-momentum (-12.3%)",
         "20-day breakdown (new low)",
-        "RSI 29 (weak)",
-        "Consistent weakness (13/20 down days)",
+        "RSI 25 (weak)",
+        "ADX 29 (strong trend)",
+        "Consistent weakness (16/20 down days)",
         "Within 5% of 52-week low",
-        "Outside lower Bollinger band - oversold",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "ASTRAL",
-        "direction": "SHORT",
-        "entry": 1376.3,
-        "stop_loss": 1445.12,
-        "target1": 1252.43,
-        "target2": 1135.45,
-        "quantity": 14,
-        "risk_per_share": 68.82,
-        "rupees_at_risk": 963.41,
-        "notional": 19268.2,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 37011.0,
-        "pe": 62.5,
-        "roe": 13.8
-      }
-    },
-    {
-      "symbol": "MARUTI",
-      "direction": "SHORT",
-      "score": 70.48888888888888,
-      "sentiment": 0.2222222222222222,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-10.8%)",
-        "20-day breakdown (new low)",
-        "RSI 22 (weak)",
-        "ADX 41 (strong trend)",
-        "Consistent weakness (14/20 down days)",
-        "Within 5% of 52-week low",
-        "Oversold RSI 22 - down-move stretched",
-        "Price 3.2 ATR below its mean - extended",
-        "Aligned with market regime",
-        "Top relative strength (universe)",
-        "Picked recently (-6 to favour fresh names)"
-      ],
-      "plan": {
-        "symbol": "MARUTI",
-        "direction": "SHORT",
-        "entry": 12278.0,
-        "stop_loss": 12737.06,
-        "target1": 11451.69,
-        "target2": 10671.28,
-        "quantity": 2,
-        "risk_per_share": 459.06,
-        "rupees_at_risk": 918.12,
-        "notional": 24556.0,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 386223.0,
-        "pe": 27.5,
-        "roe": 14.3
-      }
-    },
-    {
-      "symbol": "NBCC",
-      "direction": "SHORT",
-      "score": 68.08888888888889,
-      "sentiment": 0.2222222222222222,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-10.2%)",
-        "20-day breakdown (new low)",
-        "RSI 23 (weak)",
-        "ADX 36 (strong trend)",
-        "Consistent weakness (14/20 down days)",
-        "Within 5% of 52-week low",
-        "Oversold RSI 23 - down-move stretched",
-        "Price 3.2 ATR below its mean - extended",
-        "Outside lower Bollinger band - oversold",
         "Aligned with market regime"
       ],
       "plan": {
-        "symbol": "NBCC",
+        "symbol": "RVNL",
         "direction": "SHORT",
-        "entry": 80.57,
-        "stop_loss": 84.28,
-        "target1": 73.89,
-        "target2": 67.58,
-        "quantity": 269,
-        "risk_per_share": 3.71,
-        "rupees_at_risk": 998.63,
-        "notional": 21673.33,
+        "entry": 197.29,
+        "stop_loss": 207.15,
+        "target1": 179.53,
+        "target2": 162.76,
+        "quantity": 101,
+        "risk_per_share": 9.86,
+        "rupees_at_risk": 996.31,
+        "notional": 19926.29,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {}
-    },
-    {
-      "symbol": "ICICIGI",
-      "direction": "SHORT",
-      "score": 67.82222222222222,
-      "sentiment": 0.05555555555555555,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-11.9%)",
-        "20-day breakdown (new low)",
-        "ADX 31 (strong trend)",
-        "Consistent weakness (17/20 down days)",
-        "Within 5% of 52-week low",
-        "Oversold RSI 17 - down-move stretched",
-        "Price 3.2 ATR below its mean - extended",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "ICICIGI",
-        "direction": "SHORT",
-        "entry": 1436.7,
-        "stop_loss": 1500.79,
-        "target1": 1321.34,
-        "target2": 1212.39,
-        "quantity": 15,
-        "risk_per_share": 64.09,
-        "rupees_at_risk": 961.31,
-        "notional": 21550.5,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {}
-    },
-    {
-      "symbol": "HAVELLS",
-      "direction": "SHORT",
-      "score": 67.24444444444444,
-      "sentiment": 0.1111111111111111,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-16.2%)",
-        "20-day breakdown (new low)",
-        "ADX 35 (strong trend)",
-        "Consistent weakness (14/20 down days)",
-        "Within 5% of 52-week low",
-        "Oversold RSI 20 - down-move stretched",
-        "Price 3.5 ATR below its mean - extended",
-        "Aligned with market regime",
-        "Top relative strength (universe)",
-        "Picked recently (-6 to favour fresh names)"
-      ],
-      "plan": {
-        "symbol": "HAVELLS",
-        "direction": "SHORT",
-        "entry": 1088.3,
-        "stop_loss": 1142.72,
-        "target1": 990.35,
-        "target2": 897.85,
-        "quantity": 18,
-        "risk_per_share": 54.42,
-        "rupees_at_risk": 979.47,
-        "notional": 19589.4,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {}
-    },
-    {
-      "symbol": "SBILIFE",
-      "direction": "SHORT",
-      "score": 67.02222222222223,
-      "sentiment": 0.05555555555555555,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "20-day breakdown (new low)",
-        "RSI 31 (weak)",
-        "ADX 34 (strong trend)",
-        "Consistent weakness (13/20 down days)",
-        "Within 5% of 52-week low",
-        "Outside lower Bollinger band - oversold",
-        "Aligned with market regime"
-      ],
-      "plan": {
-        "symbol": "SBILIFE",
-        "direction": "SHORT",
-        "entry": 1654.7,
-        "stop_loss": 1723.01,
-        "target1": 1531.74,
-        "target2": 1415.61,
-        "quantity": 14,
-        "risk_per_share": 68.31,
-        "rupees_at_risk": 956.35,
-        "notional": 23165.8,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 165979.0,
-        "pe": 63.9,
-        "roe": 13.7
-      }
     },
     {
       "symbol": "BATAINDIA",
       "direction": "SHORT",
-      "score": 66.22222222222223,
-      "sentiment": 0.5555555555555556,
+      "score": 66.86666666666667,
+      "sentiment": 0.6666666666666666,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-15.5%)",
+        "Strong 20d down-momentum (-12.7%)",
         "20-day breakdown (new low)",
-        "RSI 28 (weak)",
+        "RSI 24 (weak)",
         "Consistent weakness (17/20 down days)",
+        "Within 5% of 52-week low",
+        "Oversold RSI 24 - down-move stretched",
+        "Outside lower Bollinger band - oversold",
         "Aligned with market regime",
         "Top relative strength (universe)",
         "Picked recently (-6 to favour fresh names)"
@@ -262,14 +54,188 @@
       "plan": {
         "symbol": "BATAINDIA",
         "direction": "SHORT",
-        "entry": 640.6,
-        "stop_loss": 670.81,
-        "target1": 586.23,
-        "target2": 534.88,
-        "quantity": 33,
-        "risk_per_share": 30.21,
-        "rupees_at_risk": 996.83,
-        "notional": 21139.8,
+        "entry": 629.55,
+        "stop_loss": 658.07,
+        "target1": 578.22,
+        "target2": 529.74,
+        "quantity": 35,
+        "risk_per_share": 28.52,
+        "rupees_at_risk": 998.06,
+        "notional": 22034.25,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 8091.0,
+        "pe": 46.6,
+        "roe": 10.6
+      }
+    },
+    {
+      "symbol": "CROMPTON",
+      "direction": "SHORT",
+      "score": 66.61111111111111,
+      "sentiment": 0.2777777777777778,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "20-day breakdown (new low)",
+        "RSI 30 (weak)",
+        "ADX 29 (strong trend)",
+        "Consistent weakness (14/20 down days)",
+        "Within 5% of 52-week low",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "CROMPTON",
+        "direction": "SHORT",
+        "entry": 223.05,
+        "stop_loss": 234.2,
+        "target1": 202.98,
+        "target2": 184.02,
+        "quantity": 89,
+        "risk_per_share": 11.15,
+        "rupees_at_risk": 992.57,
+        "notional": 19851.45,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 14363.0,
+        "pe": 31.7,
+        "roe": 10.6
+      }
+    },
+    {
+      "symbol": "BERGEPAINT",
+      "direction": "SHORT",
+      "score": 65.64444444444445,
+      "sentiment": 0.1111111111111111,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-18.4%)",
+        "RSI 23 (weak)",
+        "ADX 35 (strong trend)",
+        "Consistent weakness (17/20 down days)",
+        "Oversold RSI 23 - down-move stretched",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "BERGEPAINT",
+        "direction": "SHORT",
+        "entry": 448.5,
+        "stop_loss": 470.93,
+        "target1": 408.13,
+        "target2": 370.01,
+        "quantity": 44,
+        "risk_per_share": 22.43,
+        "rupees_at_risk": 986.7,
+        "notional": 19734.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 52354.0,
+        "pe": 44.4,
+        "roe": 18.2
+      }
+    },
+    {
+      "symbol": "MAZDOCK",
+      "direction": "SHORT",
+      "score": 63.43333333333334,
+      "sentiment": 0.3333333333333333,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-14.4%)",
+        "20-day breakdown (new low)",
+        "RSI 23 (weak)",
+        "Consistent weakness (14/20 down days)",
+        "Oversold RSI 23 - down-move stretched",
+        "Price 3.2 ATR below its mean - extended",
+        "Outside lower Bollinger band - oversold",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "MAZDOCK",
+        "direction": "SHORT",
+        "entry": 2214.8,
+        "stop_loss": 2325.54,
+        "target1": 2015.47,
+        "target2": 1827.21,
+        "quantity": 9,
+        "risk_per_share": 110.74,
+        "rupees_at_risk": 996.66,
+        "notional": 19933.2,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {}
+    },
+    {
+      "symbol": "MARUTI",
+      "direction": "SHORT",
+      "score": 62.8,
+      "sentiment": 0.5,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-10.8%)",
+        "20-day breakdown (new low)",
+        "RSI 21 (weak)",
+        "ADX 45 (strong trend)",
+        "Consistent weakness (14/20 down days)",
+        "Within 5% of 52-week low",
+        "Oversold RSI 21 - down-move stretched",
+        "Price 3.1 ATR below its mean - extended",
+        "Aligned with market regime",
+        "Picked recently (-6 to favour fresh names)"
+      ],
+      "plan": {
+        "symbol": "MARUTI",
+        "direction": "SHORT",
+        "entry": 12214.0,
+        "stop_loss": 12640.01,
+        "target1": 11447.18,
+        "target2": 10722.96,
+        "quantity": 2,
+        "risk_per_share": 426.01,
+        "rupees_at_risk": 852.02,
+        "notional": 24428.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 384104.0,
+        "pe": 27.3,
+        "roe": 14.3
+      }
+    },
+    {
+      "symbol": "TIINDIA",
+      "direction": "SHORT",
+      "score": 62.711111111111116,
+      "sentiment": 0.2777777777777778,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-12.8%)",
+        "RSI 35 (weak)",
+        "ADX 27 (strong trend)",
+        "Consistent weakness (14/20 down days)",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "TIINDIA",
+        "direction": "SHORT",
+        "entry": 2579.0,
+        "stop_loss": 2707.95,
+        "target1": 2346.89,
+        "target2": 2127.68,
+        "quantity": 7,
+        "risk_per_share": 128.95,
+        "rupees_at_risk": 902.65,
+        "notional": 18053.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
@@ -278,75 +244,34 @@
     {
       "symbol": "IRCON",
       "direction": "SHORT",
-      "score": 65.85555555555555,
-      "sentiment": 0.3888888888888889,
+      "score": 61.01111111111111,
+      "sentiment": 0.2777777777777778,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-12.1%)",
+        "Strong 20d down-momentum (-11.2%)",
         "20-day breakdown (new low)",
-        "ADX 28 (strong trend)",
+        "ADX 31 (strong trend)",
         "Consistent weakness (14/20 down days)",
         "Within 5% of 52-week low",
-        "Oversold RSI 19 - down-move stretched",
-        "Price 3.2 ATR below its mean - extended",
-        "Outside lower Bollinger band - oversold",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
+        "Oversold RSI 18 - down-move stretched",
+        "Price 3.1 ATR below its mean - extended",
+        "Aligned with market regime"
       ],
       "plan": {
         "symbol": "IRCON",
         "direction": "SHORT",
-        "entry": 109.47,
-        "stop_loss": 114.94,
-        "target1": 99.62,
-        "target2": 90.31,
-        "quantity": 182,
-        "risk_per_share": 5.47,
-        "rupees_at_risk": 996.18,
-        "notional": 19923.54,
+        "entry": 108.9,
+        "stop_loss": 114.35,
+        "target1": 99.1,
+        "target2": 89.84,
+        "quantity": 183,
+        "risk_per_share": 5.45,
+        "rupees_at_risk": 996.44,
+        "notional": 19928.7,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {}
-    },
-    {
-      "symbol": "IEX",
-      "direction": "SHORT",
-      "score": 65.5,
-      "sentiment": 0.0,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-10.7%)",
-        "20-day breakdown (new low)",
-        "RSI 24 (weak)",
-        "ADX 28 (strong trend)",
-        "Consistent weakness (15/20 down days)",
-        "Within 5% of 52-week low",
-        "Oversold RSI 24 - down-move stretched",
-        "Price 3.0 ATR below its mean - extended",
-        "Outside lower Bollinger band - oversold",
-        "Aligned with market regime",
-        "Picked recently (-6 to favour fresh names)"
-      ],
-      "plan": {
-        "symbol": "IEX",
-        "direction": "SHORT",
-        "entry": 111.9,
-        "stop_loss": 116.74,
-        "target1": 103.19,
-        "target2": 94.97,
-        "quantity": 206,
-        "risk_per_share": 4.84,
-        "rupees_at_risk": 996.36,
-        "notional": 23051.4,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 9996.0,
-        "pe": 20.5,
-        "roe": 39.4
-      }
     }
   ]
 }
