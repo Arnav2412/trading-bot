@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:21:59.715705+05:30",
+  "generated_at": "2026-09-21T15:39:24.968392+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
     {
@@ -32,9 +32,44 @@
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 52703.0,
-        "pe": 44.7,
+        "market_cap": 52447.0,
+        "pe": 44.5,
         "roe": 18.2
+      }
+    },
+    {
+      "symbol": "TATAELXSI",
+      "direction": "SHORT",
+      "score": 72.32222222222222,
+      "sentiment": 0.05555555555555555,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-11.4%)",
+        "Volume surge (>1.5x avg)",
+        "RSI 30 (weak)",
+        "Consistent weakness (15/20 down days)",
+        "Within 5% of 52-week low",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "TATAELXSI",
+        "direction": "SHORT",
+        "entry": 3283.6,
+        "stop_loss": 3447.78,
+        "target1": 2988.08,
+        "target2": 2708.97,
+        "quantity": 6,
+        "risk_per_share": 164.18,
+        "rupees_at_risk": 985.08,
+        "notional": 19701.6,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 20477.0,
+        "pe": 201.0,
+        "roe": 39.3
       }
     },
     {
@@ -67,72 +102,10 @@
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 69556.0,
-        "pe": 41.3,
+        "market_cap": 68781.0,
+        "pe": 40.8,
         "roe": 19.2
       }
-    },
-    {
-      "symbol": "TATAELXSI",
-      "direction": "SHORT",
-      "score": 66.32222222222222,
-      "sentiment": 0.05555555555555555,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-11.4%)",
-        "Volume surge (>1.5x avg)",
-        "RSI 30 (weak)",
-        "Consistent weakness (15/20 down days)",
-        "Within 5% of 52-week low",
-        "Aligned with market regime"
-      ],
-      "plan": {
-        "symbol": "TATAELXSI",
-        "direction": "SHORT",
-        "entry": 3283.6,
-        "stop_loss": 3447.78,
-        "target1": 2988.08,
-        "target2": 2708.97,
-        "quantity": 6,
-        "risk_per_share": 164.18,
-        "rupees_at_risk": 985.08,
-        "notional": 19701.6,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {}
-    },
-    {
-      "symbol": "IRCON",
-      "direction": "SHORT",
-      "score": 65.93333333333334,
-      "sentiment": 0.3333333333333333,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-11.7%)",
-        "RSI 24 (weak)",
-        "ADX 34 (strong trend)",
-        "Consistent weakness (14/20 down days)",
-        "Within 5% of 52-week low",
-        "Oversold RSI 24 - down-move stretched",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "IRCON",
-        "direction": "SHORT",
-        "entry": 108.65,
-        "stop_loss": 114.08,
-        "target1": 98.87,
-        "target2": 89.64,
-        "quantity": 184,
-        "risk_per_share": 5.43,
-        "rupees_at_risk": 999.58,
-        "notional": 19991.6,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {}
     },
     {
       "symbol": "MARUTI",
@@ -163,7 +136,7 @@
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 382754.0,
+        "market_cap": 382691.0,
         "pe": 27.2,
         "roe": 14.3
       }
@@ -255,6 +228,103 @@
         "risk_per_share": 100.88,
         "rupees_at_risk": 907.88,
         "notional": 18157.5,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {}
+    },
+    {
+      "symbol": "M&M",
+      "direction": "SHORT",
+      "score": 55.12222222222222,
+      "sentiment": 0.05555555555555555,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-10.4%)",
+        "RSI 32 (weak)",
+        "ADX 43 (strong trend)",
+        "Consistent weakness (14/20 down days)",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "M&M",
+        "direction": "SHORT",
+        "entry": 3060.7,
+        "stop_loss": 3182.63,
+        "target1": 2841.22,
+        "target2": 2633.94,
+        "quantity": 8,
+        "risk_per_share": 121.93,
+        "rupees_at_risk": 975.46,
+        "notional": 24485.6,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 380769.0,
+        "pe": 23.3,
+        "roe": 23.1
+      }
+    },
+    {
+      "symbol": "TIINDIA",
+      "direction": "SHORT",
+      "score": 53.43333333333334,
+      "sentiment": 0.3333333333333333,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-10.1%)",
+        "RSI 37 (weak)",
+        "ADX 32 (strong trend)",
+        "Consistent weakness (13/20 down days)",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "TIINDIA",
+        "direction": "SHORT",
+        "entry": 2588.3,
+        "stop_loss": 2717.72,
+        "target1": 2355.35,
+        "target2": 2135.35,
+        "quantity": 7,
+        "risk_per_share": 129.42,
+        "rupees_at_risk": 905.91,
+        "notional": 18118.1,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 49945.0,
+        "pe": 59.9,
+        "roe": 15.1
+      }
+    },
+    {
+      "symbol": "RELAXO",
+      "direction": "SHORT",
+      "score": 52.611111111111114,
+      "sentiment": 0.2777777777777778,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-22.2%)",
+        "ADX 35 (strong trend)",
+        "Consistent weakness (13/20 down days)",
+        "Oversold RSI 18 - down-move stretched",
+        "Price 3.2 ATR below its mean - extended",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "RELAXO",
+        "direction": "SHORT",
+        "entry": 293.65,
+        "stop_loss": 308.33,
+        "target1": 267.22,
+        "target2": 242.26,
+        "quantity": 68,
+        "risk_per_share": 14.68,
+        "rupees_at_risk": 998.41,
+        "notional": 19968.2,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
