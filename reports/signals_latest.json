@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-01T16:40:07.894464+05:30",
+  "generated_at": "2026-10-02T16:13:38.307544+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
     {
       "symbol": "KPITTECH",
       "direction": "SHORT",
-      "score": 90.92222222222223,
-      "sentiment": 0.05555555555555555,
+      "score": 90.64444444444445,
+      "sentiment": 0.1111111111111111,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
         "Strong 20d down-momentum (-15.7%)",
@@ -35,10 +35,43 @@
       "fundamentals": {}
     },
     {
+      "symbol": "AMBUJACEM",
+      "direction": "SHORT",
+      "score": 88.42222222222223,
+      "sentiment": 0.05555555555555555,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-10.6%)",
+        "20-day breakdown (new low)",
+        "Volume surge (>1.5x avg)",
+        "RSI 30 (weak)",
+        "ADX 35 (strong trend)",
+        "Consistent weakness (15/20 down days)",
+        "Within 5% of 52-week low",
+        "Outside lower Bollinger band - oversold",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "AMBUJACEM",
+        "direction": "SHORT",
+        "entry": 362.25,
+        "stop_loss": 379.65,
+        "target1": 330.92,
+        "target2": 301.33,
+        "quantity": 57,
+        "risk_per_share": 17.4,
+        "rupees_at_risk": 992.06,
+        "notional": 20648.25,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {}
+    },
+    {
       "symbol": "CONCOR",
       "direction": "SHORT",
-      "score": 87.94444444444444,
-      "sentiment": 0.1111111111111111,
+      "score": 88.22222222222223,
+      "sentiment": 0.05555555555555555,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
         "Strong 20d down-momentum (-13.1%)",
@@ -67,43 +100,10 @@
       "fundamentals": {}
     },
     {
-      "symbol": "NMDC",
-      "direction": "SHORT",
-      "score": 85.64444444444445,
-      "sentiment": 0.1111111111111111,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-11.3%)",
-        "20-day breakdown (new low)",
-        "RSI 28 (weak)",
-        "ADX 27 (strong trend)",
-        "Consistent weakness (13/20 down days)",
-        "Within 5% of 52-week low",
-        "Outside lower Bollinger band - oversold",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "NMDC",
-        "direction": "SHORT",
-        "entry": 74.64,
-        "stop_loss": 78.37,
-        "target1": 67.92,
-        "target2": 61.58,
-        "quantity": 267,
-        "risk_per_share": 3.73,
-        "rupees_at_risk": 996.44,
-        "notional": 19928.88,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {}
-    },
-    {
       "symbol": "POLICYBZR",
       "direction": "SHORT",
-      "score": 83.72222222222223,
-      "sentiment": 0.05555555555555555,
+      "score": 84.0,
+      "sentiment": 0.0,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
         "Strong 20d down-momentum (-47.6%)",
@@ -136,8 +136,8 @@
     {
       "symbol": "MAZDOCK",
       "direction": "SHORT",
-      "score": 83.65555555555555,
-      "sentiment": 0.3888888888888889,
+      "score": 83.1,
+      "sentiment": 0.5,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
         "Strong 20d down-momentum (-16.6%)",
@@ -202,10 +202,45 @@
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 358419.0,
-        "pe": 25.6,
+        "market_cap": 357979.0,
+        "pe": 25.5,
         "roe": 14.3
       }
+    },
+    {
+      "symbol": "TIINDIA",
+      "direction": "SHORT",
+      "score": 80.53333333333333,
+      "sentiment": 0.3333333333333333,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-14.5%)",
+        "20-day breakdown (new low)",
+        "Volume surge (>1.5x avg)",
+        "RSI 21 (weak)",
+        "ADX 46 (strong trend)",
+        "Consistent weakness (15/20 down days)",
+        "Oversold RSI 21 - down-move stretched",
+        "Price 3.1 ATR below its mean - extended",
+        "Outside lower Bollinger band - oversold",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "TIINDIA",
+        "direction": "SHORT",
+        "entry": 2340.0,
+        "stop_loss": 2457.0,
+        "target1": 2129.4,
+        "target2": 1930.5,
+        "quantity": 8,
+        "risk_per_share": 117.0,
+        "rupees_at_risk": 936.0,
+        "notional": 18720.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {}
     },
     {
       "symbol": "IEX",
@@ -239,42 +274,10 @@
       "fundamentals": {}
     },
     {
-      "symbol": "DEEPAKNTR",
-      "direction": "SHORT",
-      "score": 79.94444444444444,
-      "sentiment": 0.1111111111111111,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-13.5%)",
-        "20-day breakdown (new low)",
-        "RSI 29 (weak)",
-        "ADX 29 (strong trend)",
-        "Consistent weakness (13/20 down days)",
-        "Outside lower Bollinger band - oversold",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "DEEPAKNTR",
-        "direction": "SHORT",
-        "entry": 1492.8,
-        "stop_loss": 1567.44,
-        "target1": 1358.45,
-        "target2": 1231.56,
-        "quantity": 13,
-        "risk_per_share": 74.64,
-        "rupees_at_risk": 970.32,
-        "notional": 19406.4,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {}
-    },
-    {
       "symbol": "ASHOKLEY",
       "direction": "SHORT",
-      "score": 79.8,
-      "sentiment": 0.5,
+      "score": 80.35555555555555,
+      "sentiment": 0.3888888888888889,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
         "Strong 20d down-momentum (-11.1%)",
@@ -302,32 +305,32 @@
       "fundamentals": {}
     },
     {
-      "symbol": "RELAXO",
+      "symbol": "DEEPAKNTR",
       "direction": "SHORT",
-      "score": 79.33333333333333,
-      "sentiment": 0.3333333333333333,
+      "score": 79.94444444444444,
+      "sentiment": 0.1111111111111111,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-17.0%)",
+        "Strong 20d down-momentum (-13.5%)",
         "20-day breakdown (new low)",
-        "RSI 24 (weak)",
-        "ADX 42 (strong trend)",
+        "RSI 29 (weak)",
+        "ADX 29 (strong trend)",
         "Consistent weakness (13/20 down days)",
-        "Oversold RSI 24 - down-move stretched",
+        "Outside lower Bollinger band - oversold",
         "Aligned with market regime",
         "Top relative strength (universe)"
       ],
       "plan": {
-        "symbol": "RELAXO",
+        "symbol": "DEEPAKNTR",
         "direction": "SHORT",
-        "entry": 285.35,
-        "stop_loss": 299.62,
-        "target1": 259.67,
-        "target2": 235.41,
-        "quantity": 70,
-        "risk_per_share": 14.27,
-        "rupees_at_risk": 998.73,
-        "notional": 19974.5,
+        "entry": 1492.8,
+        "stop_loss": 1567.44,
+        "target1": 1358.45,
+        "target2": 1231.56,
+        "quantity": 13,
+        "risk_per_share": 74.64,
+        "rupees_at_risk": 970.32,
+        "notional": 19406.4,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
