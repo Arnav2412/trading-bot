@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-10-12T17:50:59.712536+05:30",
+  "generated_at": "2026-10-13T17:34:29.868800+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
     {
       "symbol": "TIINDIA",
       "direction": "SHORT",
-      "score": 84.53333333333333,
-      "sentiment": 0.3333333333333333,
+      "score": 100,
+      "sentiment": 0.2222222222222222,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-16.5%)",
+        "Strong 20d down-momentum (-17.2%)",
+        "20-day breakdown (new low)",
         "Volume surge (>1.5x avg)",
-        "RSI 27 (weak)",
-        "ADX 45 (strong trend)",
-        "Consistent weakness (14/20 down days)",
+        "RSI 26 (weak)",
+        "ADX 47 (strong trend)",
+        "Consistent weakness (15/20 down days)",
         "Within 5% of 52-week low",
         "Aligned with market regime",
         "Top relative strength (universe)"
@@ -21,269 +22,301 @@
       "plan": {
         "symbol": "TIINDIA",
         "direction": "SHORT",
-        "entry": 2214.0,
-        "stop_loss": 2324.7,
-        "target1": 2014.74,
-        "target2": 1826.55,
+        "entry": 2194.9,
+        "stop_loss": 2304.64,
+        "target1": 1997.36,
+        "target2": 1810.79,
         "quantity": 9,
-        "risk_per_share": 110.7,
-        "rupees_at_risk": 996.3,
-        "notional": 19926.0,
+        "risk_per_share": 109.74,
+        "rupees_at_risk": 987.7,
+        "notional": 19754.1,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 42722.0,
-        "pe": 51.2,
+        "market_cap": 42430.0,
+        "pe": 50.8,
         "roe": 15.1
-      }
-    },
-    {
-      "symbol": "COCHINSHIP",
-      "direction": "SHORT",
-      "score": 78.62222222222223,
-      "sentiment": 0.05555555555555555,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-19.0%)",
-        "RSI 32 (weak)",
-        "ADX 31 (strong trend)",
-        "Consistent weakness (13/20 down days)",
-        "Within 5% of 52-week low",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "COCHINSHIP",
-        "direction": "SHORT",
-        "entry": 1232.0,
-        "stop_loss": 1293.6,
-        "target1": 1121.12,
-        "target2": 1016.4,
-        "quantity": 16,
-        "risk_per_share": 61.6,
-        "rupees_at_risk": 985.6,
-        "notional": 19712.0,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 32327.0,
-        "pe": 54.7,
-        "roe": 11.2
-      }
-    },
-    {
-      "symbol": "GMDCLTD",
-      "direction": "SHORT",
-      "score": 75.26666666666667,
-      "sentiment": 0.16666666666666666,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-19.3%)",
-        "RSI 25 (weak)",
-        "ADX 31 (strong trend)",
-        "Consistent weakness (14/20 down days)",
-        "Within 5% of 52-week low",
-        "Oversold RSI 25 - down-move stretched",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "GMDCLTD",
-        "direction": "SHORT",
-        "entry": 468.35,
-        "stop_loss": 491.77,
-        "target1": 426.2,
-        "target2": 386.39,
-        "quantity": 42,
-        "risk_per_share": 23.42,
-        "rupees_at_risk": 983.54,
-        "notional": 19670.7,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {}
-    },
-    {
-      "symbol": "HINDALCO",
-      "direction": "SHORT",
-      "score": 73.26666666666667,
-      "sentiment": 0.16666666666666666,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-13.0%)",
-        "20-day breakdown (new low)",
-        "RSI 27 (weak)",
-        "ADX 27 (strong trend)",
-        "Consistent weakness (13/20 down days)",
-        "Outside lower Bollinger band - oversold",
-        "Aligned with market regime"
-      ],
-      "plan": {
-        "symbol": "HINDALCO",
-        "direction": "SHORT",
-        "entry": 882.5,
-        "stop_loss": 926.37,
-        "target1": 803.53,
-        "target2": 728.95,
-        "quantity": 22,
-        "risk_per_share": 43.87,
-        "rupees_at_risk": 965.17,
-        "notional": 19415.0,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 199066.0,
-        "pe": 15.3,
-        "roe": 13.7
-      }
-    },
-    {
-      "symbol": "MAZDOCK",
-      "direction": "SHORT",
-      "score": 73.01111111111112,
-      "sentiment": 0.2777777777777778,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-14.9%)",
-        "RSI 30 (weak)",
-        "ADX 48 (strong trend)",
-        "Consistent weakness (13/20 down days)",
-        "Within 5% of 52-week low",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "MAZDOCK",
-        "direction": "SHORT",
-        "entry": 2027.0,
-        "stop_loss": 2128.35,
-        "target1": 1844.57,
-        "target2": 1672.28,
-        "quantity": 9,
-        "risk_per_share": 101.35,
-        "rupees_at_risk": 912.15,
-        "notional": 18243.0,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 81562.0,
-        "pe": 32.3,
-        "roe": 30.4
       }
     },
     {
       "symbol": "NMDC",
       "direction": "SHORT",
-      "score": 71.88888888888889,
-      "sentiment": 0.2222222222222222,
+      "score": 74.64444444444445,
+      "sentiment": 0.1111111111111111,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-16.9%)",
-        "RSI 26 (weak)",
+        "Strong 20d down-momentum (-15.7%)",
+        "RSI 27 (weak)",
         "ADX 39 (strong trend)",
         "Consistent weakness (14/20 down days)",
         "Within 5% of 52-week low",
-        "Price 3.2 ATR below its mean - extended",
         "Aligned with market regime",
         "Top relative strength (universe)"
       ],
       "plan": {
         "symbol": "NMDC",
         "direction": "SHORT",
-        "entry": 70.34,
-        "stop_loss": 73.86,
-        "target1": 64.01,
-        "target2": 58.03,
-        "quantity": 284,
-        "risk_per_share": 3.52,
-        "rupees_at_risk": 998.83,
-        "notional": 19976.56,
+        "entry": 71.34,
+        "stop_loss": 74.91,
+        "target1": 64.92,
+        "target2": 58.86,
+        "quantity": 280,
+        "risk_per_share": 3.57,
+        "rupees_at_risk": 998.76,
+        "notional": 19975.2,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 61844.0,
-        "pe": 8.29,
+        "market_cap": 62675.0,
+        "pe": 8.4,
         "roe": 23.4
-      }
-    },
-    {
-      "symbol": "LUPIN",
-      "direction": "SHORT",
-      "score": 67.44444444444444,
-      "sentiment": 0.1111111111111111,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "20-day breakdown (new low)",
-        "RSI 27 (weak)",
-        "ADX 42 (strong trend)",
-        "Consistent weakness (13/20 down days)",
-        "Within 5% of 52-week low",
-        "Aligned with market regime"
-      ],
-      "plan": {
-        "symbol": "LUPIN",
-        "direction": "SHORT",
-        "entry": 1935.0,
-        "stop_loss": 2015.78,
-        "target1": 1789.59,
-        "target2": 1652.27,
-        "quantity": 12,
-        "risk_per_share": 80.78,
-        "rupees_at_risk": 969.38,
-        "notional": 23220.0,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 88830.0,
-        "pe": 13.4,
-        "roe": 21.2
       }
     },
     {
       "symbol": "VGUARD",
       "direction": "SHORT",
-      "score": 63.63333333333333,
+      "score": 69.13333333333333,
       "sentiment": 0.3333333333333333,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-12.1%)",
-        "RSI 31 (weak)",
+        "Strong 20d down-momentum (-11.6%)",
+        "RSI 33 (weak)",
         "ADX 29 (strong trend)",
         "Consistent weakness (14/20 down days)",
         "Within 5% of 52-week low",
-        "Aligned with market regime"
+        "Aligned with market regime",
+        "Top relative strength (universe)"
       ],
       "plan": {
         "symbol": "VGUARD",
         "direction": "SHORT",
-        "entry": 288.9,
-        "stop_loss": 303.34,
-        "target1": 262.9,
-        "target2": 238.34,
-        "quantity": 69,
-        "risk_per_share": 14.44,
-        "rupees_at_risk": 996.7,
-        "notional": 19934.1,
+        "entry": 290.5,
+        "stop_loss": 305.02,
+        "target1": 264.36,
+        "target2": 239.66,
+        "quantity": 68,
+        "risk_per_share": 14.53,
+        "rupees_at_risk": 987.7,
+        "notional": 19754.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
-      "fundamentals": {}
+      "fundamentals": {
+        "market_cap": 12697.0,
+        "pe": 39.1,
+        "roe": 12.9
+      }
     },
     {
-      "symbol": "NTPC",
+      "symbol": "COCHINSHIP",
       "direction": "SHORT",
-      "score": 61.166666666666664,
+      "score": 68.22222222222223,
+      "sentiment": 0.05555555555555555,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-16.8%)",
+        "RSI 38 (weak)",
+        "ADX 31 (strong trend)",
+        "Consistent weakness (13/20 down days)",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "COCHINSHIP",
+        "direction": "SHORT",
+        "entry": 1265.0,
+        "stop_loss": 1328.25,
+        "target1": 1151.15,
+        "target2": 1043.62,
+        "quantity": 15,
+        "risk_per_share": 63.25,
+        "rupees_at_risk": 948.75,
+        "notional": 18975.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 33227.0,
+        "pe": 56.2,
+        "roe": 11.2
+      }
+    },
+    {
+      "symbol": "MARUTI",
+      "direction": "SHORT",
+      "score": 65.52222222222223,
+      "sentiment": 0.05555555555555555,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-10.7%)",
+        "Volume surge (>1.5x avg)",
+        "RSI 29 (weak)",
+        "ADX 60 (strong trend)",
+        "Within 5% of 52-week low",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "MARUTI",
+        "direction": "SHORT",
+        "entry": 11245.0,
+        "stop_loss": 11729.21,
+        "target1": 10373.43,
+        "target2": 9550.28,
+        "quantity": 2,
+        "risk_per_share": 484.21,
+        "rupees_at_risk": 968.41,
+        "notional": 22490.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 353610.0,
+        "pe": 25.2,
+        "roe": 14.3
+      }
+    },
+    {
+      "symbol": "NATIONALUM",
+      "direction": "SHORT",
+      "score": 56.84444444444444,
+      "sentiment": 0.1111111111111111,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-14.0%)",
+        "RSI 33 (weak)",
+        "Consistent weakness (13/20 down days)",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "NATIONALUM",
+        "direction": "SHORT",
+        "entry": 321.0,
+        "stop_loss": 337.05,
+        "target1": 292.11,
+        "target2": 264.82,
+        "quantity": 62,
+        "risk_per_share": 16.05,
+        "rupees_at_risk": 995.1,
+        "notional": 19902.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 58734.0,
+        "pe": 8.69,
+        "roe": 29.1
+      }
+    },
+    {
+      "symbol": "HINDALCO",
+      "direction": "SHORT",
+      "score": 53.266666666666666,
+      "sentiment": 0.16666666666666666,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-11.0%)",
+        "RSI 31 (weak)",
+        "ADX 28 (strong trend)",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "HINDALCO",
+        "direction": "SHORT",
+        "entry": 902.25,
+        "stop_loss": 945.16,
+        "target1": 825.02,
+        "target2": 752.07,
+        "quantity": 23,
+        "risk_per_share": 42.91,
+        "rupees_at_risk": 986.87,
+        "notional": 20751.75,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 201837.0,
+        "pe": 15.5,
+        "roe": 13.7
+      }
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "direction": "SHORT",
+      "score": 53.166666666666664,
       "sentiment": 0.16666666666666666,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
         "Volume surge (>1.5x avg)",
-        "RSI 32 (weak)",
+        "RSI 42 (weak)",
+        "ADX 40 (strong trend)",
+        "Within 5% of 52-week low",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "HINDUNILVR",
+        "direction": "SHORT",
+        "entry": 1875.5,
+        "stop_loss": 1946.94,
+        "target1": 1746.92,
+        "target2": 1625.48,
+        "quantity": 13,
+        "risk_per_share": 71.44,
+        "rupees_at_risk": 928.66,
+        "notional": 24381.5,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 440351.0,
+        "pe": 40.8,
+        "roe": 31.0
+      }
+    },
+    {
+      "symbol": "ASHOKLEY",
+      "direction": "SHORT",
+      "score": 52.455555555555556,
+      "sentiment": 0.3888888888888889,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-11.3%)",
+        "RSI 34 (weak)",
+        "ADX 37 (strong trend)",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "ASHOKLEY",
+        "direction": "SHORT",
+        "entry": 147.37,
+        "stop_loss": 154.74,
+        "target1": 134.11,
+        "target2": 121.58,
+        "quantity": 135,
+        "risk_per_share": 7.37,
+        "rupees_at_risk": 994.75,
+        "notional": 19894.95,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 86461.0,
+        "pe": 22.5,
+        "roe": 30.2
+      }
+    },
+    {
+      "symbol": "NTPC",
+      "direction": "SHORT",
+      "score": 51.72222222222222,
+      "sentiment": 0.05555555555555555,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "RSI 33 (weak)",
         "ADX 43 (strong trend)",
         "Consistent weakness (13/20 down days)",
         "Within 5% of 52-week low",
@@ -292,54 +325,21 @@
       "plan": {
         "symbol": "NTPC",
         "direction": "SHORT",
-        "entry": 310.0,
-        "stop_loss": 321.96,
-        "target1": 288.47,
-        "target2": 268.13,
-        "quantity": 83,
-        "risk_per_share": 11.96,
-        "rupees_at_risk": 992.83,
-        "notional": 25730.0,
+        "entry": 311.0,
+        "stop_loss": 322.57,
+        "target1": 290.18,
+        "target2": 270.51,
+        "quantity": 86,
+        "risk_per_share": 11.57,
+        "rupees_at_risk": 994.94,
+        "notional": 26746.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 301855.0,
+        "market_cap": 301468.0,
         "pe": 12.7,
         "roe": 13.9
-      }
-    },
-    {
-      "symbol": "NATIONALUM",
-      "direction": "SHORT",
-      "score": 59.288888888888884,
-      "sentiment": 0.2222222222222222,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-16.8%)",
-        "RSI 27 (weak)",
-        "Consistent weakness (14/20 down days)",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "NATIONALUM",
-        "direction": "SHORT",
-        "entry": 310.8,
-        "stop_loss": 326.34,
-        "target1": 282.83,
-        "target2": 256.41,
-        "quantity": 64,
-        "risk_per_share": 15.54,
-        "rupees_at_risk": 994.56,
-        "notional": 19891.2,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 57255.0,
-        "pe": 8.48,
-        "roe": 29.1
       }
     }
   ]
