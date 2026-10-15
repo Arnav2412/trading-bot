@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-15T14:35:41.263865+05:30",
+  "generated_at": "2026-10-15T14:48:49.393975+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
     {
       "symbol": "TIINDIA",
       "direction": "SHORT",
-      "score": 66.48888888888888,
+      "score": 66.78888888888889,
       "sentiment": 0.2222222222222222,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-14.2%)",
-        "RSI 29 (weak)",
+        "Strong 20d down-momentum (-14.4%)",
+        "RSI 28 (weak)",
         "ADX 46 (strong trend)",
         "Consistent weakness (14/20 down days)",
         "Within 5% of 52-week low",
@@ -21,31 +21,31 @@
       "plan": {
         "symbol": "TIINDIA",
         "direction": "SHORT",
-        "entry": 2203.2,
-        "stop_loss": 2313.36,
-        "target1": 2004.91,
-        "target2": 1817.64,
+        "entry": 2196.5,
+        "stop_loss": 2306.32,
+        "target1": 1998.82,
+        "target2": 1812.11,
         "quantity": 9,
-        "risk_per_share": 110.16,
-        "rupees_at_risk": 991.44,
-        "notional": 19828.8,
+        "risk_per_share": 109.83,
+        "rupees_at_risk": 988.43,
+        "notional": 19768.5,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 42660.0,
-        "pe": 51.1,
+        "market_cap": 42508.0,
+        "pe": 50.9,
         "roe": 15.1
       }
     },
     {
       "symbol": "NMDC",
       "direction": "SHORT",
-      "score": 64.44444444444444,
+      "score": 64.34444444444445,
       "sentiment": 0.1111111111111111,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-11.8%)",
+        "Strong 20d down-momentum (-11.7%)",
         "RSI 29 (weak)",
         "ADX 45 (strong trend)",
         "Consistent weakness (13/20 down days)",
@@ -57,28 +57,28 @@
       "plan": {
         "symbol": "NMDC",
         "direction": "SHORT",
-        "entry": 70.86,
-        "stop_loss": 74.39,
-        "target1": 64.51,
-        "target2": 58.52,
+        "entry": 70.9,
+        "stop_loss": 74.43,
+        "target1": 64.55,
+        "target2": 58.56,
         "quantity": 283,
         "risk_per_share": 3.53,
         "rupees_at_risk": 997.84,
-        "notional": 20053.38,
+        "notional": 20064.7,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 62290.0,
-        "pe": 8.27,
+        "market_cap": 62308.0,
+        "pe": 8.28,
         "roe": 23.4
       }
     },
     {
       "symbol": "VGUARD",
       "direction": "SHORT",
-      "score": 62.677777777777784,
-      "sentiment": 0.4444444444444444,
+      "score": 63.13333333333333,
+      "sentiment": 0.3333333333333333,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
         "Strong 20d down-momentum (-11.7%)",
@@ -91,34 +91,67 @@
       "plan": {
         "symbol": "VGUARD",
         "direction": "SHORT",
-        "entry": 288.85,
-        "stop_loss": 303.29,
-        "target1": 262.85,
-        "target2": 238.3,
+        "entry": 288.95,
+        "stop_loss": 303.4,
+        "target1": 262.94,
+        "target2": 238.38,
         "quantity": 69,
-        "risk_per_share": 14.44,
-        "rupees_at_risk": 996.53,
-        "notional": 19930.65,
+        "risk_per_share": 14.45,
+        "rupees_at_risk": 996.88,
+        "notional": 19937.55,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 12627.0,
+        "market_cap": 12633.0,
         "pe": 38.9,
         "roe": 12.9
       }
     },
     {
+      "symbol": "NESTLEIND",
+      "direction": "SHORT",
+      "score": 61.44444444444444,
+      "sentiment": 0.1111111111111111,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "20-day breakdown (new low)",
+        "Volume surge (>1.5x avg)",
+        "RSI 38 (weak)",
+        "ADX 30 (strong trend)",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "NESTLEIND",
+        "direction": "SHORT",
+        "entry": 1287.7,
+        "stop_loss": 1352.08,
+        "target1": 1171.81,
+        "target2": 1062.35,
+        "quantity": 15,
+        "risk_per_share": 64.38,
+        "rupees_at_risk": 965.77,
+        "notional": 19315.5,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 248598.0,
+        "pe": 66.2,
+        "roe": 73.2
+      }
+    },
+    {
       "symbol": "SOUTHBANK",
       "direction": "LONG",
-      "score": 59.07777777777777,
+      "score": 59.377777777777766,
       "sentiment": 0.05555555555555555,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+12.5%)",
+        "Strong 20d momentum (+12.9%)",
         "20-day breakout (new high)",
         "Volume surge (>1.5x avg)",
-        "RSI 65 (momentum zone)",
+        "RSI 66 (momentum zone)",
         "Consistent move (13/20 up days)",
         "Within 5% of 52-week high",
         "Bearish divergence - new high, weaker momentum",
@@ -128,20 +161,20 @@
       "plan": {
         "symbol": "SOUTHBANK",
         "direction": "LONG",
-        "entry": 50.85,
-        "stop_loss": 48.31,
-        "target1": 55.43,
-        "target2": 59.75,
-        "quantity": 393,
-        "risk_per_share": 2.54,
-        "rupees_at_risk": 999.2,
-        "notional": 19984.05,
+        "entry": 51.0,
+        "stop_loss": 48.45,
+        "target1": 55.59,
+        "target2": 59.92,
+        "quantity": 392,
+        "risk_per_share": 2.55,
+        "rupees_at_risk": 999.6,
+        "notional": 19992.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 13394.0,
-        "pe": 8.91,
+        "market_cap": 13234.0,
+        "pe": 8.8,
         "roe": 13.5
       }
     },
@@ -162,21 +195,151 @@
       "plan": {
         "symbol": "CUMMINSIND",
         "direction": "SHORT",
-        "entry": 4629.5,
-        "stop_loss": 4860.98,
-        "target1": 4212.85,
-        "target2": 3819.34,
+        "entry": 4629.7,
+        "stop_loss": 4861.19,
+        "target1": 4213.03,
+        "target2": 3819.5,
         "quantity": 4,
-        "risk_per_share": 231.47,
-        "rupees_at_risk": 925.9,
-        "notional": 18518.0,
+        "risk_per_share": 231.49,
+        "rupees_at_risk": 925.94,
+        "notional": 18518.8,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 128345.0,
-        "pe": 54.6,
+        "market_cap": 128241.0,
+        "pe": 54.5,
         "roe": 31.8
+      }
+    },
+    {
+      "symbol": "CANBK",
+      "direction": "SHORT",
+      "score": 52.333333333333336,
+      "sentiment": 0.3333333333333333,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Volume surge (>1.5x avg)",
+        "RSI 41 (weak)",
+        "Consistent weakness (13/20 down days)",
+        "Within 5% of 52-week low",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "CANBK",
+        "direction": "SHORT",
+        "entry": 117.15,
+        "stop_loss": 123.01,
+        "target1": 106.61,
+        "target2": 96.65,
+        "quantity": 170,
+        "risk_per_share": 5.86,
+        "rupees_at_risk": 995.78,
+        "notional": 19915.5,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 106308.0,
+        "pe": 5.43,
+        "roe": 18.1
+      }
+    },
+    {
+      "symbol": "VEDL",
+      "direction": "SHORT",
+      "score": 49.611111111111114,
+      "sentiment": 0.2777777777777778,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "20-day breakdown (new low)",
+        "RSI 38 (weak)",
+        "Within 5% of 52-week low",
+        "Outside lower Bollinger band - oversold",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "VEDL",
+        "direction": "SHORT",
+        "entry": 245.4,
+        "stop_loss": 257.67,
+        "target1": 223.31,
+        "target2": 202.45,
+        "quantity": 81,
+        "risk_per_share": 12.27,
+        "rupees_at_risk": 993.87,
+        "notional": 19877.4,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 95902.0,
+        "pe": 54.1,
+        "roe": 17.3
+      }
+    },
+    {
+      "symbol": "NATIONALUM",
+      "direction": "SHORT",
+      "score": 46.98888888888889,
+      "sentiment": 0.2222222222222222,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-11.0%)",
+        "RSI 34 (weak)",
+        "Consistent weakness (13/20 down days)",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "NATIONALUM",
+        "direction": "SHORT",
+        "entry": 316.85,
+        "stop_loss": 332.69,
+        "target1": 288.33,
+        "target2": 261.4,
+        "quantity": 63,
+        "risk_per_share": 15.84,
+        "rupees_at_risk": 998.08,
+        "notional": 19961.55,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 58184.0,
+        "pe": 8.7,
+        "roe": 29.1
+      }
+    },
+    {
+      "symbol": "ASHOKLEY",
+      "direction": "SHORT",
+      "score": 44.333333333333336,
+      "sentiment": 0.3333333333333333,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Volume surge (>1.5x avg)",
+        "RSI 40 (weak)",
+        "ADX 39 (strong trend)",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "ASHOKLEY",
+        "direction": "SHORT",
+        "entry": 148.62,
+        "stop_loss": 156.05,
+        "target1": 135.24,
+        "target2": 122.61,
+        "quantity": 134,
+        "risk_per_share": 7.43,
+        "rupees_at_risk": 995.75,
+        "notional": 19915.08,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 87227.0,
+        "pe": 22.8,
+        "roe": 30.2
       }
     }
   ]
