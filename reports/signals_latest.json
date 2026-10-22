@@ -1,49 +1,50 @@
 {
-  "generated_at": "2026-10-22T14:51:38.373550+05:30",
+  "generated_at": "2026-10-22T15:04:08.659493+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
     {
-      "symbol": "GMDCLTD",
+      "symbol": "BHARATFORG",
       "direction": "SHORT",
-      "score": 87.16666666666667,
-      "sentiment": 0.16666666666666666,
+      "score": 84.52222222222223,
+      "sentiment": 0.05555555555555555,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-22.8%)",
+        "Strong 20d down-momentum (-13.4%)",
         "20-day breakdown (new low)",
-        "RSI 23 (weak)",
-        "ADX 43 (strong trend)",
-        "Consistent weakness (16/20 down days)",
-        "Within 5% of 52-week low",
-        "Oversold RSI 23 - down-move stretched",
-        "Price 3.3 ATR below its mean - extended",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
+        "Volume surge (>1.5x avg)",
+        "RSI 30 (weak)",
+        "ADX 32 (strong trend)",
+        "Consistent weakness (15/20 down days)",
+        "Aligned with market regime"
       ],
       "plan": {
-        "symbol": "GMDCLTD",
+        "symbol": "BHARATFORG",
         "direction": "SHORT",
-        "entry": 435.15,
-        "stop_loss": 456.91,
-        "target1": 395.99,
-        "target2": 359.0,
-        "quantity": 45,
-        "risk_per_share": 21.76,
-        "rupees_at_risk": 979.09,
-        "notional": 19581.75,
+        "entry": 1739.2,
+        "stop_loss": 1826.16,
+        "target1": 1582.67,
+        "target2": 1434.84,
+        "quantity": 11,
+        "risk_per_share": 86.96,
+        "rupees_at_risk": 956.56,
+        "notional": 19131.2,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
-      "fundamentals": {}
+      "fundamentals": {
+        "market_cap": 84792.0,
+        "pe": 68.8,
+        "roe": 10.2
+      }
     },
     {
       "symbol": "TIINDIA",
       "direction": "SHORT",
-      "score": 84.84444444444445,
-      "sentiment": 0.1111111111111111,
+      "score": 84.08888888888889,
+      "sentiment": 0.2222222222222222,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-19.0%)",
+        "Strong 20d down-momentum (-18.6%)",
         "20-day breakdown (new low)",
         "RSI 24 (weak)",
         "ADX 47 (strong trend)",
@@ -57,31 +58,31 @@
       "plan": {
         "symbol": "TIINDIA",
         "direction": "SHORT",
-        "entry": 2086.0,
-        "stop_loss": 2190.3,
-        "target1": 1898.26,
-        "target2": 1720.95,
+        "entry": 2095.1,
+        "stop_loss": 2199.86,
+        "target1": 1906.54,
+        "target2": 1728.46,
         "quantity": 9,
-        "risk_per_share": 104.3,
-        "rupees_at_risk": 938.7,
-        "notional": 18774.0,
+        "risk_per_share": 104.76,
+        "rupees_at_risk": 942.8,
+        "notional": 18855.9,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 40495.0,
-        "pe": 48.4,
+        "market_cap": 40407.0,
+        "pe": 48.3,
         "roe": 15.1
       }
     },
     {
       "symbol": "NMDC",
       "direction": "SHORT",
-      "score": 82.51111111111112,
+      "score": 82.41111111111111,
       "sentiment": 0.2777777777777778,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-14.5%)",
+        "Strong 20d down-momentum (-14.4%)",
         "20-day breakdown (new low)",
         "RSI 27 (weak)",
         "ADX 49 (strong trend)",
@@ -92,20 +93,20 @@
       "plan": {
         "symbol": "NMDC",
         "direction": "SHORT",
-        "entry": 68.61,
-        "stop_loss": 72.04,
-        "target1": 62.44,
-        "target2": 56.6,
+        "entry": 68.67,
+        "stop_loss": 72.1,
+        "target1": 62.49,
+        "target2": 56.65,
         "quantity": 291,
         "risk_per_share": 3.43,
-        "rupees_at_risk": 998.28,
-        "notional": 19965.51,
+        "rupees_at_risk": 999.15,
+        "notional": 19982.97,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 60496.0,
-        "pe": 8.09,
+        "market_cap": 60338.0,
+        "pe": 8.06,
         "roe": 23.4
       }
     },
@@ -116,7 +117,7 @@
       "sentiment": 0.5555555555555556,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-15.0%)",
+        "Strong 20d down-momentum (-14.8%)",
         "20-day breakdown (new low)",
         "RSI 26 (weak)",
         "ADX 33 (strong trend)",
@@ -130,59 +131,28 @@
       "plan": {
         "symbol": "VGUARD",
         "direction": "SHORT",
-        "entry": 272.45,
-        "stop_loss": 286.07,
-        "target1": 247.93,
-        "target2": 224.77,
+        "entry": 273.0,
+        "stop_loss": 286.65,
+        "target1": 248.43,
+        "target2": 225.22,
         "quantity": 73,
-        "risk_per_share": 13.62,
-        "rupees_at_risk": 994.44,
-        "notional": 19888.85,
+        "risk_per_share": 13.65,
+        "rupees_at_risk": 996.45,
+        "notional": 19929.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 11934.0,
-        "pe": 31.4,
-        "roe": 14.4
+        "market_cap": 11930.0,
+        "pe": 36.7,
+        "roe": 12.9
       }
-    },
-    {
-      "symbol": "LUPIN",
-      "direction": "SHORT",
-      "score": 79.3,
-      "sentiment": 0.0,
-      "reasons": [
-        "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-10.3%)",
-        "20-day breakdown (new low)",
-        "RSI 32 (weak)",
-        "ADX 45 (strong trend)",
-        "Consistent weakness (14/20 down days)",
-        "Within 5% of 52-week low",
-        "Aligned with market regime"
-      ],
-      "plan": {
-        "symbol": "LUPIN",
-        "direction": "SHORT",
-        "entry": 1914.9,
-        "stop_loss": 1997.21,
-        "target1": 1766.74,
-        "target2": 1626.82,
-        "quantity": 12,
-        "risk_per_share": 82.31,
-        "rupees_at_risk": 987.71,
-        "notional": 22978.8,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {}
     },
     {
       "symbol": "BIOCON",
       "direction": "SHORT",
-      "score": 79.12222222222223,
-      "sentiment": 0.5555555555555556,
+      "score": 79.95555555555556,
+      "sentiment": 0.3888888888888889,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
         "Strong 20d down-momentum (-15.4%)",
@@ -199,18 +169,53 @@
       "plan": {
         "symbol": "BIOCON",
         "direction": "SHORT",
-        "entry": 330.05,
-        "stop_loss": 346.55,
-        "target1": 300.35,
-        "target2": 272.29,
+        "entry": 330.0,
+        "stop_loss": 346.5,
+        "target1": 300.3,
+        "target2": 272.25,
         "quantity": 60,
         "risk_per_share": 16.5,
-        "rupees_at_risk": 990.15,
-        "notional": 19803.0,
+        "rupees_at_risk": 990.0,
+        "notional": 19800.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {}
+    },
+    {
+      "symbol": "LUPIN",
+      "direction": "SHORT",
+      "score": 78.74444444444444,
+      "sentiment": 0.1111111111111111,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-10.3%)",
+        "20-day breakdown (new low)",
+        "RSI 32 (weak)",
+        "ADX 45 (strong trend)",
+        "Consistent weakness (14/20 down days)",
+        "Within 5% of 52-week low",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "LUPIN",
+        "direction": "SHORT",
+        "entry": 1915.0,
+        "stop_loss": 1997.31,
+        "target1": 1766.84,
+        "target2": 1626.92,
+        "quantity": 12,
+        "risk_per_share": 82.31,
+        "rupees_at_risk": 987.71,
+        "notional": 22980.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 87550.0,
+        "pe": 13.2,
+        "roe": 21.2
+      }
     },
     {
       "symbol": "MAZDOCK",
@@ -232,14 +237,14 @@
       "plan": {
         "symbol": "MAZDOCK",
         "direction": "SHORT",
-        "entry": 1909.6,
-        "stop_loss": 2005.08,
-        "target1": 1737.74,
-        "target2": 1575.42,
+        "entry": 1909.1,
+        "stop_loss": 2004.55,
+        "target1": 1737.28,
+        "target2": 1575.01,
         "quantity": 10,
-        "risk_per_share": 95.48,
-        "rupees_at_risk": 954.8,
-        "notional": 19096.0,
+        "risk_per_share": 95.45,
+        "rupees_at_risk": 954.55,
+        "notional": 19091.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
@@ -248,11 +253,11 @@
     {
       "symbol": "DMART",
       "direction": "SHORT",
-      "score": 78.22222222222223,
-      "sentiment": 0.05555555555555555,
+      "score": 77.76666666666667,
+      "sentiment": 0.16666666666666666,
       "reasons": [
         "Stacked downtrend (20<50<100 EMA)",
-        "Strong 20d down-momentum (-16.3%)",
+        "Strong 20d down-momentum (-16.2%)",
         "20-day breakdown (new low)",
         "Volume surge (>1.5x avg)",
         "RSI 22 (weak)",
@@ -267,21 +272,85 @@
       "plan": {
         "symbol": "DMART",
         "direction": "SHORT",
-        "entry": 3159.9,
-        "stop_loss": 3317.89,
-        "target1": 2875.51,
-        "target2": 2606.92,
+        "entry": 3166.5,
+        "stop_loss": 3324.82,
+        "target1": 2881.51,
+        "target2": 2612.36,
         "quantity": 6,
-        "risk_per_share": 157.99,
-        "rupees_at_risk": 947.97,
-        "notional": 18959.4,
+        "risk_per_share": 158.32,
+        "rupees_at_risk": 949.95,
+        "notional": 18999.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 206270.0,
-        "pe": 60.9,
+        "market_cap": 206277.0,
+        "pe": 60.8,
         "roe": 13.5
+      }
+    },
+    {
+      "symbol": "HUDCO",
+      "direction": "SHORT",
+      "score": 73.17777777777778,
+      "sentiment": -0.05555555555555555,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-11.8%)",
+        "20-day breakdown (new low)",
+        "RSI 27 (weak)",
+        "ADX 34 (strong trend)",
+        "Within 5% of 52-week low",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "HUDCO",
+        "direction": "SHORT",
+        "entry": 152.13,
+        "stop_loss": 159.74,
+        "target1": 138.44,
+        "target2": 125.51,
+        "quantity": 131,
+        "risk_per_share": 7.61,
+        "rupees_at_risk": 996.45,
+        "notional": 19929.03,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {}
+    },
+    {
+      "symbol": "SHRIRAMFIN",
+      "direction": "SHORT",
+      "score": 71.16666666666667,
+      "sentiment": 0.16666666666666666,
+      "reasons": [
+        "Stacked downtrend (20<50<100 EMA)",
+        "Strong 20d down-momentum (-10.9%)",
+        "20-day breakdown (new low)",
+        "RSI 34 (weak)",
+        "ADX 39 (strong trend)",
+        "Consistent weakness (14/20 down days)",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "SHRIRAMFIN",
+        "direction": "SHORT",
+        "entry": 895.95,
+        "stop_loss": 940.75,
+        "target1": 815.31,
+        "target2": 739.16,
+        "quantity": 22,
+        "risk_per_share": 44.8,
+        "rupees_at_risk": 985.55,
+        "notional": 19710.9,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 210684.0,
+        "pe": 18.6,
+        "roe": 16.4
       }
     }
   ]
