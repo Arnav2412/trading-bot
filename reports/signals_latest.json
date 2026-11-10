@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T18:44:55.099253+05:30",
+  "generated_at": "2026-11-10T18:24:03.111581+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
     {
@@ -80,8 +80,8 @@
     {
       "symbol": "PNB",
       "direction": "LONG",
-      "score": 89.65555555555555,
-      "sentiment": 0.1111111111111111,
+      "score": 89.37777777777777,
+      "sentiment": 0.05555555555555555,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
         "Strong 20d momentum (+13.0%)",
@@ -109,8 +109,8 @@
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 151661.0,
-        "pe": 7.18,
+        "market_cap": 151902.0,
+        "pe": 7.2,
         "roe": 12.5
       }
     },
@@ -144,16 +144,16 @@
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 214714.0,
-        "pe": 47.5,
+        "market_cap": 214070.0,
+        "pe": 47.4,
         "roe": 34.4
       }
     },
     {
       "symbol": "SONACOMS",
       "direction": "LONG",
-      "score": 86.46666666666667,
-      "sentiment": 0.13333333333333333,
+      "score": 86.54074074074074,
+      "sentiment": 0.14814814814814814,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
         "Strong 20d momentum (+18.0%)",
@@ -179,16 +179,16 @@
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 57671.0,
-        "pe": 71.4,
+        "market_cap": 57766.0,
+        "pe": 71.6,
         "roe": 11.7
       }
     },
     {
       "symbol": "DRREDDY",
       "direction": "LONG",
-      "score": 83.21111111111111,
-      "sentiment": 0.2222222222222222,
+      "score": 82.93333333333332,
+      "sentiment": 0.16666666666666666,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
         "Strong 20d momentum (+15.7%)",
@@ -215,7 +215,7 @@
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 115770.0,
+        "market_cap": 115685.0,
         "pe": 119.0,
         "roe": 10.2
       }
@@ -250,16 +250,16 @@
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 8584.0,
-        "pe": 51.0,
+        "market_cap": 8603.0,
+        "pe": 51.1,
         "roe": 22.4
       }
     },
     {
       "symbol": "DLF",
       "direction": "LONG",
-      "score": 71.05555555555556,
-      "sentiment": 0.1111111111111111,
+      "score": 71.33333333333333,
+      "sentiment": 0.16666666666666666,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
         "Strong 20d momentum (+16.4%)",
@@ -325,50 +325,45 @@
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 1140362.0,
+        "market_cap": 1141091.0,
         "pe": 20.9,
         "roe": 15.8
       }
     },
     {
-      "symbol": "DIVISLAB",
+      "symbol": "MARICO",
       "direction": "LONG",
-      "score": 69.27777777777777,
-      "sentiment": 0.05555555555555555,
+      "score": 69.44444444444444,
+      "sentiment": 0.3888888888888889,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+23.8%)",
+        "Strong 20d momentum (+14.7%)",
         "20-day breakout (new high)",
-        "Volume surge (>1.5x avg)",
-        "ADX 31 (strong trend)",
-        "Consistent move (14/20 up days)",
+        "RSI 78 (momentum zone)",
+        "ADX 33 (strong trend)",
         "Within 5% of 52-week high",
-        "Gapped +7.5% today - chasing risk (-8 score)",
-        "Overbought RSI 85 - up-move stretched",
-        "Price 5.3 ATR above its mean - extended",
-        "Outside upper Bollinger band - overbought",
-        "EXHAUSTION HIGH - likely near a reversal; not chasing",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
+        "Overbought RSI 78 - up-move stretched",
+        "Price 3.5 ATR above its mean - extended",
+        "Aligned with market regime"
       ],
       "plan": {
-        "symbol": "DIVISLAB",
+        "symbol": "MARICO",
         "direction": "LONG",
-        "entry": 11565.5,
-        "stop_loss": 10987.23,
-        "target1": 12606.4,
-        "target2": 13589.46,
-        "quantity": 1,
-        "risk_per_share": 578.27,
-        "rupees_at_risk": 578.27,
-        "notional": 11565.5,
+        "entry": 902.0,
+        "stop_loss": 860.64,
+        "target1": 976.45,
+        "target2": 1046.76,
+        "quantity": 24,
+        "risk_per_share": 41.36,
+        "rupees_at_risk": 992.65,
+        "notional": 21648.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 307492.0,
-        "pe": 89.4,
-        "roe": 16.8
+        "market_cap": 117278.0,
+        "pe": 60.8,
+        "roe": 37.0
       }
     }
   ]
