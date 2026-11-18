@@ -1,256 +1,75 @@
 {
-  "generated_at": "2026-11-17T19:15:27.216433+05:30",
+  "generated_at": "2026-11-18T18:50:13.325320+05:30",
   "disclaimer": "EDUCATIONAL DECISION-SUPPORT ONLY - NOT FINANCIAL ADVICE. Signals are generated from delayed/free data and can be wrong. You are responsible for every trade. Never risk money you can't afford to lose.",
   "signals": [
     {
-      "symbol": "PNB",
+      "symbol": "APOLLOHOSP",
       "direction": "LONG",
-      "score": 81.93333333333332,
-      "sentiment": 0.16666666666666666,
+      "score": 90.27777777777777,
+      "sentiment": 0.05555555555555555,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+29.0%)",
+        "Strong 20d momentum (+14.6%)",
         "20-day breakout (new high)",
-        "Volume surge (>1.5x avg)",
-        "ADX 41 (strong trend)",
-        "Consistent move (15/20 up days)",
+        "RSI 64 (momentum zone)",
+        "ADX 27 (strong trend)",
+        "Consistent move (14/20 up days)",
         "Within 5% of 52-week high",
-        "Overbought RSI 85 - up-move stretched",
-        "Price 4.7 ATR above its mean - extended",
-        "Outside upper Bollinger band - overbought",
         "Aligned with market regime",
         "Top relative strength (universe)"
       ],
       "plan": {
-        "symbol": "PNB",
+        "symbol": "APOLLOHOSP",
         "direction": "LONG",
-        "entry": 150.0,
-        "stop_loss": 142.5,
-        "target1": 163.5,
-        "target2": 176.25,
-        "quantity": 133,
-        "risk_per_share": 7.5,
-        "rupees_at_risk": 997.5,
-        "notional": 19950.0,
+        "entry": 8821.0,
+        "stop_loss": 8420.69,
+        "target1": 9541.56,
+        "target2": 10222.09,
+        "quantity": 2,
+        "risk_per_share": 400.31,
+        "rupees_at_risk": 800.62,
+        "notional": 17642.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 172621.0,
-        "pe": 8.18,
-        "roe": 12.5
+        "market_cap": 126995.0,
+        "pe": 77.6,
+        "roe": 15.4
       }
     },
     {
       "symbol": "TANLA",
       "direction": "LONG",
-      "score": 80.55555555555556,
+      "score": 72.55555555555556,
       "sentiment": 0.1111111111111111,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+27.0%)",
-        "RSI 72 (momentum zone)",
+        "Strong 20d momentum (+26.4%)",
+        "RSI 67 (momentum zone)",
         "ADX 58 (strong trend)",
         "Consistent move (13/20 up days)",
-        "Within 5% of 52-week high",
         "Aligned with market regime",
         "Top relative strength (universe)"
       ],
       "plan": {
         "symbol": "TANLA",
         "direction": "LONG",
-        "entry": 711.0,
-        "stop_loss": 675.45,
-        "target1": 774.99,
-        "target2": 835.42,
+        "entry": 698.05,
+        "stop_loss": 663.15,
+        "target1": 760.87,
+        "target2": 820.21,
         "quantity": 28,
-        "risk_per_share": 35.55,
-        "rupees_at_risk": 995.4,
-        "notional": 19908.0,
+        "risk_per_share": 34.9,
+        "rupees_at_risk": 977.27,
+        "notional": 19545.4,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 9430.0,
-        "pe": 56.1,
+        "market_cap": 9254.0,
+        "pe": 55.0,
         "roe": 22.4
-      }
-    },
-    {
-      "symbol": "ANGELONE",
-      "direction": "LONG",
-      "score": 78.57777777777777,
-      "sentiment": 0.05555555555555555,
-      "reasons": [
-        "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+16.6%)",
-        "Volume surge (>1.5x avg)",
-        "RSI 73 (momentum zone)",
-        "ADX 30 (strong trend)",
-        "Consistent move (15/20 up days)",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "ANGELONE",
-        "direction": "LONG",
-        "entry": 349.8,
-        "stop_loss": 332.31,
-        "target1": 381.28,
-        "target2": 411.01,
-        "quantity": 57,
-        "risk_per_share": 17.49,
-        "rupees_at_risk": 996.93,
-        "notional": 19938.6,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 32025.0,
-        "pe": 24.8,
-        "roe": 17.3
-      }
-    },
-    {
-      "symbol": "SOUTHBANK",
-      "direction": "LONG",
-      "score": 78.1030303030303,
-      "sentiment": 0.06060606060606061,
-      "reasons": [
-        "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+18.0%)",
-        "RSI 70 (momentum zone)",
-        "ADX 43 (strong trend)",
-        "Consistent move (14/20 up days)",
-        "Within 5% of 52-week high",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "SOUTHBANK",
-        "direction": "LONG",
-        "entry": 60.7,
-        "stop_loss": 57.67,
-        "target1": 66.16,
-        "target2": 71.32,
-        "quantity": 329,
-        "risk_per_share": 3.04,
-        "rupees_at_risk": 998.52,
-        "notional": 19970.3,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 15897.0,
-        "pe": 10.0,
-        "roe": 13.5
-      }
-    },
-    {
-      "symbol": "BSE",
-      "direction": "LONG",
-      "score": 77.23333333333333,
-      "sentiment": 0.16666666666666666,
-      "reasons": [
-        "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+14.9%)",
-        "Volume surge (>1.5x avg)",
-        "RSI 68 (momentum zone)",
-        "ADX 38 (strong trend)",
-        "Consistent move (13/20 up days)",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "BSE",
-        "direction": "LONG",
-        "entry": 3864.9,
-        "stop_loss": 3671.65,
-        "target1": 4212.74,
-        "target2": 4541.26,
-        "quantity": 5,
-        "risk_per_share": 193.24,
-        "rupees_at_risk": 966.22,
-        "notional": 19324.5,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 157643.0,
-        "pe": 53.9,
-        "roe": 50.0
-      }
-    },
-    {
-      "symbol": "INDHOTEL",
-      "direction": "LONG",
-      "score": 73.71111111111111,
-      "sentiment": 0.2222222222222222,
-      "reasons": [
-        "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+16.8%)",
-        "RSI 76 (momentum zone)",
-        "ADX 51 (strong trend)",
-        "Consistent move (14/20 up days)",
-        "Within 5% of 52-week high",
-        "Overbought RSI 76 - up-move stretched",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "INDHOTEL",
-        "direction": "LONG",
-        "entry": 901.55,
-        "stop_loss": 858.3,
-        "target1": 979.41,
-        "target2": 1052.94,
-        "quantity": 23,
-        "risk_per_share": 43.25,
-        "rupees_at_risk": 994.85,
-        "notional": 20735.65,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 128475.0,
-        "pe": 68.6,
-        "roe": 13.9
-      }
-    },
-    {
-      "symbol": "CHOLAFIN",
-      "direction": "LONG",
-      "score": 72.4,
-      "sentiment": 0.0,
-      "reasons": [
-        "Strong 20d momentum (+19.7%)",
-        "20-day breakout (new high)",
-        "RSI 73 (momentum zone)",
-        "ADX 38 (strong trend)",
-        "Consistent move (13/20 up days)",
-        "Within 5% of 52-week high",
-        "Price 3.1 ATR above its mean - extended",
-        "Aligned with market regime",
-        "Top relative strength (universe)"
-      ],
-      "plan": {
-        "symbol": "CHOLAFIN",
-        "direction": "LONG",
-        "entry": 1884.7,
-        "stop_loss": 1790.46,
-        "target1": 2054.32,
-        "target2": 2214.52,
-        "quantity": 10,
-        "risk_per_share": 94.23,
-        "rupees_at_risk": 942.35,
-        "notional": 18847.0,
-        "rr_t1": 1.8,
-        "rr_t2": 3.5
-      },
-      "fundamentals": {
-        "market_cap": 162490.0,
-        "pe": 26.2,
-        "roe": 19.3
       }
     },
     {
@@ -260,9 +79,9 @@
       "sentiment": 0.05555555555555555,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+21.9%)",
-        "RSI 69 (momentum zone)",
-        "ADX 41 (strong trend)",
+        "Strong 20d momentum (+21.6%)",
+        "RSI 67 (momentum zone)",
+        "ADX 42 (strong trend)",
         "Consistent move (13/20 up days)",
         "Aligned with market regime",
         "Top relative strength (universe)"
@@ -270,90 +89,265 @@
       "plan": {
         "symbol": "DIVISLAB",
         "direction": "LONG",
-        "entry": 11150.0,
-        "stop_loss": 10592.5,
-        "target1": 12153.5,
-        "target2": 13101.25,
+        "entry": 11049.0,
+        "stop_loss": 10496.55,
+        "target1": 12043.41,
+        "target2": 12982.58,
         "quantity": 1,
-        "risk_per_share": 557.5,
-        "rupees_at_risk": 557.5,
-        "notional": 11150.0,
+        "risk_per_share": 552.45,
+        "rupees_at_risk": 552.45,
+        "notional": 11049.0,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 295172.0,
-        "pe": 85.8,
+        "market_cap": 294228.0,
+        "pe": 85.5,
         "roe": 16.8
       }
     },
     {
-      "symbol": "BAJFINANCE",
+      "symbol": "INDHOTEL",
       "direction": "LONG",
-      "score": 67.6,
-      "sentiment": 0.0,
+      "score": 69.9121212121212,
+      "sentiment": 0.24242424242424243,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+14.2%)",
-        "RSI 71 (momentum zone)",
-        "ADX 35 (strong trend)",
-        "Consistent move (13/20 up days)",
+        "Strong 20d momentum (+15.1%)",
+        "RSI 65 (momentum zone)",
+        "ADX 51 (strong trend)",
+        "Consistent move (14/20 up days)",
         "Within 5% of 52-week high",
-        "Aligned with market regime"
+        "Bearish divergence - new high, weaker momentum",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
       ],
       "plan": {
-        "symbol": "BAJFINANCE",
+        "symbol": "INDHOTEL",
         "direction": "LONG",
-        "entry": 1121.1,
-        "stop_loss": 1065.04,
-        "target1": 1222.0,
-        "target2": 1317.29,
-        "quantity": 17,
-        "risk_per_share": 56.05,
-        "rupees_at_risk": 952.93,
-        "notional": 19058.7,
+        "entry": 875.05,
+        "stop_loss": 831.3,
+        "target1": 953.8,
+        "target2": 1028.18,
+        "quantity": 22,
+        "risk_per_share": 43.75,
+        "rupees_at_risk": 962.55,
+        "notional": 19251.1,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 697992.0,
-        "pe": 35.8,
-        "roe": 17.1
+        "market_cap": 124633.0,
+        "pe": 66.6,
+        "roe": 13.9
+      }
+    },
+    {
+      "symbol": "SUNTV",
+      "direction": "LONG",
+      "score": 68.9,
+      "sentiment": 0.0,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "20-day breakout (new high)",
+        "Volume surge (>1.5x avg)",
+        "RSI 69 (momentum zone)",
+        "ADX 38 (strong trend)",
+        "Within 5% of 52-week high",
+        "Outside upper Bollinger band - overbought",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "SUNTV",
+        "direction": "LONG",
+        "entry": 696.35,
+        "stop_loss": 661.53,
+        "target1": 759.02,
+        "target2": 818.21,
+        "quantity": 28,
+        "risk_per_share": 34.82,
+        "rupees_at_risk": 974.89,
+        "notional": 19497.8,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 27455.0,
+        "pe": 17.8,
+        "roe": 12.3
+      }
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "direction": "LONG",
+      "score": 68.67777777777778,
+      "sentiment": 0.05555555555555555,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "Strong 20d momentum (+16.7%)",
+        "RSI 69 (momentum zone)",
+        "ADX 43 (strong trend)",
+        "Consistent move (14/20 up days)",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "ULTRACEMCO",
+        "direction": "LONG",
+        "entry": 12428.0,
+        "stop_loss": 11914.35,
+        "target1": 13352.57,
+        "target2": 14225.77,
+        "quantity": 1,
+        "risk_per_share": 513.65,
+        "rupees_at_risk": 513.65,
+        "notional": 12428.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 367093.0,
+        "pe": 46.4,
+        "roe": 10.3
       }
     },
     {
       "symbol": "MARICO",
       "direction": "LONG",
-      "score": 66.85555555555555,
+      "score": 68.65555555555557,
       "sentiment": 0.1111111111111111,
       "reasons": [
         "Stacked uptrend (20>50>100 EMA)",
-        "Strong 20d momentum (+17.7%)",
-        "RSI 74 (momentum zone)",
+        "Strong 20d momentum (+16.5%)",
+        "RSI 66 (momentum zone)",
         "ADX 38 (strong trend)",
         "Within 5% of 52-week high",
-        "Price 3.1 ATR above its mean - extended",
         "Aligned with market regime",
         "Top relative strength (universe)"
       ],
       "plan": {
         "symbol": "MARICO",
         "direction": "LONG",
-        "entry": 924.0,
-        "stop_loss": 883.82,
-        "target1": 996.32,
-        "target2": 1064.63,
+        "entry": 906.05,
+        "stop_loss": 865.81,
+        "target1": 978.48,
+        "target2": 1046.88,
         "quantity": 24,
-        "risk_per_share": 40.18,
-        "rupees_at_risk": 964.29,
-        "notional": 22176.0,
+        "risk_per_share": 40.24,
+        "rupees_at_risk": 965.7,
+        "notional": 21745.2,
         "rr_t1": 1.8,
         "rr_t2": 3.5
       },
       "fundamentals": {
-        "market_cap": 120488.0,
-        "pe": 62.5,
+        "market_cap": 117990.0,
+        "pe": 61.2,
         "roe": 37.0
+      }
+    },
+    {
+      "symbol": "ANGELONE",
+      "direction": "LONG",
+      "score": 68.01111111111112,
+      "sentiment": 0.2222222222222222,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "Strong 20d momentum (+11.7%)",
+        "Volume surge (>1.5x avg)",
+        "RSI 63 (momentum zone)",
+        "ADX 31 (strong trend)",
+        "Consistent move (14/20 up days)",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "ANGELONE",
+        "direction": "LONG",
+        "entry": 338.3,
+        "stop_loss": 321.38,
+        "target1": 368.75,
+        "target2": 397.5,
+        "quantity": 59,
+        "risk_per_share": 16.91,
+        "rupees_at_risk": 997.98,
+        "notional": 19959.7,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 30941.0,
+        "pe": 24.0,
+        "roe": 17.3
+      }
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "direction": "LONG",
+      "score": 67.65555555555555,
+      "sentiment": 0.1111111111111111,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "Strong 20d momentum (+13.7%)",
+        "RSI 69 (momentum zone)",
+        "ADX 47 (strong trend)",
+        "Consistent move (13/20 up days)",
+        "Within 5% of 52-week high",
+        "Aligned with market regime"
+      ],
+      "plan": {
+        "symbol": "BHARTIARTL",
+        "direction": "LONG",
+        "entry": 2132.0,
+        "stop_loss": 2042.07,
+        "target1": 2293.88,
+        "target2": 2446.76,
+        "quantity": 11,
+        "risk_per_share": 89.93,
+        "rupees_at_risk": 989.25,
+        "notional": 23452.0,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 1329655.0,
+        "pe": 64.5,
+        "roe": 10.7
+      }
+    },
+    {
+      "symbol": "ICICIBANK",
+      "direction": "LONG",
+      "score": 67.5,
+      "sentiment": 0.0,
+      "reasons": [
+        "Stacked uptrend (20>50>100 EMA)",
+        "Strong 20d momentum (+16.0%)",
+        "RSI 77 (momentum zone)",
+        "ADX 48 (strong trend)",
+        "Consistent move (13/20 up days)",
+        "Within 5% of 52-week high",
+        "Overbought RSI 77 - up-move stretched",
+        "Price 3.2 ATR above its mean - extended",
+        "Aligned with market regime",
+        "Top relative strength (universe)"
+      ],
+      "plan": {
+        "symbol": "ICICIBANK",
+        "direction": "LONG",
+        "entry": 1601.3,
+        "stop_loss": 1540.14,
+        "target1": 1711.39,
+        "target2": 1815.36,
+        "quantity": 16,
+        "risk_per_share": 61.16,
+        "rupees_at_risk": 978.55,
+        "notional": 25620.8,
+        "rr_t1": 1.8,
+        "rr_t2": 3.5
+      },
+      "fundamentals": {
+        "market_cap": 1150232.0,
+        "pe": 21.0,
+        "roe": 15.8
       }
     }
   ]
